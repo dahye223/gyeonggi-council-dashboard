@@ -6,7 +6,10 @@
     "name": "ìµìê·",
     "name_full": "ìµìê·(å´ç¸å­)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 1ì ê±°êµ¬",
@@ -15,7 +18,10 @@
     "name": "ì´íê·¼",
     "name_full": "ì´íê·¼(æå¼¼æ ¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "이름·당적 변경·지역까지 겹친 수원 '두 필근'",
+    "news_link": "https://n.news.naver.com/mnews/article/666/0000107510?sid=100",
+    "news_date": "Mon, 18 May 2026 16:36:00 +0900"
   },
   {
     "sgg": "ìììì 2ì ê±°êµ¬",
@@ -24,7 +30,10 @@
     "name": "ë°ì¥ë¶",
     "name_full": "ë°ì¥ë¶(æ´çå)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "박옥분 경기도의원, 경기도 건설 교통 철도 분야 송곳 심사…관행적 예...",
+    "news_link": "https://n.news.naver.com/mnews/article/081/0003638509?sid=102",
+    "news_date": "Fri, 24 Apr 2026 15:38:00 +0900"
   },
   {
     "sgg": "ìììì 2ì ê±°êµ¬",
@@ -33,7 +42,10 @@
     "name": "ë¨íí¸",
     "name_full": "ë¨íí¸(åæ¾¤é¬)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 3ì ê±°êµ¬",
@@ -42,7 +54,10 @@
     "name": "íì´ì¥",
     "name_full": "íì´ì¥(éé²ç)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 3ì ê±°êµ¬",
@@ -51,7 +66,10 @@
     "name": "ìë¯¼ì",
     "name_full": "ìë¯¼ì(å­«æ¼æ)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 4ì ê±°êµ¬",
@@ -60,7 +78,10 @@
     "name": "ì¥íë³",
     "name_full": "ì¥íë³(å¼µíë³)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도-경기도의회, 여야정협치위 전체회의서 추경 처리 합의",
+    "news_link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3022526",
+    "news_date": "Tue, 12 May 2026 15:00:00 +0900"
   },
   {
     "sgg": "ìììì 4ì ê±°êµ¬",
@@ -69,7 +90,10 @@
     "name": "ì¡°ì ê·¼",
     "name_full": "ì¡°ì ê·¼(è¶æ­£æ ¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 4ì ê±°êµ¬",
@@ -78,7 +102,10 @@
     "name": "ë°°ëí",
     "name_full": "ë°°ëí(è£µå¾é)",
     "party": "ì§ë³´ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 10ì ê±°êµ¬",
@@ -87,7 +114,10 @@
     "name": "ì¡°ëªì",
     "name_full": "ì¡°ëªì(è¶æå­)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[공감 2026] 수원특례시장 선거, 후보군 윤곽…민생·부동산 변수",
+    "news_link": "https://www.obsnews.co.kr/news/articleView.html?idxno=1502323",
+    "news_date": "Fri, 31 Oct 2025 20:14:00 +0900"
   },
   {
     "sgg": "ìììì 10ì ê±°êµ¬",
@@ -96,7 +126,10 @@
     "name": "ì´ì í",
     "name_full": "ì´ì í(ï§¡æç¯)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[6·3 지선] 지방선거 행보 시작… 이애형 예비후보, 개소식서 지역 현안...",
+    "news_link": "https://www.thereport.co.kr/news/articleView.html?idxno=87219",
+    "news_date": "Tue, 28 Apr 2026 02:22:00 +0900"
   },
   {
     "sgg": "ìììì 11ì ê±°êµ¬",
@@ -105,7 +138,10 @@
     "name": "ì¥ì í¬",
     "name_full": "ì¥ì í¬(å¼µè²å§¬)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "권선구 현안 한자리에…수원특례시의회, 상반기 시의원 간담회 참석",
+    "news_link": "http://www.joynews24.com/view/1933185",
+    "news_date": "Thu, 29 Jan 2026 10:30:00 +0900"
   },
   {
     "sgg": "ìììì 11ì ê±°êµ¬",
@@ -114,7 +150,10 @@
     "name": "íê´í¬",
     "name_full": "íê´í¬(éåç)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 5ì ê±°êµ¬",
@@ -123,7 +162,10 @@
     "name": "í©ìì",
     "name_full": "í©ìì(é»å®æ°¸)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 5ì ê±°êµ¬",
@@ -132,7 +174,10 @@
     "name": "ê¹ì¬ì",
     "name_full": "ê¹ì¬ì(éè¼æ®·)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 6ì ê±°êµ¬",
@@ -141,7 +186,10 @@
     "name": "ìµì°¬ë¯¼",
     "name_full": "ìµì°¬ë¯¼(å´è´ç)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 6ì ê±°êµ¬",
@@ -150,7 +198,10 @@
     "name": "íìì°¬",
     "name_full": "íìì°¬(éæºè´)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "\"광교 이전 후 동네가 죽었다\" 경기도 구청사 주변 상인의 절박한 호소",
+    "news_link": "https://news.ifm.kr/news/articleView.html?idxno=470915",
+    "news_date": "Thu, 14 May 2026 10:30:00 +0900"
   },
   {
     "sgg": "ìììì 7ì ê±°êµ¬",
@@ -159,7 +210,10 @@
     "name": "ìµì¢í",
     "name_full": "ìµì¢í(å´é¾è³¢)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "'내란의 밤' 국회 달려간 경기도 민주당…최종현, 탄핵 정국 넘어 李정...",
+    "news_link": "https://www.gukjenews.com/news/articleView.html?idxno=3585491",
+    "news_date": "Mon, 18 May 2026 18:44:00 +0900"
   },
   {
     "sgg": "ìììì 7ì ê±°êµ¬",
@@ -168,7 +222,10 @@
     "name": "ì´ì¬ì ",
     "name_full": "ì´ì¬ì (ï§¡å¨å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "수원시의회 환경안전위원회, 2026년 주요업무 추진계획 보고 청취",
+    "news_link": "http://www.shinailbo.co.kr/news/articleView.html?idxno=2184693",
+    "news_date": "Thu, 29 Jan 2026 12:32:00 +0900"
   },
   {
     "sgg": "ìììì 8ì ê±°êµ¬",
@@ -177,7 +234,10 @@
     "name": "ì±ëªê¸°",
     "name_full": "ì±ëªê¸°(è¡å½å¥)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "수원시의회 환경안전위원회, 2026년 주요업무 추진계획 보고 청취",
+    "news_link": "http://www.shinailbo.co.kr/news/articleView.html?idxno=2184693",
+    "news_date": "Thu, 29 Jan 2026 12:32:00 +0900"
   },
   {
     "sgg": "ìììì 8ì ê±°êµ¬",
@@ -186,7 +246,10 @@
     "name": "ì´íê·¼",
     "name_full": "ì´íê·¼(ï§¡å¼¼æ ¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "이름·당적 변경·지역까지 겹친 수원 '두 필근'",
+    "news_link": "https://n.news.naver.com/mnews/article/666/0000107510?sid=100",
+    "news_date": "Mon, 18 May 2026 16:36:00 +0900"
   },
   {
     "sgg": "ìììì 9ì ê±°êµ¬",
@@ -195,7 +258,10 @@
     "name": "ìµìì¥",
     "name_full": "ìµìì¥(å´æç)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[14일 수원시] 로데오거리 상인회 '상권활성화 유공' 중기부장관상 수...",
+    "news_link": "https://www.asiatime.co.kr/article/20231214500259",
+    "news_date": "Thu, 14 Dec 2023 14:46:00 +0900"
   },
   {
     "sgg": "ìììì 9ì ê±°êµ¬",
@@ -204,7 +270,10 @@
     "name": "ì´ì¤ì",
     "name_full": "ì´ì¤ì(ï§¡äºæ´)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "이오수 경기도의원, 산림관리·경축순환농업 연구 강화 주문",
+    "news_link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1231954",
+    "news_date": "Thu, 19 Feb 2026 16:12:00 +0900"
   },
   {
     "sgg": "ìììì 12ì ê±°êµ¬",
@@ -213,7 +282,10 @@
     "name": "ì´ë³ì",
     "name_full": "ì´ë³ì(ï§¡ç³æ·)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "경기도, '지방채 급증' 속 또 발행…여소야대 정국에 추경 '험로'",
+    "news_link": "https://www.kgnews.co.kr/news/article.html?no=893468",
+    "news_date": "Mon, 27 Apr 2026 16:38:00 +0900"
   },
   {
     "sgg": "ìììì 12ì ê±°êµ¬",
@@ -222,7 +294,10 @@
     "name": "ê¹ê¸°ì ",
     "name_full": "ê¹ê¸°ì (éåºæ­£)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "수원시장 '이재준 1강' 굳히기…행정 이재준·정무 김봉균 '투톱 시스템...",
+    "news_link": "https://www.etoday.co.kr/news/view/2556581",
+    "news_date": "Sun, 15 Feb 2026 09:02:00 +0900"
   },
   {
     "sgg": "ì±ë¨ìì 1ì ê±°êµ¬",
@@ -231,7 +306,10 @@
     "name": "ë¬¸ì¹í¸",
     "name_full": "ë¬¸ì¹í¸(æåé¬)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "문승호 경기도의원, 교육격차 해소 촉구",
+    "news_link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1249456",
+    "news_date": "Sun, 19 Apr 2026 15:54:00 +0900"
   },
   {
     "sgg": "ì±ë¨ìì 1ì ê±°êµ¬",
@@ -240,7 +318,10 @@
     "name": "ê¹ìê¸°",
     "name_full": "ê¹ìê¸°(ééåº)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì±ë¨ìì 2ì ê±°êµ¬",
@@ -249,7 +330,10 @@
     "name": "ìµë§ì",
     "name_full": "ìµë§ì(å´è¬æ¤)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ì±ë¨ìì 2ì ê±°êµ¬",
@@ -258,7 +342,10 @@
     "name": "ë°ì°½ì",
     "name_full": "ë°ì°½ì(æ´ææ·³)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ì±ë¨ìì 3ì ê±°êµ¬",
@@ -267,7 +354,10 @@
     "name": "ì ìí",
     "name_full": "ì ìí(å¨æ±è¨)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "전석훈 경기도의원 \"경기도 벤처스타트업 지원 사업, 실효성 있게 추진...",
+    "news_link": "https://n.news.naver.com/mnews/article/081/0003641814?sid=102",
+    "news_date": "Thu, 07 May 2026 15:58:00 +0900"
   },
   {
     "sgg": "ì±ë¨ìì 3ì ê±°êµ¬",
@@ -276,7 +366,10 @@
     "name": "ëª¨ì±ë¯¼",
     "name_full": "ëª¨ì±ë¯¼(çææ°)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì±ë¨ìì 3ì ê±°êµ¬",
@@ -285,7 +378,10 @@
     "name": "ê¹ë³ì¡°",
     "name_full": "ê¹ë³ì¡°(éç³å©)",
     "party": "ì§ë³´ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì±ë¨ìì 4ì ê±°êµ¬",
@@ -294,7 +390,10 @@
     "name": "êµ­ì¤ë²",
     "name_full": "êµ­ì¤ë²(é éç¯)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회 독도사랑국토사랑회 \"다케시마 행사 강행… 허위 영유권 주...",
+    "news_link": "https://www.ksmnews.co.kr/news/view.php?idx=591825",
+    "news_date": "Mon, 23 Feb 2026 20:41:00 +0900"
   },
   {
     "sgg": "ì±ë¨ìì 4ì ê±°êµ¬",
@@ -303,7 +402,10 @@
     "name": "ì´ì¹ì§",
     "name_full": "ì´ì¹ì§(ï§¡æ¿æ£)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "박종각 성남시의원, 2025 '의정보고회 300여 명' 대성황",
+    "news_link": "https://n.news.naver.com/mnews/article/382/0001237520?sid=004",
+    "news_date": "Sun, 23 Nov 2025 09:08:00 +0900"
   },
   {
     "sgg": "ì±ë¨ìì 5ì ê±°êµ¬",
@@ -312,7 +414,10 @@
     "name": "ì ë¯¼ì",
     "name_full": "ì ë¯¼ì(ï§æ°å¨¥)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì±ë¨ìì 5ì ê±°êµ¬",
@@ -321,7 +426,10 @@
     "name": "ë°©ì±í",
     "name_full": "ë°©ì±í(æ¹æç¥)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ì±ë¨ìì 5ì ê±°êµ¬",
@@ -330,7 +438,10 @@
     "name": "ì´ìì",
     "name_full": "ì´ìì(ææé)",
     "party": "ë¬´ìì",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ì±ë¨ìì 6ì ê±°êµ¬",
@@ -339,7 +450,10 @@
     "name": "ê¹ì§ëª",
     "name_full": "ê¹ì§ëª(éé­æ)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회 김진명 의원, \"백현동 보행로, 머물고 싶은 생활공간으로 바...",
+    "news_link": "http://www.metroseoul.co.kr/article/20260429500146",
+    "news_date": "Wed, 29 Apr 2026 14:38:00 +0900"
   },
   {
     "sgg": "ì±ë¨ìì 6ì ê±°êµ¬",
@@ -348,7 +462,10 @@
     "name": "ì¡ê²½í",
     "name_full": "ì¡ê²½í(å®çæ¾¤)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì±ë¨ìì 7ì ê±°êµ¬",
@@ -357,7 +474,10 @@
     "name": "ì ì¢í",
     "name_full": "ì ì¢í(é­é¾èµ«)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì±ë¨ìì 7ì ê±°êµ¬",
@@ -366,7 +486,10 @@
     "name": "ìê³ì¼",
     "name_full": "ìê³ì¼(å®åä¸)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "안계일 의원, '극저신용대출 2.0' 투명성과 전문성 강력 비판",
+    "news_link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=835796",
+    "news_date": "Tue, 28 Apr 2026 23:10:00 +0900"
   },
   {
     "sgg": "ì±ë¨ìì 8ì ê±°êµ¬",
@@ -375,7 +498,10 @@
     "name": "ì´ì°½ì",
     "name_full": "ì´ì°½ì(ï§¡æä»»)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì±ë¨ìì 8ì ê±°êµ¬",
@@ -384,7 +510,10 @@
     "name": "ì ì©í",
     "name_full": "ì ì©í(é­ï§æ¼¢)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[2일 성남시의회] 외국인학교·미인가 국제학교 제도 개선 촉구 건의안...",
+    "news_link": "https://www.asiatime.co.kr/article/20260202500353",
+    "news_date": "Mon, 02 Feb 2026 17:04:00 +0900"
   },
   {
     "sgg": "ìì ë¶ìì 1ì ê±°êµ¬",
@@ -393,7 +522,10 @@
     "name": "ì ìì°",
     "name_full": "ì ìì°(åªæ´ï¦)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì ë¶ìì 1ì ê±°êµ¬",
@@ -402,7 +534,10 @@
     "name": "ê¹ì ì",
     "name_full": "ê¹ì ì(éæ­£æ°¸)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회 본회의 정회…의원 정수·선거구 충돌",
+    "news_link": "https://www.kgnews.co.kr/news/article.html?no=893942",
+    "news_date": "Thu, 30 Apr 2026 12:18:00 +0900"
   },
   {
     "sgg": "ìì ë¶ìì 2ì ê±°êµ¬",
@@ -411,7 +546,10 @@
     "name": "ì´ìë´",
     "name_full": "ì´ìë´(ï§¡æ¦®ç«)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "임상오 위원장 \"주민 주도 자치, 제도와 정책으로 뒷받침해야\"",
+    "news_link": "https://www.newscj.com/news/articleView.html?idxno=3372895",
+    "news_date": "Sun, 08 Feb 2026 19:18:00 +0900"
   },
   {
     "sgg": "ìì ë¶ìì 2ì ê±°êµ¬",
@@ -420,7 +558,10 @@
     "name": "êµ¬êµ¬í",
     "name_full": "êµ¬êµ¬í(å·ä¹æ)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì ë¶ìì 3ì ê±°êµ¬",
@@ -429,7 +570,10 @@
     "name": "ê¹ì§í¸",
     "name_full": "ê¹ì§í¸(éæ± ç¥)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도, 정부 '전쟁 추경' 맞춰 1조6천억 추경 편성…도의회 설득 '과제...",
+    "news_link": "https://news.ifm.kr/news/articleView.html?idxno=469191",
+    "news_date": "Fri, 17 Apr 2026 17:00:00 +0900"
   },
   {
     "sgg": "ìì ë¶ìì 3ì ê±°êµ¬",
@@ -438,7 +582,10 @@
     "name": "ì´ì² í¸",
     "name_full": "ì´ì² í¸(ææ¾æ)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "\"2분 남기고 경찰차로...\" 긴박했던 포천 수능 아침",
+    "news_link": "https://www.nbntv.co.kr/news/articleView.html?idxno=4013165",
+    "news_date": "Thu, 13 Nov 2025 10:02:00 +0900"
   },
   {
     "sgg": "ìì ë¶ìì 4ì ê±°êµ¬",
@@ -447,7 +594,10 @@
     "name": "ì¡°ë³ì§",
     "name_full": "ì¡°ë³ì§(è¶ç§é²)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì ë¶ìì 4ì ê±°êµ¬",
@@ -456,7 +606,10 @@
     "name": "ë°ìë¹",
     "name_full": "ë°ìë¹(æ´éé£)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 1ì ê±°êµ¬",
@@ -465,7 +618,10 @@
     "name": "ê¹ì±ì",
     "name_full": "ê¹ì±ì(éææ´)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "김성수 의원 \"출퇴근 버스 증차 예산, 들쭉날쭉 편성… 재정 혼선 초래...",
+    "news_link": "https://www.thereport.co.kr/news/articleView.html?idxno=87165",
+    "news_date": "Sun, 26 Apr 2026 21:34:00 +0900"
   },
   {
     "sgg": "ìììì 1ì ê±°êµ¬",
@@ -474,7 +630,10 @@
     "name": "ì ìê¸°",
     "name_full": "ì ìê¸°(é­å®åº)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "이상일 용인특례시장, 공동주택 입주자들과 간담회",
+    "news_link": "https://www.discoverynews.kr/news/articleView.html?idxno=1052821",
+    "news_date": "Tue, 05 Nov 2024 14:50:00 +0900"
   },
   {
     "sgg": "ìììì 2ì ê±°êµ¬",
@@ -483,7 +642,10 @@
     "name": "ìµê²½ì",
     "name_full": "ìµê²½ì(å´çæ´µ)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 2ì ê±°êµ¬",
@@ -492,7 +654,10 @@
     "name": "ì ìê·¼",
     "name_full": "ì ìê·¼(ä¸è±æ ¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 3ì ê±°êµ¬",
@@ -501,7 +666,10 @@
     "name": "ì¤ëí¬",
     "name_full": "ì¤ëí¬(å°¹åº¦å)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 3ì ê±°êµ¬",
@@ -510,7 +678,10 @@
     "name": "ìì² í¸",
     "name_full": "ìì² í¸(ï§´å²é¬)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìììì 4ì ê±°êµ¬",
@@ -519,7 +690,10 @@
     "name": "ë°ì¤ëª¨",
     "name_full": "ë°ì¤ëª¨(æ´é§¿æ¨¡)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[패트롤] 경기도의회-안산시의회-안양시의회-하남시의회",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260428021210892",
+    "news_date": "Tue, 28 Apr 2026 20:50:00 +0900"
   },
   {
     "sgg": "ìììì 4ì ê±°êµ¬",
@@ -528,7 +702,10 @@
     "name": "ê¹ì¬í",
     "name_full": "ê¹ì¬í(éå¨å³)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "김재훈 경기도의원, 생리용품 보편지원 예산 점검, 고립·은둔 청년 지원...",
+    "news_link": "https://n.news.naver.com/mnews/article/081/0003638373?sid=102",
+    "news_date": "Fri, 24 Apr 2026 10:07:00 +0900"
   },
   {
     "sgg": "ìììì 5ì ê±°êµ¬",
@@ -537,7 +714,10 @@
     "name": "ì¥ë¯¼ì",
     "name_full": "ì¥ë¯¼ì(è£çå®)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ìììì 5ì ê±°êµ¬",
@@ -546,7 +726,10 @@
     "name": "ì ìì¼",
     "name_full": "ì ìì¼(ï§æ°¸ä¸)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ìììì 6ì ê±°êµ¬",
@@ -555,7 +738,10 @@
     "name": "ì´ì±ëª",
     "name_full": "ì´ì±ëª(ï§¡éæ´º)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "이채명 경기도의원, 청년이 머물 수 있는 도시를 위한 정책방안 논의",
+    "news_link": "https://n.news.naver.com/mnews/article/081/0003629943?sid=102",
+    "news_date": "Fri, 27 Mar 2026 10:26:00 +0900"
   },
   {
     "sgg": "ìììì 6ì ê±°êµ¬",
@@ -564,7 +750,10 @@
     "name": "ì¤ì¸ì©",
     "name_full": "ì¤ì¸ì©(å³ä»å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "오인용 원장 경기도의원 출마..경기도수의사회·안양시수의사회 정책 제...",
+    "news_link": "https://www.dailyvet.co.kr/news/association/282989",
+    "news_date": "Sun, 10 May 2026 11:52:00 +0900"
   },
   {
     "sgg": "ë¶ì²ìì 1ì ê±°êµ¬",
@@ -573,7 +762,10 @@
     "name": "ì´ì êµ¬",
     "name_full": "ì´ì êµ¬(æå®£æ±)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[경기도 소식] 제54회 어버이날 기념식 개최 등",
+    "news_link": "http://www.iminju.net/news/articleView.html?idxno=163509",
+    "news_date": "Thu, 07 May 2026 15:40:00 +0900"
   },
   {
     "sgg": "ë¶ì²ìì 1ì ê±°êµ¬",
@@ -582,7 +774,10 @@
     "name": "ì¥í¸ì",
     "name_full": "ì¥í¸ì(å¼µææ¦®)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¶ì²ìì 3ì ê±°êµ¬",
@@ -591,7 +786,10 @@
     "name": "ì´ì¬ì",
     "name_full": "ì´ì¬ì(ï§¡å®°ï¦ª)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[6·3재보선] 조국, 평택을 출사표..\"극우 세력 격퇴\"",
+    "news_link": "http://www.4th.kr/news/articleView.html?idxno=2110406",
+    "news_date": "Tue, 14 Apr 2026 10:48:00 +0900"
   },
   {
     "sgg": "ë¶ì²ìì 3ì ê±°êµ¬",
@@ -600,7 +798,10 @@
     "name": "ë°ë¯¼ì",
     "name_full": "ë°ë¯¼ì(æ´æ°æ)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¶ì²ìì 4ì ê±°êµ¬",
@@ -609,7 +810,10 @@
     "name": "ëªì±ì",
     "name_full": "ëªì±ì(æåæ·)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¶ì²ìì 4ì ê±°êµ¬",
@@ -618,7 +822,10 @@
     "name": "ìì¹í",
     "name_full": "ìì¹í(è®æ¿è³¢)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¶ì²ìì 4ì ê±°êµ¬",
@@ -627,7 +834,10 @@
     "name": "ì¡°ì í¬",
     "name_full": "ì¡°ì í¬(è¶å®£å§¬)",
     "party": "ì§ë³´ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¶ì²ìì 5ì ê±°êµ¬",
@@ -636,7 +846,10 @@
     "name": "ìµì±ì´",
     "name_full": "ìµì±ì´(å´æé²)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "부천시, '부천아트센터' 준공식 성료",
+    "news_link": "http://www.nspna.com/news/?mode=view&newsid=597280",
+    "news_date": "Fri, 07 Oct 2022 16:30:00 +0900"
   },
   {
     "sgg": "ë¶ì²ìì 5ì ê±°êµ¬",
@@ -645,7 +858,10 @@
     "name": "ê¹ë¶ë¯¸",
     "name_full": "ê¹ë¶ë¯¸(éèç¾)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¶ì²ìì 6ì ê±°êµ¬",
@@ -654,7 +870,10 @@
     "name": "ê¹ëí¬",
     "name_full": "ê¹ëí¬(éæ±å§¬)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "김동희 경기도의원, 느린 학습자 정책 개선을 위한 토론회 개최",
+    "news_link": "https://n.news.naver.com/mnews/article/081/0003629689?sid=102",
+    "news_date": "Thu, 26 Mar 2026 16:21:00 +0900"
   },
   {
     "sgg": "ë¶ì²ìì 6ì ê±°êµ¬",
@@ -663,7 +882,10 @@
     "name": "ì´í¬ì©",
     "name_full": "ì´í¬ì©(ï§¡ç¾²ï§)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¶ì²ìì 8ì ê±°êµ¬",
@@ -672,7 +894,10 @@
     "name": "ë°ìí¬",
     "name_full": "ë°ìí¬(æ´é å§¬)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[인사종합·27일] 교육부·서울시·광주시 등",
+    "news_link": "https://www.safetimes.co.kr/news/articleView.html?idxno=232192",
+    "news_date": "Fri, 27 Jun 2025 18:06:00 +0900"
   },
   {
     "sgg": "ë¶ì²ìì 8ì ê±°êµ¬",
@@ -681,7 +906,10 @@
     "name": "í©ê³í¸",
     "name_full": "í©ê³í¸(é»çé¬)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¶ì²ìì 2ì ê±°êµ¬",
@@ -690,7 +918,10 @@
     "name": "ë°ìí",
     "name_full": "ë°ìí(æ´ç¥¥è³¢)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ë¶ì²ìì 7ì ê±°êµ¬",
@@ -699,7 +930,10 @@
     "name": "ì ê²½í",
     "name_full": "ì ê²½í(ï§æ¬é)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "유경현 의원, '사랑 愛 집수리 사업' 협력 강화 논의",
+    "news_link": "https://www.ksmnews.co.kr/news/view.php?idx=595706",
+    "news_date": "Wed, 18 Mar 2026 20:40:00 +0900"
   },
   {
     "sgg": "ë¶ì²ìì 7ì ê±°êµ¬",
@@ -708,7 +942,10 @@
     "name": "ì´íí",
     "name_full": "ì´íí(ï§¡å­¸ç¥)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "'2026 대한민국 파워리더 대상' 윤귀분 시인 수상 '영예'",
+    "news_link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3058846",
+    "news_date": "Tue, 24 Mar 2026 17:36:00 +0900"
   },
   {
     "sgg": "ê´ëªìì 1ì ê±°êµ¬",
@@ -717,7 +954,10 @@
     "name": "ì¬ìë¡",
     "name_full": "ì¬ìë¡(ï¥²ç¸é)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê´ëªìì 1ì ê±°êµ¬",
@@ -726,7 +966,10 @@
     "name": "ë°±ì¢ì§",
     "name_full": "ë°±ì¢ì§(ç½é¾ç)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê´ëªìì 2ì ê±°êµ¬",
@@ -735,7 +978,10 @@
     "name": "ìµë¯¼",
     "name_full": "ìµë¯¼(å´ç)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "최민 경기도의원, 착한가격업소 지원사업 문제점 지적",
+    "news_link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1252221",
+    "news_date": "Tue, 28 Apr 2026 16:54:00 +0900"
   },
   {
     "sgg": "ê´ëªìì 2ì ê±°êµ¬",
@@ -744,7 +990,10 @@
     "name": "ì´ê·¼ì°",
     "name_full": "ì´ê·¼ì°(ï§¡æ ¹ç¥)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê´ëªìì 3ì ê±°êµ¬",
@@ -753,7 +1002,10 @@
     "name": "ì ì¢ì",
     "name_full": "ì ì¢ì(ï§éç¸)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "유종상 경기도의원, 전세보증금 반환보증 보증료 지원사업 예산 적정성...",
+    "news_link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1251160",
+    "news_date": "Fri, 24 Apr 2026 16:34:00 +0900"
   },
   {
     "sgg": "ê´ëªìì 3ì ê±°êµ¬",
@@ -762,7 +1014,10 @@
     "name": "ì´ì§ì",
     "name_full": "ì´ì§ì(ï§¡æ²é«)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[패트롤] 경기도의회-안산시의회-안양시의회-하남시의회",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260428021210892",
+    "news_date": "Tue, 28 Apr 2026 20:50:00 +0900"
   },
   {
     "sgg": "ê´ëªìì 4ì ê±°êµ¬",
@@ -771,7 +1026,10 @@
     "name": "ê¹ì©ì±",
     "name_full": "ê¹ì©ì±(éï§æ)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[경기의정 25시] 김용성 도의원, '민생복지' 촘촘히 챙기고 '광역교통망...",
+    "news_link": "https://www.incheonilbo.com/news/articleView.html?idxno=1322505",
+    "news_date": "Sun, 10 May 2026 19:10:00 +0900"
   },
   {
     "sgg": "ê´ëªìì 4ì ê±°êµ¬",
@@ -780,7 +1038,10 @@
     "name": "ì ì ì",
     "name_full": "ì ì ì(é­æ¥¨å­)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ííìì 1ì ê±°êµ¬",
@@ -789,7 +1050,10 @@
     "name": "ìê²½ì",
     "name_full": "ìê²½ì(ï¥ºæ¶é«)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ííìì 1ì ê±°êµ¬",
@@ -798,7 +1062,10 @@
     "name": "ê¹ìê³¤",
     "name_full": "ê¹ìê³¤(éç¸å¤)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ííìì 2ì ê±°êµ¬",
@@ -807,7 +1074,10 @@
     "name": "ê¹ëªì",
     "name_full": "ê¹ëªì(éææ·)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "평택시의회, 사무국 직원 대상 역량 강화 교육 및 정기 의원 간담회 개...",
+    "news_link": "http://www.shinailbo.co.kr/news/articleView.html?idxno=2145225",
+    "news_date": "Wed, 12 Nov 2025 16:20:00 +0900"
   },
   {
     "sgg": "ííìì 2ì ê±°êµ¬",
@@ -816,7 +1086,10 @@
     "name": "ë°±ì ì¼",
     "name_full": "ë°±ì ì¼(ç½æ¿ä¸)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ííìì 3ì ê±°êµ¬",
@@ -825,7 +1098,10 @@
     "name": "ê¹ê²½ì¥",
     "name_full": "ê¹ê²½ì¥(éäº¬ç)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[총회=경기] \"'한약사·창고형 약국' 해결, 회원 함께 꿈꾸자\"",
+    "news_link": "https://www.kpanews.co.kr/news/articleView.html?idxno=529758",
+    "news_date": "Sat, 21 Feb 2026 21:54:00 +0900"
   },
   {
     "sgg": "ííìì 3ì ê±°êµ¬",
@@ -834,7 +1110,10 @@
     "name": "ì´ëí",
     "name_full": "ì´ëí(ï§¡æ±å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ííìì 4ì ê±°êµ¬",
@@ -843,7 +1122,10 @@
     "name": "íê·ì°¬",
     "name_full": "íê·ì°¬(éå¥ç¦)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ííìì 4ì ê±°êµ¬",
@@ -852,7 +1134,10 @@
     "name": "ì¤ì±ê·¼",
     "name_full": "ì¤ì±ê·¼(å°¹ææ ¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "윤성근 경기도의원, 평택시 기초의원 선거구 획정 불합리성 지적",
+    "news_link": "https://n.news.naver.com/mnews/article/081/0003640157?sid=102",
+    "news_date": "Thu, 30 Apr 2026 15:13:00 +0900"
   },
   {
     "sgg": "ííìì 5ì ê±°êµ¬",
@@ -861,7 +1146,10 @@
     "name": "ìê³ëª",
     "name_full": "ìê³ëª(å®åæ)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ííìì 5ì ê±°êµ¬",
@@ -870,7 +1158,10 @@
     "name": "ì´íì",
     "name_full": "ì´íì(ï§¡å­¸å£½)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "이학수 경기도의원, 재선 도전… \"도민의 혈세는 지키고, 평택의 미래...",
+    "news_link": "http://www.breaknews.com/1206768",
+    "news_date": "Wed, 13 May 2026 12:14:00 +0900"
   },
   {
     "sgg": "ííìì 6ì ê±°êµ¬",
@@ -879,7 +1170,10 @@
     "name": "íì¹í",
     "name_full": "íì¹í(éæå³)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ííìì 6ì ê±°êµ¬",
@@ -888,7 +1182,10 @@
     "name": "ê¹ê·¼ì©",
     "name_full": "ê¹ê·¼ì©(éæ ¹ï§)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "김근용 경기도의원, 교육환경 개선 사업 예산 축소 우려",
+    "news_link": "http://www.shinailbo.co.kr/news/articleView.html?idxno=2190583",
+    "news_date": "Tue, 10 Feb 2026 14:54:00 +0900"
   },
   {
     "sgg": "ííìì 6ì ê±°êµ¬",
@@ -897,7 +1194,10 @@
     "name": "ê¹ì§ì",
     "name_full": "ê¹ì§ì(éæºç§)",
     "party": "ìì ìíì ",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì£¼ìì 1ì ê±°êµ¬",
@@ -906,7 +1206,10 @@
     "name": "ì±ì ì ",
     "name_full": "ì±ì ì (è¡ä¸ä»)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì£¼ìì 1ì ê±°êµ¬",
@@ -915,7 +1218,10 @@
     "name": "ì´ìì£¼",
     "name_full": "ì´ìì£¼(ææ¦®æ±)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회, 추경 심사서 '재정·협치 동시 압박'",
+    "news_link": "https://www.newscj.com/news/articleView.html?idxno=3396825",
+    "news_date": "Mon, 27 Apr 2026 21:28:00 +0900"
   },
   {
     "sgg": "ìì£¼ìì 2ì ê±°êµ¬",
@@ -924,7 +1230,10 @@
     "name": "ì ìì",
     "name_full": "ì ìì(é­é«é )",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì£¼ìì 2ì ê±°êµ¬",
@@ -933,7 +1242,10 @@
     "name": "ê¹íì­",
     "name_full": "ê¹íì­(éæ¼¢ç®)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì£¼ìì 3ì ê±°êµ¬",
@@ -942,7 +1254,10 @@
     "name": "ìµìì°",
     "name_full": "ìµìì°(å´ä¿®å¨)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "양주시의회, 2026년 예산안 확정하며 지역 발전 가속화",
+    "news_link": "https://www.viva100.com/article/20260412500048",
+    "news_date": "Sun, 12 Apr 2026 08:58:00 +0900"
   },
   {
     "sgg": "ìì£¼ìì 3ì ê±°êµ¬",
@@ -951,7 +1266,10 @@
     "name": "ê°íì",
     "name_full": "ê°íì(å§æ æ·)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[패트롤] 고양시의회-시흥시의회-양주시의회-의정부시의회",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260310021396479",
+    "news_date": "Tue, 10 Mar 2026 08:24:00 +0900"
   },
   {
     "sgg": "ëëì²ìì 1ì ê±°êµ¬",
@@ -960,7 +1278,10 @@
     "name": "ììí",
     "name_full": "ììí(å®æ½ç«)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ëëì²ìì 1ì ê±°êµ¬",
@@ -969,7 +1290,10 @@
     "name": "íìì°",
     "name_full": "íìì°(æ´ªç¢©ä½)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "6·3 지방선거 | 전국 227곳 기초단체장 출마 예상자 | 행정구역 개편으...",
+    "news_link": "http://monthly.chosun.com/client/news/viw.asp?ctcd=A&nNewsNumb=202602100011",
+    "news_date": "Tue, 20 Jan 2026 15:30:00 +0900"
   },
   {
     "sgg": "ëëì²ìì 2ì ê±°êµ¬",
@@ -978,7 +1302,10 @@
     "name": "ì¬ëì©",
     "name_full": "ì¬ëì©(ï¥²æ±ç¨)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ëëì²ìì 2ì ê±°êµ¬",
@@ -987,7 +1314,10 @@
     "name": "ììì¤",
     "name_full": "ììì¤(ï§´ç¸å¾)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회 임상오 안전행정위원장, 지역 자원봉사단체 격려·활성화 논...",
+    "news_link": "https://www.tournews21.com/news/articleView.html?idxno=132992",
+    "news_date": "Wed, 01 Apr 2026 06:04:00 +0900"
   },
   {
     "sgg": "ìì°ìì 1ì ê±°êµ¬",
@@ -996,7 +1326,10 @@
     "name": "ê¹ëê·",
     "name_full": "ê¹ëê·(éæ±å¥)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회 독도사랑국토사랑회 \"다케시마 행사 강행… 허위 영유권 주...\"",
+    "news_link": "https://www.ksmnews.co.kr/news/view.php?idx=591825",
+    "news_date": "Mon, 23 Feb 2026 20:41:00 +0900"
   },
   {
     "sgg": "ìì°ìì 1ì ê±°êµ¬",
@@ -1005,7 +1338,10 @@
     "name": "ì´ì¥ë¡",
     "name_full": "ì´ì¥ë¡(ï§¡çç¦®)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì°ìì 2ì ê±°êµ¬",
@@ -1014,7 +1350,10 @@
     "name": "ê¹íí¬",
     "name_full": "ê¹íí¬(éæ³°å¸)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ìì°ìì 3ì ê±°êµ¬",
@@ -1023,7 +1362,10 @@
     "name": "ì¥ì¤ì ",
     "name_full": "ì¥ì¤ì (å¼µå°¹ç¦)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[경기의정 25시] 장윤정 도의원 \"교육, 미래 위한 투자\"…입법부터 현장...",
+    "news_link": "https://www.incheonilbo.com/news/articleView.html?idxno=1322100",
+    "news_date": "Sun, 03 May 2026 17:20:00 +0900"
   },
   {
     "sgg": "ìì°ìì 3ì ê±°êµ¬",
@@ -1032,7 +1374,10 @@
     "name": "êµ¬ë¯¸ì",
     "name_full": "êµ¬ë¯¸ì(ä¸ç¾æ·)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì°ìì 4ì ê±°êµ¬",
@@ -1041,7 +1386,10 @@
     "name": "ì ì¬ì",
     "name_full": "ì ì¬ì(ï§å¨å£½)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[패트롤] 남양주시의회-안산시의회-양주시의회-하남시의회",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260329024582187",
+    "news_date": "Sun, 29 Mar 2026 21:40:00 +0900"
   },
   {
     "sgg": "ìì°ìì 4ì ê±°êµ¬",
@@ -1050,7 +1398,10 @@
     "name": "ê¹ìì°",
     "name_full": "ê¹ìì°(éé½é¨)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì°ìì 5ì ê±°êµ¬",
@@ -1059,7 +1410,10 @@
     "name": "ì´ìë¯¸",
     "name_full": "ì´ìë¯¸(ï§¡éç¾)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ìì°ìì 6ì ê±°êµ¬",
@@ -1068,7 +1422,10 @@
     "name": "ë°ìê²½",
     "name_full": "ë°ìê²½(æ´æ©é¡)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[패트롤] 김포시의회-안산시의회-의왕시의회-파주시의회",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260408028175458",
+    "news_date": "Wed, 08 Apr 2026 22:30:00 +0900"
   },
   {
     "sgg": "ìì°ìì 6ì ê±°êµ¬",
@@ -1077,7 +1434,10 @@
     "name": "ì íí",
     "name_full": "ì íí(é­æ¾¤ç¥)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì°ìì 7ì ê±°êµ¬",
@@ -1086,7 +1446,10 @@
     "name": "í©ìí",
     "name_full": "í©ìí(é»éè±)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[패트롤] 남양주시의회-안산시의회-안양시의회-의왕시의회",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260426024060126",
+    "news_date": "Sun, 26 Apr 2026 11:44:00 +0900"
   },
   {
     "sgg": "ìì°ìì 7ì ê±°êµ¬",
@@ -1095,7 +1458,10 @@
     "name": "ë°ê±´í¬",
     "name_full": "ë°ê±´í¬(æ´å»ºç¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì°ìì 7ì ê±°êµ¬",
@@ -1104,7 +1470,10 @@
     "name": "ë°©ì°ì±",
     "name_full": "ë°©ì°ì±(æ¿ç¥æ)",
     "party": "ì§ë³´ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì°ìì 8ì ê±°êµ¬",
@@ -1113,7 +1482,10 @@
     "name": "ì´ì² í",
     "name_full": "ì´ì² í(ï§¡åç¯)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìì°ìì 8ì ê±°êµ¬",
@@ -1122,7 +1494,10 @@
     "name": "ìì¢ì² ",
     "name_full": "ìì¢ì² (å®é¾å²)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 1ì ê±°êµ¬",
@@ -1131,7 +1506,10 @@
     "name": "ìì ì§",
     "name_full": "ìì ì§(ï§´è£ç)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 1ì ê±°êµ¬",
@@ -1140,7 +1518,10 @@
     "name": "ì´ë¤ê²¸",
     "name_full": "ì´ë¤ê²¸(ï§¡å¤è¬)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 2ì ê±°êµ¬",
@@ -1149,7 +1530,10 @@
     "name": "ë³ì¬ì",
     "name_full": "ë³ì¬ì(éææ³)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ê³ ììì 2ì ê±°êµ¬",
@@ -1158,7 +1542,10 @@
     "name": "ì´ì¸ì ",
     "name_full": "ì´ì¸ì (ï§¡ä»æ)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ê³ ììì 3ì ê±°êµ¬",
@@ -1167,7 +1554,10 @@
     "name": "ë¥ê¸°ì¤",
     "name_full": "ë¥ê¸°ì¤(æ³ç®å)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "한국유권자중앙회, '지방선거 정당공천 금지' 정책 제안",
+    "news_link": "https://www.joongangenews.com/news/articleView.html?idxno=460952",
+    "news_date": "Wed, 29 Oct 2025 18:14:00 +0900"
   },
   {
     "sgg": "ê³ ììì 3ì ê±°êµ¬",
@@ -1176,7 +1566,10 @@
     "name": "ì¬ì§í",
     "name_full": "ì¬ì§í(ä½æºè³¢)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 4ì ê±°êµ¬",
@@ -1185,7 +1578,10 @@
     "name": "ìµê·ì§",
     "name_full": "ìµê·ì§(å´å­é­)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "\"고양 파크골프로 시니어 복지 증진\"… 생활체육 업그레이드",
+    "news_link": "https://n.news.naver.com/mnews/article/081/0003629413?sid=102",
+    "news_date": "Thu, 26 Mar 2026 05:03:00 +0900"
   },
   {
     "sgg": "ê³ ììì 4ì ê±°êµ¬",
@@ -1194,7 +1590,10 @@
     "name": "ê°ì£¼ë´",
     "name_full": "ê°ì£¼ë´(å§æ±ä¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 5ì ê±°êµ¬",
@@ -1203,7 +1602,10 @@
     "name": "ì ì°ì¼",
     "name_full": "ì ì°ì¼(é­ç¶ä¸)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 5ì ê±°êµ¬",
@@ -1212,7 +1614,10 @@
     "name": "ì´ìì§",
     "name_full": "ì´ìì§(ï§¡æ®·ç¨)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 6ì ê±°êµ¬",
@@ -1221,7 +1626,10 @@
     "name": "ì¡ê·ê·¼",
     "name_full": "ì¡ê·ê·¼(å®å­æ ¹)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "\"교육청이 책임져라\"...송규군 고양시의원, 고교 신설·학군 조정 촉구...",
+    "news_link": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=514483",
+    "news_date": "Mon, 23 Mar 2026 12:10:00 +0900"
   },
   {
     "sgg": "ê³ ììì 6ì ê±°êµ¬",
@@ -1230,7 +1638,10 @@
     "name": "ì´ì¤",
     "name_full": "ì´ì¤(ï§¡æµ)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 7ì ê±°êµ¬",
@@ -1239,7 +1650,10 @@
     "name": "ê¹í´ë ¨",
     "name_full": "ê¹í´ë ¨(éå§é£)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "경기도, 경기융합타운 광장 경기도담뜰에 '겨울 눈밭 놀이터' 17일부...",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260113023477782",
+    "news_date": "Tue, 13 Jan 2026 08:24:00 +0900"
   },
   {
     "sgg": "ê³ ììì 7ì ê±°êµ¬",
@@ -1248,7 +1662,10 @@
     "name": "ì´í¸ë°°",
     "name_full": "ì´í¸ë°°(ï§¡å¥½å¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 8ì ê±°êµ¬",
@@ -1257,7 +1674,10 @@
     "name": "ì´ì±í",
     "name_full": "ì´ì±í(ï§¡ææ¼¢)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 8ì ê±°êµ¬",
@@ -1266,7 +1686,10 @@
     "name": "ì íë°°",
     "name_full": "ì íë°°(é­ç¯å¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 9ì ê±°êµ¬",
@@ -1275,7 +1698,10 @@
     "name": "ì´ê¸°ë",
     "name_full": "ì´ê¸°ë(ï§¡åºå¤§)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 9ì ê±°êµ¬",
@@ -1284,7 +1710,10 @@
     "name": "ê¹ìí",
     "name_full": "ê¹ìí(éå£½ç¥)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 10ì ê±°êµ¬",
@@ -1293,7 +1722,10 @@
     "name": "ê³ ìì ",
     "name_full": "ê³ ìì (é«æ©è²)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[패트롤] 경기도-경기도의회-경기도교육청",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260520023436284",
+    "news_date": "Wed, 20 May 2026 08:36:00 +0900"
   },
   {
     "sgg": "ê³ ììì 10ì ê±°êµ¬",
@@ -1302,7 +1734,10 @@
     "name": "ì¡°ë§ì ",
     "name_full": "ì¡°ë§ì (è¶æ©å»·)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 11ì ê±°êµ¬",
@@ -1311,7 +1746,10 @@
     "name": "ê¹ì´ë¨",
     "name_full": "ê¹ì´ë¨(éé²ç·)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[패트롤] 고양시의회-동두천시의회-안산시의회-의정부시의회",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260422025529254",
+    "news_date": "Wed, 22 Apr 2026 22:48:00 +0900"
   },
   {
     "sgg": "ê³ ììì 11ì ê±°êµ¬",
@@ -1320,7 +1758,10 @@
     "name": "ì¬íì",
     "name_full": "ì¬íì(ï¥²æ´ªé )",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "심홍순, 고양 핵심현안 4건 지연 질타…경기도 성과 이행 강력 촉구",
+    "news_link": "https://n.news.naver.com/mnews/article/030/0003420717?sid=100",
+    "news_date": "Wed, 22 Apr 2026 22:47:00 +0900"
   },
   {
     "sgg": "ê³ ììì 12ì ê±°êµ¬",
@@ -1329,7 +1770,10 @@
     "name": "ì´ì¤ì¹",
     "name_full": "ì´ì¤ì¹(ï§¡è¤æ¿)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê³ ììì 12ì ê±°êµ¬",
@@ -1338,7 +1782,10 @@
     "name": "ê¹ìê·",
     "name_full": "ê¹ìê·(éå®å­)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "'민원 해결사' 김완규 경기도의원, 국민의힘 공천 확정… \"검증된 1...\"",
+    "news_link": "http://www.breaknews.com/1205567",
+    "news_date": "Thu, 07 May 2026 17:16:00 +0900"
   },
   {
     "sgg": "ê³¼ì²ìì ê±°êµ¬",
@@ -1347,7 +1794,10 @@
     "name": "ë°ì£¼ë¦¬",
     "name_full": "ë°ì£¼ë¦¬(æ´ç ä¿)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "박주리 경기도의원 예비후보 \"시와 道잇는 실무형 정치 펼칠 터\"",
+    "news_link": "https://n.news.naver.com/mnews/article/666/0000105960?sid=100",
+    "news_date": "Wed, 06 May 2026 14:13:00 +0900"
   },
   {
     "sgg": "ê³¼ì²ìì ê±°êµ¬",
@@ -1356,7 +1806,10 @@
     "name": "ê¹íì",
     "name_full": "ê¹íì(éç«ç¢©)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "김현석 경기도의원 경마공원, 이전 아닌 도시자산으로",
+    "news_link": "http://www.breaknews.com/1198481",
+    "news_date": "2026-04-08"
   },
   {
     "sgg": "ìììì 1ì ê±°êµ¬",
@@ -1365,7 +1818,10 @@
     "name": "ë°ê·¼ì² ",
     "name_full": "ë°ê·¼ì² (æ´æ ¹å²)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 89명 현직전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "2026-05-18"
   },
   {
     "sgg": "ìììì 1ì ê±°êµ¬",
@@ -1374,7 +1830,10 @@
     "name": "ê¹ìê¸°",
     "name_full": "ê¹ìê¸°(éè±åº)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 89명 현직전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "2026-05-18"
   },
   {
     "sgg": "ìììì 2ì ê±°êµ¬",
@@ -1383,7 +1842,10 @@
     "name": "ì¥íí",
     "name_full": "ì¥íí(å¼µå°ç¥)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "장태환 경기도의원 발의 경기도 청소년 보호육성 조례 개정안 상정",
+    "news_link": "https://n.news.naver.com/mnews/article/081/0003220547?sid=004",
+    "news_date": "2021-10-06"
   },
   {
     "sgg": "ìììì 2ì ê±°êµ¬",
@@ -1392,7 +1854,10 @@
     "name": "ê¹íê¸°",
     "name_full": "ê¹íê¸°(éå­¸åº)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[패트롤] 김포시의회-안산시의회-의왕시의회-파주시의회",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260408028175458",
+    "news_date": "2026-04-08"
   },
   {
     "sgg": "êµ¬ë¦¬ìì 1ì ê±°êµ¬",
@@ -1401,7 +1866,10 @@
     "name": "ì¥ì¹í¬",
     "name_full": "ì¥ì¹í¬(å¼µåå§¬)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[6·3 지방선거 나요나-구리 광역기초의원] 여야 리턴매치 성사 안갯속",
+    "news_link": "https://www.kyeongin.com/article/1762170",
+    "news_date": "2026-04-20"
   },
   {
     "sgg": "êµ¬ë¦¬ìì 1ì ê±°êµ¬",
@@ -1410,7 +1878,10 @@
     "name": "ë°±íì¢",
     "name_full": "ë°±íì¢(ç½éå®)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "내란의 밤 국회 달려간 경기도 민주당 최종현, 탄핵 정국 넘어 李정...",
+    "news_link": "https://www.gukjenews.com/news/articleView.html?idxno=3585491",
+    "news_date": "2026-05-18"
   },
   {
     "sgg": "êµ¬ë¦¬ìì 2ì ê±°êµ¬",
@@ -1419,7 +1890,10 @@
     "name": "ìì°½ì´",
     "name_full": "ìì°½ì´(ä»»æç)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 89명 현직전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "2026-05-18"
   },
   {
     "sgg": "êµ¬ë¦¬ìì 2ì ê±°êµ¬",
@@ -1428,7 +1902,10 @@
     "name": "ì´ìì£¼",
     "name_full": "ì´ìì£¼(ææ®·æ±)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 89명 현직전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "2026-05-18"
   },
   {
     "sgg": "ë¨ìì£¼ìì 1ì ê±°êµ¬",
@@ -1437,7 +1914,10 @@
     "name": "ì´ê±´í¬",
     "name_full": "ì´ê±´í¬(ï§¡å¥ç)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¨ìì£¼ìì 1ì ê±°êµ¬",
@@ -1446,7 +1926,10 @@
     "name": "ì´ìê· ",
     "name_full": "ì´ìê· (ï§¡ç¢©å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "이석균 경기도의원, 진영공원 환경개선사업 점검 주민 의견 수렴",
+    "news_link": "http://www.globalepic.co.kr/view.php?ud=2026031814324739715f69d33b22_29",
+    "news_date": "2026-03-19"
   },
   {
     "sgg": "ë¨ìì£¼ìì 2ì ê±°êµ¬",
@@ -1455,7 +1938,10 @@
     "name": "ì ë³ì",
     "name_full": "ì ë³ì(åªç³æ´)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¨ìì£¼ìì 2ì ê±°êµ¬",
@@ -1464,7 +1950,10 @@
     "name": "ê¹ë¯¸ë¦¬",
     "name_full": "ê¹ë¯¸ë¦¬(éç¾å©)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "농어민 기회소득 확대에도 지자체 참여 주저 형평성 문제 불거지나",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363720117",
+    "news_date": "2026-03-18"
   },
   {
     "sgg": "ë¨ìì£¼ìì 3ì ê±°êµ¬",
@@ -1473,7 +1962,10 @@
     "name": "ê¹ì¹ê¸°",
     "name_full": "ê¹ì¹ê¸°(éæ¿åº)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¨ìì£¼ìì 3ì ê±°êµ¬",
@@ -1482,7 +1974,10 @@
     "name": "ê¹ì§í",
     "name_full": "ê¹ì§í(éå¿è¨)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[패트롤] 남양주시의회-안산시의회-양주시의회-하남시의회",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260329024582187",
+    "news_date": "2026-03-29"
   },
   {
     "sgg": "ë¨ìì£¼ìì 4ì ê±°êµ¬",
@@ -1491,7 +1986,10 @@
     "name": "ì´ëí",
     "name_full": "ì´ëí(ï§¡å¾æ©)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¨ìì£¼ìì 4ì ê±°êµ¬",
@@ -1500,7 +1998,10 @@
     "name": "ì´ì¬í",
     "name_full": "ì´ì¬í(ï§¡å¨ç©)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¨ìì£¼ìì 5ì ê±°êµ¬",
@@ -1509,7 +2010,10 @@
     "name": "ê¹ì°½ì",
     "name_full": "ê¹ì°½ì(éææ¤)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "김창식 경기도의원 추경지방채 의존 구조 개선 필요",
+    "news_link": "http://www.globalepic.co.kr/view.php?ud=2026042817312485275f69d33b22_29",
+    "news_date": "2026-04-28"
   },
   {
     "sgg": "ë¨ìì£¼ìì 5ì ê±°êµ¬",
@@ -1518,7 +2022,10 @@
     "name": "ë¥ìê·¼",
     "name_full": "ë¥ìê·¼(æ³ç¸æ ¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¨ìì£¼ìì 6ì ê±°êµ¬",
@@ -1527,7 +2034,10 @@
     "name": "ì í¸ì¤",
     "name_full": "ì í¸ì¤(ï§æµ©æº)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회, 추경 심사서 재정협치 동시 압박",
+    "news_link": "https://www.newscj.com/news/articleView.html?idxno=3396825",
+    "news_date": "2026-04-27"
   },
   {
     "sgg": "ë¨ìì£¼ìì 6ì ê±°êµ¬",
@@ -1536,7 +2046,10 @@
     "name": "ëì±ì£¼",
     "name_full": "ëì±ì£¼(ï¤ææ±)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¨ìì£¼ìì 7ì ê±°êµ¬",
@@ -1545,7 +2058,10 @@
     "name": "ì¥ì¡í",
     "name_full": "ì¥ì¡í(å¼µæ¾æ)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¨ìì£¼ìì 7ì ê±°êµ¬",
@@ -1554,7 +2070,10 @@
     "name": "ì¡°í¬ì",
     "name_full": "ì¡°í¬ì(è¶åæ¦®)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¨ìì£¼ìì 8ì ê±°êµ¬",
@@ -1563,7 +2082,10 @@
     "name": "ì íë¯¸",
     "name_full": "ì íë¯¸(é­è³¢ç¾)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ë¨ìì£¼ìì 8ì ê±°êµ¬",
@@ -1572,7 +2094,10 @@
     "name": "ì´ë³ê¸¸",
     "name_full": "ì´ë³ê¸¸(ï§¡ä¸å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "이병길 경기도의원, 동북부 의료격차 해소 핵심사업 공공의료원 추진",
+    "news_link": "https://n.news.naver.com/mnews/article/081/0003617054?sid=102",
+    "news_date": "2026-02-11"
   },
   {
     "sgg": "ì¤ì°ìì 1ì ê±°êµ¬",
@@ -1581,7 +2106,10 @@
     "name": "ê¹ìí¬",
     "name_full": "ê¹ìí¬(éæå§¬)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "대한노인회 경기연합회 2026 한마음 체육대회 성료",
+    "news_link": "https://www.100ssd.co.kr/news/articleView.html?idxno=207625",
+    "news_date": "2026-03-31"
   },
   {
     "sgg": "ì¤ì°ìì 1ì ê±°êµ¬",
@@ -1590,7 +2118,10 @@
     "name": "ë°íëª",
     "name_full": "ë°íëª(æ´è³¢æ)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì¤ì°ìì 2ì ê±°êµ¬",
@@ -1599,7 +2130,10 @@
     "name": "ì ìì¬",
     "name_full": "ì ìì¬(å¨ìì¬)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "오산시의회, 오산상공회의소와 제5차 현장 릴레이 간담회 열어",
+    "news_link": "https://www.gukjenews.com/news/articleView.html?idxno=2822847",
+    "news_date": "2023-10-04"
   },
   {
     "sgg": "ì¤ì°ìì 2ì ê±°êµ¬",
@@ -1608,7 +2142,10 @@
     "name": "ë¨ìí",
     "name_full": "ë¨ìí(åå¸¸è³¢)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íì±ìì 1ì ê±°êµ¬",
@@ -1617,7 +2154,10 @@
     "name": "ì´íê·¼",
     "name_full": "ì´íê·¼(ï§¡æ´ªæ ¹)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "화성 지역 만세운동 이끈 이정근 의사 추모제 열려",
+    "news_link": "https://n.news.naver.com/mnews/article/047/0002509853?sid=104",
+    "news_date": "2026-03-29"
   },
   {
     "sgg": "íì±ìì 1ì ê±°êµ¬",
@@ -1626,7 +2166,10 @@
     "name": "ë°ì°ì",
     "name_full": "ë°ì°ì(æ´ï¦æ·)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[병원계 소식] 7월 4일",
+    "news_link": "http://www.doctorstimes.com/news/articleView.html?idxno=233311",
+    "news_date": "2025-07-07"
   },
   {
     "sgg": "íì±ìì 2ì ê±°êµ¬",
@@ -1635,7 +2178,10 @@
     "name": "ì¤íì ",
     "name_full": "ì¤íì (å³è³¢è²)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "6·3 지방선거 전국 227곳 기초단체장 출마 예상자 행정구역 개편으로...",
+    "news_link": "http://monthly.chosun.com/client/news/viw.asp?ctcd=A&nNewsNumb=202602100011",
+    "news_date": "2026-01-20"
   },
   {
     "sgg": "íì±ìì 2ì ê±°êµ¬",
@@ -1644,7 +2190,10 @@
     "name": "ì¬ì©ì§",
     "name_full": "ì¬ì©ì§(ï¥²ï§é­)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íì±ìì 9ì ê±°êµ¬",
@@ -1653,7 +2202,10 @@
     "name": "ì¤ì§í",
     "name_full": "ì¤ì§í(å³é­æ¾¤)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[행감인물] 오진택 건설교통위 부위원장",
+    "news_link": "https://www.kyeonggi.com/article/202111161179630",
+    "news_date": "2021-11-16"
   },
   {
     "sgg": "íì±ìì 9ì ê±°êµ¬",
@@ -1662,7 +2214,10 @@
     "name": "ì í¥ë²",
     "name_full": "ì í¥ë²(é­èç¯)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "화성 생태계 파괴와 안전 위험 동반 화성시의회 수원 군공항 이전 반대",
+    "news_link": "https://n.news.naver.com/mnews/article/031/0001004242?sid=102",
+    "news_date": "2026-02-09"
   },
   {
     "sgg": "íì±ìì 6ì ê±°êµ¬",
@@ -1671,7 +2226,10 @@
     "name": "ê¹íì² ",
     "name_full": "ê¹íì² (éææ¾)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 89명 현직전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "2026-05-18"
   },
   {
     "sgg": "íì±ìì 7ì ê±°êµ¬",
@@ -1680,7 +2238,10 @@
     "name": "ì´ì§í",
     "name_full": "ì´ì§í(æçç©)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "정명근 화성시장 예비후보, 시민과 소통하는 정책 행보 이어가",
+    "news_link": "https://www.ajunews.com/view/20260406150026995",
+    "news_date": "2026-04-06"
   },
   {
     "sgg": "íì±ìì 7ì ê±°êµ¬",
@@ -1689,7 +2250,10 @@
     "name": "ë°ìí",
     "name_full": "ë°ìí(æ´ç¸é¡¯)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 89명 현직전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "2026-05-18"
   },
   {
     "sgg": "íì±ìì 8ì ê±°êµ¬",
@@ -1698,7 +2262,10 @@
     "name": "ê¹ìì",
     "name_full": "ê¹ìì(éæ°¸æ´)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 89명 현직전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "2026-05-18"
   },
   {
     "sgg": "íì±ìì 3ì ê±°êµ¬",
@@ -1707,7 +2274,10 @@
     "name": "ê¹ìí",
     "name_full": "ê¹ìí(éæ°¸è¨)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "신미숙 의원, 동탄 과밀학급 해소 위한 긴급 간담회 열어",
+    "news_link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1211490",
+    "news_date": "2025-12-12"
   },
   {
     "sgg": "íì±ìì 3ì ê±°êµ¬",
@@ -1716,7 +2286,10 @@
     "name": "ê¹íë¨",
     "name_full": "ê¹íë¨(éç¯ç·)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íì±ìì 4ì ê±°êµ¬",
@@ -1725,7 +2298,10 @@
     "name": "ì ë¯¸ì",
     "name_full": "ì ë¯¸ì(ç³ç¾æ·)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "경기도의회 연구민생조직 전방위 점검 의정 기능 강화",
+    "news_link": "https://www.newscj.com/news/articleView.html?idxno=3397405",
+    "news_date": "2026-04-29"
   },
   {
     "sgg": "íì±ìì 4ì ê±°êµ¬",
@@ -1734,7 +2310,10 @@
     "name": "ì´ìí¬",
     "name_full": "ì´ìí¬(ï§¡éå§¬)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íì±ìì 5ì ê±°êµ¬",
@@ -1743,7 +2322,10 @@
     "name": "ê¹íí",
     "name_full": "ê¹íí(éåç¯)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "최효숙 경기도의원 지역아동센터 스마트학습 지원 정책토론회 개최",
+    "news_link": "https://n.news.naver.com/mnews/article/081/0003629970?sid=102",
+    "news_date": "2026-03-27"
   },
   {
     "sgg": "íì±ìì 5ì ê±°êµ¬",
@@ -1752,7 +2334,10 @@
     "name": "ë°°ì¶ë´",
     "name_full": "ë°°ì¶ë´(è£µæ¥é¢)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íì±ìì 5ì ê±°êµ¬",
@@ -1761,7 +2346,10 @@
     "name": "ììí",
     "name_full": "ììí(ï¥ºæå³)",
     "party": "ê°íì ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[2026 지선] 이준석 GTX-A노선 공사중단 발언 화성시민 출퇴근길 끊는...",
+    "news_link": "https://n.news.naver.com/mnews/article/031/0001030270?sid=102",
+    "news_date": "2026-05-21"
   },
   {
     "sgg": "ìí¥ìì 1ì ê±°êµ¬",
@@ -1770,7 +2358,10 @@
     "name": "ìê´ë¥ ",
     "name_full": "ìê´ë¥ (å®åå¾)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 89명 현직전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "2026-05-18"
   },
   {
     "sgg": "ìí¥ìì 2ì ê±°êµ¬",
@@ -1779,7 +2370,10 @@
     "name": "ìµëì",
     "name_full": "ìµëì(å´æ±æ¤)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìí¥ìì 2ì ê±°êµ¬",
@@ -1788,7 +2382,10 @@
     "name": "ì¥ë¯¼ì°",
     "name_full": "ì¥ë¯¼ì°(å¼µæ»å®)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìí¥ìì 3ì ê±°êµ¬",
@@ -1797,7 +2394,10 @@
     "name": "ê¹ìí",
     "name_full": "ê¹ìí(éæ¦®å³)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 89명 현직전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "2026-05-18"
   },
   {
     "sgg": "ìí¥ìì 4ì ê±°êµ¬",
@@ -1806,7 +2406,10 @@
     "name": "ê¹ì¢ë°°",
     "name_full": "ê¹ì¢ë°°(ééºå¹)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회 최고 자산가 4년 연속 김성수 의원[재산공개]",
+    "news_link": "https://n.news.naver.com/mnews/article/003/0013846264?sid=102",
+    "news_date": "Thu, 26 Mar 2026 00:01:00 +0900"
   },
   {
     "sgg": "ìí¥ìì 4ì ê±°êµ¬",
@@ -1815,7 +2418,10 @@
     "name": "ìµì±ì´",
     "name_full": "ìµì±ì´(å´æï¦)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìí¥ìì 5ì ê±°êµ¬",
@@ -1824,7 +2430,10 @@
     "name": "ì´ì±ì",
     "name_full": "ì´ì±ì(ï§¡æé )",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìí¥ìì 5ì ê±°êµ¬",
@@ -1833,7 +2442,10 @@
     "name": "ì¡ì¹í",
     "name_full": "ì¡ì¹í(å®æ¿å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "êµ°í¬ìì 1ì ê±°êµ¬",
@@ -1842,7 +2454,10 @@
     "name": "ì±ë³µì",
     "name_full": "ì±ë³µì(æç¦å§)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "성복임 경기도의원, 어르신 교통비·특별교통수단 확대 촉구",
+    "news_link": "http://www.breaknews.com/1203562",
+    "news_date": "Tue, 28 Apr 2026 09:44:00 +0900"
   },
   {
     "sgg": "êµ°í¬ìì 1ì ê±°êµ¬",
@@ -1851,7 +2466,10 @@
     "name": "ìíì",
     "name_full": "ìíì(ï§´è³¢å¨¥)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "êµ°í¬ìì 1ì ê±°êµ¬",
@@ -1860,7 +2478,10 @@
     "name": "ì¡°ì±ë²",
     "name_full": "ì¡°ì±ë²(è¶çç¯)",
     "party": "ìì ìíì ",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "êµ°í¬ìì 2ì ê±°êµ¬",
@@ -1869,7 +2490,10 @@
     "name": "ì±ê¸°í©",
     "name_full": "ì±ê¸°í©(æåºç)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "한국은빛나눔복지협회, 공동 이사장 체제 출범···\"지속가능한 복지 ...\"",
+    "news_link": "https://www.incheonilbo.com/news/articleView.html?idxno=1316142",
+    "news_date": "Mon, 02 Feb 2026 09:50:00 +0900"
   },
   {
     "sgg": "êµ°í¬ìì 2ì ê±°êµ¬",
@@ -1878,7 +2502,10 @@
     "name": "ê¹ì¥ì",
     "name_full": "ê¹ì¥ì(éçå­)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "êµ°í¬ìì 3ì ê±°êµ¬",
@@ -1887,7 +2514,10 @@
     "name": "ê¹ë¯¸ì",
     "name_full": "ê¹ë¯¸ì(éç¾æ·)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "\"출산·육아에도 연구는 계속… 여성과학기술인 지원 확대\"",
+    "news_link": "https://news.ifm.kr/news/articleView.html?idxno=471418",
+    "news_date": "Thu, 21 May 2026 11:08:00 +0900"
   },
   {
     "sgg": "êµ°í¬ìì 3ì ê±°êµ¬",
@@ -1896,7 +2526,10 @@
     "name": "ê¹ìì§",
     "name_full": "ê¹ìì§(éìì§)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[오늘의 국회]2026년 4월 9일",
+    "news_link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202604090853291220557",
+    "news_date": "Thu, 09 Apr 2026 09:00:00 +0900"
   },
   {
     "sgg": "êµ°í¬ìì 4ì ê±°êµ¬",
@@ -1905,7 +2538,10 @@
     "name": "ê¹ê·ê·¼",
     "name_full": "ê¹ê·ê·¼(éè²´æ ¹)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "íë¨ìì 1ì ê±°êµ¬",
@@ -1914,7 +2550,10 @@
     "name": "ì¤ë¯¼ì©",
     "name_full": "ì¤ë¯¼ì©(å³ææº¶)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íë¨ìì 1ì ê±°êµ¬",
@@ -1923,7 +2562,10 @@
     "name": "ì´ìì",
     "name_full": "ì´ìì(ï§¡ç¸å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "이상원 도의원, 경력단절 여성 재취업 지원 강화… 경기도일자리재단과...",
+    "news_link": "https://www.newscj.com/news/articleView.html?idxno=3372862",
+    "news_date": "Sun, 08 Feb 2026 16:54:00 +0900"
   },
   {
     "sgg": "íë¨ìì 1ì ê±°êµ¬",
@@ -1932,7 +2574,10 @@
     "name": "ê¹ê´ì",
     "name_full": "ê¹ê´ì(éåç³)",
     "party": "ë¬´ìì",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íë¨ìì 2ì ê±°êµ¬",
@@ -1941,7 +2586,10 @@
     "name": "ê°ì±ì¼",
     "name_full": "ê°ì±ì¼(å§è²ä¸)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íë¨ìì 2ì ê±°êµ¬",
@@ -1950,7 +2598,10 @@
     "name": "ê¹ì±ì",
     "name_full": "ê¹ì±ì(éææ´)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[재산공개] 김동연 37.9억원·임태희 50.5억원…경기 행정·교육 수장 모...",
+    "news_link": "https://www.newspim.com/news/view/20260326000311",
+    "news_date": "Thu, 26 Mar 2026 10:03:00 +0900"
   },
   {
     "sgg": "íë¨ìì 3ì ê±°êµ¬",
@@ -1959,7 +2610,10 @@
     "name": "ì¤ì§í",
     "name_full": "ì¤ì§í(å³ç¥è¨)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회 독도사랑국토사랑회 \"다케시마 행사 강행… 허위 영유권 주...\"",
+    "news_link": "https://www.ksmnews.co.kr/news/view.php?idx=591825",
+    "news_date": "Mon, 23 Feb 2026 20:41:00 +0900"
   },
   {
     "sgg": "íë¨ìì 3ì ê±°êµ¬",
@@ -1968,7 +2622,10 @@
     "name": "ìµì©ê·¼",
     "name_full": "ìµì©ê·¼(å´ï§æ ¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íë¨ìì 4ì ê±°êµ¬",
@@ -1977,7 +2634,10 @@
     "name": "ë°©ë¯¸ì",
     "name_full": "ë°©ë¯¸ì(æ¹ç¾æ·)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íë¨ìì 4ì ê±°êµ¬",
@@ -1986,7 +2646,10 @@
     "name": "ì¤íê¸¸",
     "name_full": "ì¤íê¸¸(å°¹æ³°å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[패트롤] 경기도의회-김포시의회-남양주시의회-의정부시의회",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260514029454594",
+    "news_date": "Thu, 14 May 2026 08:20:00 +0900"
   },
   {
     "sgg": "íì£¼ìì 1ì ê±°êµ¬",
@@ -1995,7 +2658,10 @@
     "name": "ë°ìì£¼",
     "name_full": "ë°ìì£¼(æ´æ®·ç )",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íì£¼ìì 2ì ê±°êµ¬",
@@ -2004,7 +2670,10 @@
     "name": "ìí¬ì ",
     "name_full": "ìí¬ì (å­«å¸ç¦)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íì£¼ìì 2ì ê±°êµ¬",
@@ -2013,7 +2682,10 @@
     "name": "ê¹ê´ì ",
     "name_full": "ê¹ê´ì (éåå)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íì£¼ìì 3ì ê±°êµ¬",
@@ -2022,7 +2694,10 @@
     "name": "ìì±ìµ",
     "name_full": "ìì±ìµ(å­«æç)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íì£¼ìì 3ì ê±°êµ¬",
@@ -2031,7 +2706,10 @@
     "name": "ì êµ­ì§",
     "name_full": "ì êµ­ì§(ä¸åç)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íì£¼ìì 4ì ê±°êµ¬",
@@ -2040,7 +2718,10 @@
     "name": "ê¹ìí",
     "name_full": "ê¹ìí(éé é)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íì£¼ìì 4ì ê±°êµ¬",
@@ -2049,7 +2730,10 @@
     "name": "ì´íêµ­",
     "name_full": "ì´íêµ­(ï§¡æ¼¢å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회 이한국 의원 경공노 감사패·김재훈 의원 환경위원 위촉",
+    "news_link": "https://www.onews.tv/news/articleView.html?idxno=277609",
+    "news_date": "Tue, 31 Mar 2026 09:02:00 +0900"
   },
   {
     "sgg": "íì£¼ìì 5ì ê±°êµ¬",
@@ -2058,7 +2742,10 @@
     "name": "ì´ì¢ì¶",
     "name_full": "ì´ì¢ì¶(æéæ¥)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "íì£¼ìì 5ì ê±°êµ¬",
@@ -2067,7 +2754,10 @@
     "name": "íê·ë¯¼",
     "name_full": "íê·ë¯¼(éå¥æ¼)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì¬ì£¼ìì 1ì ê±°êµ¬",
@@ -2076,7 +2766,10 @@
     "name": "ê¹ëí",
     "name_full": "ê¹ëí(éæ±ç«)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì¬ì£¼ìì 1ì ê±°êµ¬",
@@ -2085,7 +2778,10 @@
     "name": "ìê´ë²",
     "name_full": "ìê´ë²(å¾åç¯)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "여주 국민의힘 시도의원 \"박시선 부의장 발언, 사실 왜곡·무책임한 주...\"",
+    "news_link": "https://www.kyeongin.com/article/1761124",
+    "news_date": "Tue, 31 Mar 2026 18:10:00 +0900"
   },
   {
     "sgg": "ì¬ì£¼ìì 2ì ê±°êµ¬",
@@ -2094,7 +2790,10 @@
     "name": "ì íì ",
     "name_full": "ì íì (åªå¿å)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "여주 국민의힘 시도의원 \"박시선 부의장 발언, 사실 왜곡·무책임한 주...\"",
+    "news_link": "https://www.kyeongin.com/article/1761124",
+    "news_date": "Tue, 31 Mar 2026 18:10:00 +0900"
   },
   {
     "sgg": "ì¬ì£¼ìì 2ì ê±°êµ¬",
@@ -2103,7 +2802,10 @@
     "name": "ìì¸ì±",
     "name_full": "ìì¸ì±(å®ä»æ)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì´ì²ìì 1ì ê±°êµ¬",
@@ -2112,7 +2814,10 @@
     "name": "ì´ìëª©",
     "name_full": "ì´ìëª©(ï§¡ç¸ç©)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì´ì²ìì 1ì ê±°êµ¬",
@@ -2121,7 +2826,10 @@
     "name": "ê¹ì¼ì¤",
     "name_full": "ê¹ì¼ì¤(éæº¢ä¸­)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회 '선거구 획정' 결렬에 본회의 파행… '고유가 피해지원...'",
+    "news_link": "https://www.kyeongin.com/article/1762858",
+    "news_date": "Thu, 30 Apr 2026 18:52:00 +0900"
   },
   {
     "sgg": "ì´ì²ìì 2ì ê±°êµ¬",
@@ -2130,7 +2838,10 @@
     "name": "ê¹ì¸ì",
     "name_full": "ê¹ì¸ì(éä»æ¦®)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ì´ì²ìì 2ì ê±°êµ¬",
@@ -2139,7 +2850,10 @@
     "name": "íì",
     "name_full": "íì(è¨±å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ì©ì¸ìì 1ì ê±°êµ¬",
@@ -2148,7 +2862,10 @@
     "name": "íìì",
     "name_full": "íìì(éçæ´)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì©ì¸ìì 1ì ê±°êµ¬",
@@ -2157,7 +2874,10 @@
     "name": "ì´ìí¬",
     "name_full": "ì´ìí¬(ï§¡æ°¸ç)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "수의계약·음주운전·스토킹에도… 지방의회 의원님은 출마한다",
+    "news_link": "https://n.news.naver.com/mnews/article/036/0000053618?sid=162",
+    "news_date": "Mon, 18 May 2026 09:56:00 +0900"
   },
   {
     "sgg": "ì©ì¸ìì 2ì ê±°êµ¬",
@@ -2166,7 +2886,10 @@
     "name": "ê¹ì±í",
     "name_full": "ê¹ì±í(éææ³°)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì©ì¸ìì 2ì ê±°êµ¬",
@@ -2175,7 +2898,10 @@
     "name": "ê¹ìë¯¼",
     "name_full": "ê¹ìë¯¼(éæ¦®æ)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "\"추경 취지 맞나\"…경기도의회, 사업 타당성 전방위 점검",
+    "news_link": "https://www.kgnews.co.kr/news/article.html?no=893522",
+    "news_date": "Mon, 27 Apr 2026 17:48:00 +0900"
   },
   {
     "sgg": "ì©ì¸ìì 11ì ê±°êµ¬",
@@ -2184,7 +2910,10 @@
     "name": "ìêµì­",
     "name_full": "ìêµì­(å´æç®)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[6·3 이사람] 엄교섭 \"반도체 중심·미래교육도시 '용인' 만들 것\"",
+    "news_link": "https://www.kgnews.co.kr/news/article.html?no=885562",
+    "news_date": "Wed, 25 Feb 2026 13:06:00 +0900"
   },
   {
     "sgg": "ì©ì¸ìì 11ì ê±°êµ¬",
@@ -2193,7 +2922,10 @@
     "name": "ê¸°ì£¼ì¥",
     "name_full": "ê¸°ì£¼ì¥(å¥ç ç)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì©ì¸ìì 6ì ê±°êµ¬",
@@ -2202,7 +2934,10 @@
     "name": "ë¥ì ì",
     "name_full": "ë¥ì ì(æ³è²å£)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì©ì¸ìì 6ì ê±°êµ¬",
@@ -2211,7 +2946,10 @@
     "name": "ê¹ì í¬",
     "name_full": "ê¹ì í¬(éé®®ç¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "김선희 도의원, 용인 수지구 31개교 환경개선 17억 확보",
+    "news_link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2416506",
+    "news_date": "Wed, 08 Apr 2026 16:54:00 +0900"
   },
   {
     "sgg": "ì©ì¸ìì 7ì ê±°êµ¬",
@@ -2220,7 +2958,10 @@
     "name": "ê¹ì©ì°¬",
     "name_full": "ê¹ì©ì°¬(éå®¹è®)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì©ì¸ìì 7ì ê±°êµ¬",
@@ -2229,7 +2970,10 @@
     "name": "ì ì±í",
     "name_full": "ì ì±í(ï§å½©è³¢)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì©ì¸ìì 8ì ê±°êµ¬",
@@ -2238,7 +2982,10 @@
     "name": "ì´ê±´í",
     "name_full": "ì´ê±´í(ï§¡å»ºæ¼¢)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[지선 뛰는 사람들] 용인시장, 재선 시장 탄생 여부에 시민 관심 집중",
+    "news_link": "https://www.kgnews.co.kr/news/article.html?no=876958",
+    "news_date": "Mon, 08 Dec 2025 06:00:00 +0900"
   },
   {
     "sgg": "ì©ì¸ìì 8ì ê±°êµ¬",
@@ -2247,7 +2994,10 @@
     "name": "ì´ê²½í¸",
     "name_full": "ì´ê²½í¸(ï§¡æ¬æµ©)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì©ì¸ìì 3ì ê±°êµ¬",
@@ -2256,7 +3006,10 @@
     "name": "ë¨ì¢ì­",
     "name_full": "ë¨ì¢ì­(åé¾ç®)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ì©ì¸ìì 4ì ê±°êµ¬",
@@ -2265,7 +3018,10 @@
     "name": "ì ìì",
     "name_full": "ì ìì(ç°å­è±)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "경기도-경기도의회, 여야정협치위 전체회의서 추경 처리 합의",
+    "news_link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3022526",
+    "news_date": "Tue, 12 May 2026 15:00:00 +0900"
   },
   {
     "sgg": "ì©ì¸ìì 4ì ê±°êµ¬",
@@ -2274,7 +3030,10 @@
     "name": "ì¤ì í¬",
     "name_full": "ì¤ì í¬(å°¹æ­£ç)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도중소기업CEO연합회, '창립 24주년 중소기업·소상공인의 날 기념...",
+    "news_link": "https://www.fntoday.co.kr/news/articleView.html?idxno=371760",
+    "news_date": "Sun, 14 Dec 2025 21:24:00 +0900"
   },
   {
     "sgg": "ì©ì¸ìì 5ì ê±°êµ¬",
@@ -2283,7 +3042,10 @@
     "name": "ì±ëªì ",
     "name_full": "ì±ëªì (è¡ææ°)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì©ì¸ìì 5ì ê±°êµ¬",
@@ -2292,7 +3054,10 @@
     "name": "ì íì©",
     "name_full": "ì íì©(é­å¤æº¶)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "정하용 경기도의원, 동백도서관 냉난방 설비 교체 본격 추진",
+    "news_link": "http://www.breaknews.com/1201759",
+    "news_date": "Tue, 21 Apr 2026 09:18:00 +0900"
   },
   {
     "sgg": "ì©ì¸ìì 9ì ê±°êµ¬",
@@ -2301,7 +3066,10 @@
     "name": "ê³ ì°¬ì",
     "name_full": "ê³ ì°¬ì(é«ç¦é«)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì©ì¸ìì 9ì ê±°êµ¬",
@@ -2310,7 +3078,10 @@
     "name": "ì íì ",
     "name_full": "ì íì (è¾è³¢è²)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[뉴스분석] 차질 빚은 경기북도 로드맵… \"늦더라도 뚜벅뚜벅 나아갈 것\"",
+    "news_link": "http://www.kyeongin.com/main/view.php?key=20240104010000476",
+    "news_date": "Wed, 03 Jan 2024 20:12:00 +0900"
   },
   {
     "sgg": "ì©ì¸ìì 10ì ê±°êµ¬",
@@ -2319,7 +3090,10 @@
     "name": "ì°íì±",
     "name_full": "ì°íì±(ç¦¹ç«æ­)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ì©ì¸ìì 10ì ê±°êµ¬",
@@ -2328,7 +3102,10 @@
     "name": "ì´ì ì§",
     "name_full": "ì´ì ì§(ï§¡æé­)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "\"현장체험학습 취소율 급증…안전지원 강화 필요\"",
+    "news_link": "https://news.ifm.kr/news/articleView.html?idxno=470763",
+    "news_date": "Tue, 12 May 2026 11:00:00 +0900"
   },
   {
     "sgg": "ìì±ìì 1ì ê±°êµ¬",
@@ -2337,7 +3114,10 @@
     "name": "ì´ì£¼í",
     "name_full": "ì´ì£¼í(ï§¡æ±é)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "6·3 지방선거 | 전국 227곳 기초단체장 출마 예상자 | 행정구역 개편으...",
+    "news_link": "http://monthly.chosun.com/client/news/viw.asp?ctcd=A&nNewsNumb=202602100011",
+    "news_date": "Tue, 20 Jan 2026 15:30:00 +0900"
   },
   {
     "sgg": "ìì±ìì 1ì ê±°êµ¬",
@@ -2346,7 +3126,10 @@
     "name": "ë°ê·¼ë°°",
     "name_full": "ë°ê·¼ë°°(æ´æ ¹å¹)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "공직자윤리위, 금 재산 '엉터리' 신고 방치",
+    "news_link": "https://n.news.naver.com/mnews/article/607/0000003290?sid=102",
+    "news_date": "Tue, 21 Apr 2026 16:40:00 +0900"
   },
   {
     "sgg": "ìì±ìì 2ì ê±°êµ¬",
@@ -2355,7 +3138,10 @@
     "name": "ë°±ì¹ê¸°",
     "name_full": "ë°±ì¹ê¸°(ç½æ¿åº)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회 자치분권발전위 재정분과위원장에 정동혁 의원",
+    "news_link": "https://n.news.naver.com/mnews/article/003/0013315852?sid=102",
+    "news_date": "Fri, 20 Jun 2025 14:43:00 +0900"
   },
   {
     "sgg": "ìì±ìì 2ì ê±°êµ¬",
@@ -2364,7 +3150,10 @@
     "name": "ì¤ì±í",
     "name_full": "ì¤ì±í(å°¹çç¥)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[금주의 안성시] 제107주년 3·1절 맞아 광복사 참배 外",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363718867",
+    "news_date": "Fri, 06 Mar 2026 13:00:00 +0900"
   },
   {
     "sgg": "ê¹í¬ìì 1ì ê±°êµ¬",
@@ -2373,7 +3162,10 @@
     "name": "ìµëªì§",
     "name_full": "ìµëªì§(å´éç)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[인사종합·27일] 교육부·서울시·광주시 등",
+    "news_link": "https://www.safetimes.co.kr/news/articleView.html?idxno=232192",
+    "news_date": "Fri, 27 Jun 2025 18:06:00 +0900"
   },
   {
     "sgg": "ê¹í¬ìì 1ì ê±°êµ¬",
@@ -2382,7 +3174,10 @@
     "name": "íìê¸¸",
     "name_full": "íìê¸¸(æ´ªæºä½¶)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "김포시 국민의힘 도의원 3인, 일산대교 통행료 인하 도비 200억 원 반영...",
+    "news_link": "https://www.kmaeil.com/news/articleView.html?idxno=624111",
+    "news_date": "Mon, 29 Dec 2025 17:26:00 +0900"
   },
   {
     "sgg": "ê¹í¬ìì 2ì ê±°êµ¬",
@@ -2391,7 +3186,10 @@
     "name": "ì±ì ë",
     "name_full": "ì±ì ë(è¡ä¿¡å¾³)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ê¹í¬ìì 2ì ê±°êµ¬",
@@ -2400,7 +3198,10 @@
     "name": "ì¤ì¸í",
     "name_full": "ì¤ì¸í(å³ä¸è±)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ê¹í¬ìì 3ì ê±°êµ¬",
@@ -2409,7 +3210,10 @@
     "name": "ì ëªì",
     "name_full": "ì ëªì(ç³æé )",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê¹í¬ìì 3ì ê±°êµ¬",
@@ -2418,7 +3222,10 @@
     "name": "ê¹ìì©",
     "name_full": "ê¹ìì©(éæé)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "'2026 대한민국 파워리더 대상' 윤귀분 시인 수상 '영예'",
+    "news_link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3058846",
+    "news_date": "Tue, 24 Mar 2026 17:36:00 +0900"
   },
   {
     "sgg": "ê¹í¬ìì 4ì ê±°êµ¬",
@@ -2427,7 +3234,10 @@
     "name": "ê¹ì² í",
     "name_full": "ê¹ì² í(éåç¥)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê¹í¬ìì 4ì ê±°êµ¬",
@@ -2436,7 +3246,10 @@
     "name": "ë°ìì°",
     "name_full": "ë°ìì°(æ´åä½)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[주요일정] 이재명 대통령, 국무회의 주재",
+    "news_link": "https://www.safetimes.co.kr/news/articleView.html?idxno=231142",
+    "news_date": "Tue, 10 Jun 2025 07:06:00 +0900"
   },
   {
     "sgg": "ê´ì£¼ìì 1ì ê±°êµ¬",
@@ -2445,7 +3258,10 @@
     "name": "ìµë³´ë¼",
     "name_full": "ìµë³´ë¼(å´ë³´ë¼)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê´ì£¼ìì 1ì ê±°êµ¬",
@@ -2454,7 +3270,10 @@
     "name": "ê¹ëê· ",
     "name_full": "ê¹ëê· (éæ±å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê´ì£¼ìì 2ì ê±°êµ¬",
@@ -2463,7 +3282,10 @@
     "name": "ìì°½í",
     "name_full": "ìì°½í(ï§´æè¼)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회, 연구·민생·조직 전방위 점검… 의정 기능 강화",
+    "news_link": "https://www.newscj.com/news/articleView.html?idxno=3397405",
+    "news_date": "Wed, 29 Apr 2026 21:38:00 +0900"
   },
   {
     "sgg": "ê´ì£¼ìì 2ì ê±°êµ¬",
@@ -2472,7 +3294,10 @@
     "name": "ê¹ë¯¼ì",
     "name_full": "ê¹ë¯¼ì(éë¯¼å¥­)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[오늘의 주요일정·30일] '서부지법 난동범들' 상고심 선고",
+    "news_link": "https://www.safetimes.co.kr/news/articleView.html?idxno=242401",
+    "news_date": "Thu, 30 Apr 2026 07:04:00 +0900"
   },
   {
     "sgg": "ê´ì£¼ìì 3ì ê±°êµ¬",
@@ -2481,7 +3306,10 @@
     "name": "ì´ìí",
     "name_full": "ì´ìí(ï§¡æç¯)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ê´ì£¼ìì 3ì ê±°êµ¬",
@@ -2490,7 +3318,10 @@
     "name": "ì¤ì°½ì¤",
     "name_full": "ì¤ì°½ì¤(å³æä¿)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "ê´ì£¼ìì 4ì ê±°êµ¬",
@@ -2499,7 +3330,10 @@
     "name": "ê¹ë¯¸ê²½",
     "name_full": "ê¹ë¯¸ê²½(éç¾å¿)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "\"출근길 30분 줄인다\"... 김미경 후보, 초월·곤지암·도척 교통혁신 공...",
+    "news_link": "https://n.news.naver.com/mnews/article/047/0002516534?sid=162",
+    "news_date": "Thu, 21 May 2026 10:41:00 +0900"
   },
   {
     "sgg": "ê´ì£¼ìì 4ì ê±°êµ¬",
@@ -2508,7 +3342,10 @@
     "name": "ì´ì£¼í",
     "name_full": "ì´ì£¼í(ï§¡æ±å³)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도 광주시의회, 제313회 제2차 정례회 제2차 본회의 개의",
+    "news_link": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1971237",
+    "news_date": "Tue, 03 Dec 2024 13:40:00 +0900"
   },
   {
     "sgg": "í¬ì²ìì 1ì ê±°êµ¬",
@@ -2517,7 +3354,10 @@
     "name": "ë°íì¥",
     "name_full": "ë°íì¥(æ´æ ç)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "í¬ì²ìì 1ì ê±°êµ¬",
@@ -2526,7 +3366,10 @@
     "name": "ì¤ì¶©ì",
     "name_full": "ì¤ì¶©ì(å°¹å¿ æ¤)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기북부 산업 균형발전 기여 윤충식 의원, 대진테크노파크 감사패",
+    "news_link": "http://www.seoulwire.com/news/articleView.html?idxno=701928",
+    "news_date": "Thu, 15 Jan 2026 23:22:00 +0900"
   },
   {
     "sgg": "í¬ì²ìì 2ì ê±°êµ¬",
@@ -2535,7 +3378,10 @@
     "name": "ì´ìì",
     "name_full": "ì´ìì(æåé)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "í¬ì²ìì 2ì ê±°êµ¬",
@@ -2544,7 +3390,10 @@
     "name": "ê¹ì±ë¨",
     "name_full": "ê¹ì±ë¨(éæç·)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "제11대 연임 노리는 경기도의원 '89명'… 현직·전직 맞대결도 눈길",
+    "news_link": "https://www.joongboo.com/news/articleView.html?idxno=363726075",
+    "news_date": "Mon, 18 May 2026 17:22:00 +0900"
   },
   {
     "sgg": "í¬ì²ìì 2ì ê±°êµ¬",
@@ -2553,7 +3402,10 @@
     "name": "ê¹ìì ",
     "name_full": "ê¹ìì (éæ­å»·)",
     "party": "ì§ë³´ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "6·3 지방선거 | 전국 227곳 기초단체장 출마 예상자 | 행정구역 개편으...",
+    "news_link": "http://monthly.chosun.com/client/news/viw.asp?ctcd=A&nNewsNumb=202602100011",
+    "news_date": "Tue, 20 Jan 2026 15:30:00 +0900"
   },
   {
     "sgg": "ì°ì²êµ°ì ê±°êµ¬",
@@ -2562,7 +3414,10 @@
     "name": "ìí¬ì ",
     "name_full": "ìí¬ì (å¾çæ­£)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "국민의힘 연천 광역의원 경선, 김미경 vs 윤종영 맞대결 확정",
+    "news_link": "http://www.srtimes.kr/news/articleView.html?idxno=201382",
+    "news_date": "Thu, 16 Apr 2026 15:54:00 +0900"
   },
   {
     "sgg": "ì°ì²êµ°ì ê±°êµ¬",
@@ -2571,7 +3426,10 @@
     "name": "ì¤ì¢ì",
     "name_full": "ì¤ì¢ì(å°¹é¾æ°¸)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "경기도의회 \"제1회 추경 비효율적, 무분별한 지방채 발행\" 집중 성토",
+    "news_link": "https://www.onews.tv/news/articleView.html?idxno=279383",
+    "news_date": "Mon, 27 Apr 2026 18:04:00 +0900"
   },
   {
     "sgg": "ìíêµ°ì 1ì ê±°êµ¬",
@@ -2580,7 +3438,10 @@
     "name": "ì ì¸ë´",
     "name_full": "ì ì¸ë´(é­ä»å¥)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìíêµ°ì 1ì ê±°êµ¬",
@@ -2589,7 +3450,10 @@
     "name": "ì¤ìì¥",
     "name_full": "ì¤ìì¥(å°¹é ç)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "[패트롤] 과천시-구리시-남양주시-양평군-하남시",
+    "news_link": "https://www.ekn.kr/web/view.php?key=20260405024544254",
+    "news_date": "Sun, 05 Apr 2026 09:24:00 +0900"
   },
   {
     "sgg": "ìíêµ°ì 2ì ê±°êµ¬",
@@ -2598,7 +3462,10 @@
     "name": "ê¹ì£¼ë¨",
     "name_full": "ê¹ì£¼ë¨(éå¨ç·)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ìíêµ°ì 2ì ê±°êµ¬",
@@ -2607,7 +3474,10 @@
     "name": "ì´íì",
     "name_full": "ì´íì(ï§¡æ å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ì¬"
+    "gender": "ì¬",
+    "news_title": "이혜원 경기도의원, 행정조직 개편·국지도 건설·지방채 발행 관련 점...",
+    "news_link": "https://n.news.naver.com/mnews/article/081/0003639471?sid=102",
+    "news_date": "Tue, 28 Apr 2026 16:59:00 +0900"
   },
   {
     "sgg": "ê°íêµ°ì ê±°êµ¬",
@@ -2616,7 +3486,10 @@
     "name": "ë°ì¬í",
     "name_full": "ë°ì¬í(æ´å¨é)",
     "party": "ëë¶ì´ë¯¼ì£¼ë¹",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   },
   {
     "sgg": "ê°íêµ°ì ê±°êµ¬",
@@ -2625,7 +3498,10 @@
     "name": "ë°ìì ",
     "name_full": "ë°ìì (æ´æ³³å)",
     "party": "êµ­ë¯¼ìí",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "[Who Is ?] 김동연 경기도 도지사",
+    "news_link": "https://www.businesspost.co.kr/BP?command=article_view&num=359156",
+    "news_date": "Wed, 17 Jul 2024 08:40:00 +0900"
   },
   {
     "sgg": "ê°íêµ°ì ê±°êµ¬",
@@ -2634,6 +3510,9 @@
     "name": "ê°íë§",
     "name_full": "ê°íë§(å§æ³°è¬)",
     "party": "ë¬´ìì",
-    "gender": "ë¨"
+    "gender": "ë¨",
+    "news_title": "",
+    "news_link": "",
+    "news_date": ""
   }
 ]
