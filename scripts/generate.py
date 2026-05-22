@@ -48,7 +48,11 @@ print(f"뉴스 검색 시작: {len(candidates)}명")
 results = []
 for i, c in enumerate(candidates):
     print(f"[{i+1}/{len(candidates)}] {c['name']} ({c['sgg']})", end=' ')
-    news = search_naver_news(c['name'], c['sgg'])
+    # candidates.json에 미리 수집된 뉴스가 있으면 사용, 없으면 Naver 검색
+    if c.get('news_title'):
+        news = {'has_news': True, 'title': c['news_title'], 'link': c.get('news_link', ''), 'date': c.get('news_date', '')}
+    else:
+        news = search_naver_news(c['name'], c['sgg'])
     results.append({**c, **news})
     print('✓' if news['has_news'] else '-')
     time.sleep(0.4)
