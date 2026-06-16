@@ -46,6 +46,11 @@ for m in members:
     rate = m.get('득표율', '')
     mtype = m.get('유형', '')
     news = m.get('뉴스', []) or []
+    # candidates.json은 제목만 보관(본문 없음)하므로, 제목에 당선자 이름이
+    # 실제로 포함된 기사를 우선 노출한다. '경기도의회 전체' 류 일반 기사는
+    # 이름이 들어간 기사 뒤로 밀린다. 안정 정렬이라 그룹 내 기존(날짜) 순서는 유지.
+    if name:
+        news = sorted(news, key=lambda n: 0 if name in (n.get('제목') or '') else 1)
     has_news = bool(news)
     if has_news:
         items = ''

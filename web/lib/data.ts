@@ -52,17 +52,30 @@ function mapNews(news: RawNews[] | undefined): NewsItem[] {
   }));
 }
 
+// candidates.json only carries the headline (no body text), so we prioritise
+// articles whose title actually mentions the candidate by name. This pushes
+// generic "경기도의회 전체" coverage below name-specific articles. The sort is
+// stable, so the original (date-descending) order is preserved within each group.
+function prioritizeByName(news: NewsItem[], name: string): NewsItem[] {
+  if (!name) return news;
+  const mentionsName = (n: NewsItem) => n.title.includes(name);
+  return [...news].sort(
+    (a, b) => Number(mentionsName(b)) - Number(mentionsName(a)),
+  );
+}
+
 function mapCandidate(c: RawCandidate): Candidate {
   const type: CandidateType = c.유형 === "비례" ? "비례" : "지역구";
+  const name = c.이름 ?? "";
   return {
-    name: c.이름 ?? "",
+    name,
     district: c.선거구 ?? "",
     city: c.시군 ?? "",
     party: c.정당 ?? "",
     rate: c.득표율 ?? "",
     type,
     dong: c.행정동 ?? "",
-    news: mapNews(c.뉴스),
+    news: prioritizeByName(mapNews(c.뉴스), name),
   };
 }
 
