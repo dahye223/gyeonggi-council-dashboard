@@ -4,7 +4,7 @@ import NewsLinks from "./NewsLinks";
 
 export default function CandidateRow({ candidate }: { candidate: Candidate }) {
   return (
-    <tr>
+    <tr className={candidate.isNew ? "is-new" : undefined}>
       <td>{candidate.city}</td>
       <td>
         {candidate.district}

@@ -4,7 +4,7 @@
 루트의 candidates.json(당선자 + 미리 수집된 뉴스)을 읽어 index.html을 생성한다.
 뉴스 수집은 별도 단계(스케줄 작업)에서 수행되어 candidates.json에 반영된다.
 """
-import json, os, html
+import json, os, html, hashlib, sys
 from datetime import datetime, timezone, timedelta
 
 KST = timezone(timedelta(hours=9))
@@ -13,13 +13,72 @@ update_time = datetime.now(KST).strftime('%Y년 %m월 %d일 %H:%M KST')
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 
-with open(os.path.join(REPO_ROOT, 'candidates.json'), encoding='utf-8') as f:
-    data = json.load(f)
+# candidates.json 원문(바이트)을 그대로 읽어 해시를 계산한다. 데이터가 바뀌지
+# 않은 날에는 재생성을 건너뛰어, 의미 없는 커밋·배포(빌드)가 발생하지 않게 한다.
+with open(os.path.join(REPO_ROOT, 'candidates.json'), 'rb') as f:
+    raw_bytes = f.read()
+data = json.loads(raw_bytes.decode('utf-8'))
+data_hash = hashlib.sha256(raw_bytes).hexdigest()
 
 members = data.get('당선자', [])
 total = len(members)
 with_news = sum(1 for m in members if m.get('뉴스'))
 total_news = sum(len(m.get('뉴스', [])) for m in members)
+
+# --- 신규 업데이트 감지: 직전 생성 시점과 비교 -------------------------------
+# scripts/news_state.json에 당선자별로 '이미 본 뉴스 링크'를 저장해 두고,
+# 이번 candidates.json과 비교해 새로 추가된 기사/당선자를 가려낸다.
+# 최초 실행(상태 파일 없음)은 기준선이므로 아무것도 신규로 표시하지 않는다.
+STATE_PATH = os.path.join(SCRIPT_DIR, 'news_state.json')
+today = datetime.now(KST).strftime('%Y-%m-%d')
+
+def load_state():
+    if os.path.exists(STATE_PATH):
+        try:
+            with open(STATE_PATH, encoding='utf-8') as sf:
+                return json.load(sf)
+        except (json.JSONDecodeError, OSError):
+            return {}
+    return {}
+
+prev_state = load_state()
+prev_seen = prev_state.get('seen', {})
+first_run = not prev_seen  # 상태 파일이 비어 있으면 최초 실행
+
+# 데이터가 직전과 동일하면 아무것도 다시 쓰지 않고 종료한다(파일 미변경 → 커밋
+# 없음 → Vercel 재배포 없음). 시각만 바뀐 무의미한 일일 빌드를 막는 핵심 장치.
+if not first_run and prev_state.get('data_hash') == data_hash:
+    print('candidates.json 변경 없음 - 재생성 건너뜀 (커밋/배포 없음)')
+    sys.exit(0)
+
+def cand_key(m):
+    return f"{m.get('이름','')}|{m.get('선거구','')}"
+
+def news_links(m):
+    return [n.get('링크', '') for n in (m.get('뉴스', []) or []) if n.get('링크')]
+
+# 당선자별 신규 링크 집합과 신규 여부를 미리 계산
+new_seen = {}
+new_link_sets = {}      # key -> set(새 링크)
+new_candidates = set()  # 이전에 없던 당선자 key
+for m in members:
+    key = cand_key(m)
+    cur_links = news_links(m)
+    new_seen[key] = cur_links
+    if first_run:
+        new_link_sets[key] = set()
+        continue
+    prev_links = set(prev_seen.get(key, []))
+    new_link_sets[key] = {l for l in cur_links if l not in prev_links}
+    if key not in prev_seen and cur_links:
+        new_candidates.add(key)
+
+def is_new_candidate(m):
+    key = cand_key(m)
+    return bool(new_link_sets.get(key)) or key in new_candidates
+
+updated_count = sum(1 for m in members if is_new_candidate(m))
+new_article_count = sum(len(s) for s in new_link_sets.values())
 
 PARTY_COLORS = {
     '더불어민주당': '#0052A5',
@@ -46,23 +105,35 @@ for m in members:
     rate = m.get('득표율', '')
     mtype = m.get('유형', '')
     news = m.get('뉴스', []) or []
-    # candidates.json은 제목만 보관(본문 없음)하므로, 제목에 당선자 이름이
-    # 실제로 포함된 기사를 우선 노출한다. '경기도의회 전체' 류 일반 기사는
-    # 이름이 들어간 기사 뒤로 밀린다. 안정 정렬이라 그룹 내 기존(날짜) 순서는 유지.
-    if name:
-        news = sorted(news, key=lambda n: 0 if name in (n.get('제목') or '') else 1)
+    new_links = new_link_sets.get(cand_key(m), set())
+    cand_new = is_new_candidate(m)
+    # 정렬 우선순위:
+    #  1) 제목에 당선자 이름이 포함된 기사 (관련성) — '경기도의회 전체' 류는 뒤로
+    #  2) 그 안에서 새로 추가된(NEW) 기사 — 신규 소식을 상위로 부각
+    # 안정 정렬이라 동일 그룹 내 기존(날짜) 순서는 유지된다.
+    if news:
+        news = sorted(
+            news,
+            key=lambda n: (
+                0 if name and name in (n.get('제목') or '') else 1,
+                0 if n.get('링크', '') in new_links else 1,
+            ),
+        )
     has_news = bool(news)
     if has_news:
         items = ''
         for n in news[:3]:
-            items += (f'<a href="{esc(n.get("링크",""))}" target="_blank" class="news-link">'
-                      f'{esc(n.get("제목",""))}</a>'
+            link = n.get('링크', '')
+            badge = '<span class="new-tag">NEW</span>' if link in new_links else ''
+            items += (f'<a href="{esc(link)}" target="_blank" class="news-link">'
+                      f'{badge}{esc(n.get("제목",""))}</a>'
                       f'<span class="news-date">{esc(n.get("날짜",""))}</span>')
         news_html = items
     else:
         news_html = '<span class="no-news">뉴스 없음</span>'
     type_tag = '비례' if mtype == '비례' else '지역구'
-    rows += f'''<tr data-city="{esc(city)}" data-party="{esc(party)}" data-type="{esc(mtype)}" data-has-news="{'true' if has_news else 'false'}">
+    row_cls = 'is-new' if cand_new else ''
+    rows += f'''<tr class="{row_cls}" data-city="{esc(city)}" data-party="{esc(party)}" data-type="{esc(mtype)}" data-has-news="{'true' if has_news else 'false'}" data-new="{'true' if cand_new else 'false'}">
       <td>{esc(city)}</td>
       <td>{esc(sgg)}<span class="type-tag">{type_tag}</span></td>
       <td class="name-cell">{esc(name)}</td>
@@ -75,6 +146,19 @@ cities = sorted(set(m.get('시군', '') for m in members))
 city_opts = '<option value="">전체 시·군</option>' + ''.join(f'<option value="{esc(c)}">{esc(c)}</option>' for c in cities)
 parties = sorted(set(m.get('정당', '') for m in members))
 party_opts = '<option value="">전체 정당</option>' + ''.join(f'<option value="{esc(p)}">{esc(p)}</option>' for p in parties)
+
+# 상단 요약 배너 (신규 업데이트가 있을 때만 노출)
+if updated_count > 0:
+    banner_html = (
+        '<div class="banner" id="banner">'
+        '<span class="banner-dot"></span>'
+        f'<span><strong>오늘 새 소식</strong> &nbsp;업데이트된 당선자 '
+        f'{updated_count}명 · 새 기사 {new_article_count}건</span>'
+        "<button class=\"banner-x\" onclick=\"document.getElementById('banner').remove()\">&times;</button>"
+        '</div>'
+    )
+else:
+    banner_html = ''
 
 html_out = f'''<!DOCTYPE html>
 <html lang="ko">
@@ -109,6 +193,16 @@ tr:hover td {{ background: #f8faff; }}
 .table-wrap {{ overflow-x: auto; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin: 20px 24px; }}
 tr.hidden {{ display: none; }}
 .footer {{ text-align: center; font-size: 11px; color: #9ca3af; padding: 8px 0 28px; }}
+.new-tag {{ display: inline-block; margin-right: 6px; padding: 0 6px; border-radius: 6px; font-size: 10px; font-weight: 700; background: #ef4444; color: white; vertical-align: middle; letter-spacing: 0.3px; }}
+tr.is-new td {{ background: #fff7ed; }}
+tr.is-new:hover td {{ background: #ffedd5; }}
+tr.is-new td:first-child {{ box-shadow: inset 3px 0 0 #f97316; }}
+.banner {{ display: flex; align-items: center; gap: 10px; background: #fff7ed; border-bottom: 1px solid #fed7aa; color: #9a3412; padding: 11px 32px; font-size: 13px; }}
+.banner-dot {{ width: 8px; height: 8px; border-radius: 50%; background: #f97316; flex-shrink: 0; }}
+.banner strong {{ font-weight: 700; }}
+.banner-x {{ margin-left: auto; background: none; border: none; font-size: 18px; line-height: 1; color: #9a3412; cursor: pointer; padding: 0 4px; }}
+.controls .check {{ display: flex; align-items: center; gap: 6px; font-size: 13px; color: #374151; cursor: pointer; user-select: none; }}
+.controls .check input {{ min-width: auto; width: 15px; height: 15px; cursor: pointer; }}
 </style>
 </head>
 <body>
@@ -116,6 +210,7 @@ tr.hidden {{ display: none; }}
   <h1>🏛 경기도의회 당선자 뉴스 대시보드</h1>
   <div class="meta">제9회 전국동시지방선거(2026-06-03) 당선자 &nbsp;|&nbsp; 자동 업데이트: {update_time} &nbsp;|&nbsp; 총 {total}명 &nbsp;|&nbsp; 뉴스 있음 {with_news}명 / {total_news}건</div>
 </div>
+{banner_html}
 <div class="controls">
   <input type="text" id="search" placeholder="당선자 이름 또는 선거구 검색...">
   <select id="cityFilter">{city_opts}</select>
@@ -130,6 +225,7 @@ tr.hidden {{ display: none; }}
     <option value="true">뉴스 있음</option>
     <option value="false">뉴스 없음</option>
   </select>
+  <label class="check"><input type="checkbox" id="newOnly"> 오늘 새 소식만</label>
   <span class="stats" id="stats">{total}명 표시 중</span>
 </div>
 <div class="table-wrap">
@@ -150,6 +246,7 @@ function filterTable() {{
   const party = document.getElementById('partyFilter').value;
   const type = document.getElementById('typeFilter').value;
   const news = document.getElementById('newsFilter').value;
+  const newOnly = document.getElementById('newOnly').checked;
   const rows = document.querySelectorAll('#tbody tr');
   let shown = 0;
   rows.forEach(r => {{
@@ -158,7 +255,8 @@ function filterTable() {{
       (!city || r.dataset.city === city) &&
       (!party || r.dataset.party === party) &&
       (!type || r.dataset.type === type) &&
-      (!news || r.dataset.hasNews === news);
+      (!news || r.dataset.hasNews === news) &&
+      (!newOnly || r.dataset.new === 'true');
     r.classList.toggle('hidden', !match);
     if (match) shown++;
   }});
@@ -167,6 +265,7 @@ function filterTable() {{
 ['search','cityFilter','partyFilter','typeFilter','newsFilter'].forEach(id => {{
   document.getElementById(id).addEventListener('input', filterTable);
 }});
+document.getElementById('newOnly').addEventListener('change', filterTable);
 filterTable();
 </script>
 </body>
@@ -174,4 +273,20 @@ filterTable();
 
 with open(os.path.join(REPO_ROOT, 'index.html'), 'w', encoding='utf-8') as f:
     f.write(html_out)
+
+# 다음 실행 때 비교할 수 있도록 현재 본 뉴스 링크 상태를 저장한다.
+# last_new는 Next.js 앱이 동일한 '신규' 표시를 재현할 때 사용한다.
+new_links_all = sorted({l for s in new_link_sets.values() for l in s})
+state_out = {
+    'last_run': today,
+    'data_hash': data_hash,
+    'updated_candidates': updated_count,
+    'new_articles': new_article_count,
+    'last_new_links': new_links_all,
+    'seen': new_seen,
+}
+with open(STATE_PATH, 'w', encoding='utf-8') as f:
+    json.dump(state_out, f, ensure_ascii=False, indent=2)
+
 print(f"index.html 저장 완료: 당선자 {total}명, 뉴스 {total_news}건")
+print(f"신규: 업데이트 당선자 {updated_count}명, 새 기사 {new_article_count}건 (first_run={first_run})")

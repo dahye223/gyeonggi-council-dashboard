@@ -26,47 +26,75 @@ interface RawData {
   당선자?: RawCandidate[];
 }
 
+interface NewsState {
+  updated_candidates?: number;
+  new_articles?: number;
+  last_new_links?: string[];
+}
+
+function resolveFirst(candidates: string[]): string | null {
+  return candidates.find((p) => fs.existsSync(p)) ?? null;
+}
+
 // candidates.json is maintained at the repo root by the existing Python pipeline.
 // Depending on the build context (local dev, Vercel root=web, or a copy inside
 // web/), it may sit one level up or alongside the app — resolve the first match.
-const DATA_CANDIDATES = [
-  path.join(process.cwd(), "candidates.json"),
-  path.join(process.cwd(), "..", "candidates.json"),
-];
-
 function resolveDataPath(): string {
-  const found = DATA_CANDIDATES.find((p) => fs.existsSync(p));
+  const found = resolveFirst([
+    path.join(process.cwd(), "candidates.json"),
+    path.join(process.cwd(), "..", "candidates.json"),
+  ]);
   if (!found) {
-    throw new Error(
-      `candidates.json not found. Looked in: ${DATA_CANDIDATES.join(", ")}`,
-    );
+    throw new Error("candidates.json not found near the working directory");
   }
   return found;
 }
 
-function mapNews(news: RawNews[] | undefined): NewsItem[] {
+// news_state.json is written by scripts/generate.py and records which article
+// links were newly added in the most recent update. The Next.js app reuses it
+// so the "신규(NEW)" highlighting matches the static (index.html) site exactly.
+function loadNewsState(): NewsState {
+  const found = resolveFirst([
+    path.join(process.cwd(), "scripts", "news_state.json"),
+    path.join(process.cwd(), "..", "scripts", "news_state.json"),
+  ]);
+  if (!found) return {};
+  try {
+    return JSON.parse(fs.readFileSync(found, "utf-8")) as NewsState;
+  } catch {
+    return {};
+  }
+}
+
+function mapNews(
+  news: RawNews[] | undefined,
+  newLinks: Set<string>,
+): NewsItem[] {
   return (news ?? []).map((n) => ({
     title: n.제목 ?? "",
     link: n.링크 ?? "",
     date: n.날짜 ?? "",
+    isNew: newLinks.has(n.링크 ?? ""),
   }));
 }
 
-// candidates.json only carries the headline (no body text), so we prioritise
-// articles whose title actually mentions the candidate by name. This pushes
-// generic "경기도의회 전체" coverage below name-specific articles. The sort is
-// stable, so the original (date-descending) order is preserved within each group.
-function prioritizeByName(news: NewsItem[], name: string): NewsItem[] {
-  if (!name) return news;
-  const mentionsName = (n: NewsItem) => n.title.includes(name);
-  return [...news].sort(
-    (a, b) => Number(mentionsName(b)) - Number(mentionsName(a)),
-  );
+// Sort priority (stable, preserving original date order within a group):
+//  1) headline mentions the candidate by name (relevance) — generic
+//     "경기도의회 전체" coverage drops below name-specific articles
+//  2) newly added (NEW) articles surface to the top so fresh news stands out
+function prioritizeNews(news: NewsItem[], name: string): NewsItem[] {
+  const mentionsName = (n: NewsItem) => Boolean(name) && n.title.includes(name);
+  return [...news].sort((a, b) => {
+    const nameDelta = Number(mentionsName(b)) - Number(mentionsName(a));
+    if (nameDelta !== 0) return nameDelta;
+    return Number(b.isNew) - Number(a.isNew);
+  });
 }
 
-function mapCandidate(c: RawCandidate): Candidate {
+function mapCandidate(c: RawCandidate, newLinks: Set<string>): Candidate {
   const type: CandidateType = c.유형 === "비례" ? "비례" : "지역구";
   const name = c.이름 ?? "";
+  const news = prioritizeNews(mapNews(c.뉴스, newLinks), name);
   return {
     name,
     district: c.선거구 ?? "",
@@ -75,13 +103,17 @@ function mapCandidate(c: RawCandidate): Candidate {
     rate: c.득표율 ?? "",
     type,
     dong: c.행정동 ?? "",
-    news: prioritizeByName(mapNews(c.뉴스), name),
+    news,
+    isNew: news.some((n) => n.isNew),
   };
 }
 
 export function getDashboardData(): DashboardData {
   const raw = JSON.parse(fs.readFileSync(resolveDataPath(), "utf-8")) as RawData;
-  const candidates = (raw.당선자 ?? []).map(mapCandidate);
+  const state = loadNewsState();
+  const newLinks = new Set(state.last_new_links ?? []);
+
+  const candidates = (raw.당선자 ?? []).map((c) => mapCandidate(c, newLinks));
 
   const withNews = candidates.filter((c) => c.news.length > 0).length;
   const totalNews = candidates.reduce((sum, c) => sum + c.news.length, 0);
@@ -93,6 +125,12 @@ export function getDashboardData(): DashboardData {
     a.localeCompare(b, "ko"),
   );
 
+  const updatedCandidates =
+    state.updated_candidates ?? candidates.filter((c) => c.isNew).length;
+  const newArticles =
+    state.new_articles ??
+    candidates.reduce((s, c) => s + c.news.filter((n) => n.isNew).length, 0);
+
   return {
     updatedAt: raw.업데이트일시 ?? "",
     basis: raw.기준 ?? "",
@@ -102,5 +140,7 @@ export function getDashboardData(): DashboardData {
     candidates,
     cities,
     parties,
+    updatedCandidates,
+    newArticles,
   };
 }

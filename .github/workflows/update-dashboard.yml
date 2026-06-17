@@ -19,9 +19,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4
-
+      # generate.py는 표준 라이브러리만 사용한다. candidates.json이 직전과
+      # 동일하면 스크립트가 아무 파일도 바꾸지 않으므로, 아래 커밋 단계의
+      # `git diff --staged --quiet` 가드에 걸려 커밋·푸시(=Vercel 재배포)가
+      # 일어나지 않는다. 즉 데이터가 바뀐 날에만 배포가 발생한다.
       - name: Generate dashboard
         run: python scripts/generate.py
 
@@ -29,6 +30,6 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add index.html
+          git add index.html scripts/news_state.json
           git diff --staged --quiet || git commit -m "대시보드 자동 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M KST')"
           git push

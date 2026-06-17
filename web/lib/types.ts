@@ -4,6 +4,7 @@ export interface NewsItem {
   title: string;
   link: string;
   date: string;
+  isNew: boolean;
 }
 
 export interface Candidate {
@@ -15,6 +16,7 @@ export interface Candidate {
   type: CandidateType;
   dong: string;
   news: NewsItem[];
+  isNew: boolean;
 }
 
 export interface DashboardData {
@@ -26,4 +28,6 @@ export interface DashboardData {
   candidates: Candidate[];
   cities: string[];
   parties: string[];
+  updatedCandidates: number;
+  newArticles: number;
 }

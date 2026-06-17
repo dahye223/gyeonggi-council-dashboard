@@ -6,6 +6,7 @@ export interface Filters {
   party: string;
   type: string;
   news: string;
+  newOnly: boolean;
 }
 
 export const EMPTY_FILTERS: Filters = {
@@ -14,6 +15,7 @@ export const EMPTY_FILTERS: Filters = {
   party: "",
   type: "",
   news: "",
+  newOnly: false,
 };
 
 function candidateText(c: Candidate): string {
@@ -37,6 +39,7 @@ export function matchesFilters(c: Candidate, f: Filters): boolean {
     (!f.city || c.city === f.city) &&
     (!f.party || c.party === f.party) &&
     (!f.type || c.type === f.type) &&
-    (!f.news || String(hasNews) === f.news)
+    (!f.news || String(hasNews) === f.news) &&
+    (!f.newOnly || c.isNew)
   );
 }

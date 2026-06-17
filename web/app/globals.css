@@ -153,3 +153,72 @@ tr:hover td {
   color: #9ca3af;
   padding: 8px 0 28px;
 }
+
+.new-tag {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 0 6px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  background: #ef4444;
+  color: white;
+  vertical-align: middle;
+  letter-spacing: 0.3px;
+}
+tr.is-new td {
+  background: #fff7ed;
+}
+tr.is-new:hover td {
+  background: #ffedd5;
+}
+tr.is-new td:first-child {
+  box-shadow: inset 3px 0 0 #f97316;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff7ed;
+  border-bottom: 1px solid #fed7aa;
+  color: #9a3412;
+  padding: 11px 32px;
+  font-size: 13px;
+}
+.banner-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #f97316;
+  flex-shrink: 0;
+}
+.banner strong {
+  font-weight: 700;
+}
+.banner-x {
+  margin-left: auto;
+  background: none;
+  border: none;
+  font-size: 18px;
+  line-height: 1;
+  color: #9a3412;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.controls .check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #374151;
+  cursor: pointer;
+  user-select: none;
+}
+.controls .check input {
+  min-width: auto;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}

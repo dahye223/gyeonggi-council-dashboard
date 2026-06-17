@@ -9,6 +9,7 @@ import CandidateTable from "./CandidateTable";
 
 export default function Dashboard({ data }: { data: DashboardData }) {
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
+  const [bannerOpen, setBannerOpen] = useState(true);
 
   const visible = useMemo(
     () => data.candidates.filter((c) => matchesFilters(c, filters)),
@@ -18,6 +19,8 @@ export default function Dashboard({ data }: { data: DashboardData }) {
   const onChange = (patch: Partial<Filters>) =>
     setFilters((prev) => ({ ...prev, ...patch }));
 
+  const showBanner = bannerOpen && data.updatedCandidates > 0;
+
   return (
     <>
       <Header
@@ -26,6 +29,23 @@ export default function Dashboard({ data }: { data: DashboardData }) {
         withNews={data.withNews}
         totalNews={data.totalNews}
       />
+      {showBanner && (
+        <div className="banner">
+          <span className="banner-dot" />
+          <span>
+            <strong>오늘 새 소식</strong> &nbsp;업데이트된 당선자{" "}
+            {data.updatedCandidates}명 · 새 기사 {data.newArticles}건
+          </span>
+          <button
+            type="button"
+            className="banner-x"
+            aria-label="닫기"
+            onClick={() => setBannerOpen(false)}
+          >
+            ×
+          </button>
+        </div>
+      )}
       <Controls
         filters={filters}
         onChange={onChange}

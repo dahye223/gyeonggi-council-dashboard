@@ -18,6 +18,7 @@ export default function NewsLinks({ news }: { news: NewsItem[] }) {
             rel="noopener noreferrer"
             className="news-link"
           >
+            {n.isNew && <span className="new-tag">NEW</span>}
             {n.title}
           </a>
           <span className="news-date">{n.date}</span>

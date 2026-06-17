@@ -63,6 +63,14 @@ export default function Controls({
         <option value="true">뉴스 있음</option>
         <option value="false">뉴스 없음</option>
       </select>
+      <label className="check">
+        <input
+          type="checkbox"
+          checked={filters.newOnly}
+          onChange={(e) => onChange({ newOnly: e.target.checked })}
+        />
+        오늘 새 소식만
+      </label>
       <span className="stats">{shownCount}명 표시 중</span>
     </div>
   );

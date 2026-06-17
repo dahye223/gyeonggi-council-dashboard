@@ -31,13 +31,24 @@ tr:hover td { background: #f8faff; }
 .table-wrap { overflow-x: auto; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin: 20px 24px; }
 tr.hidden { display: none; }
 .footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 8px 0 28px; }
+.new-tag { display: inline-block; margin-right: 6px; padding: 0 6px; border-radius: 6px; font-size: 10px; font-weight: 700; background: #ef4444; color: white; vertical-align: middle; letter-spacing: 0.3px; }
+tr.is-new td { background: #fff7ed; }
+tr.is-new:hover td { background: #ffedd5; }
+tr.is-new td:first-child { box-shadow: inset 3px 0 0 #f97316; }
+.banner { display: flex; align-items: center; gap: 10px; background: #fff7ed; border-bottom: 1px solid #fed7aa; color: #9a3412; padding: 11px 32px; font-size: 13px; }
+.banner-dot { width: 8px; height: 8px; border-radius: 50%; background: #f97316; flex-shrink: 0; }
+.banner strong { font-weight: 700; }
+.banner-x { margin-left: auto; background: none; border: none; font-size: 18px; line-height: 1; color: #9a3412; cursor: pointer; padding: 0 4px; }
+.controls .check { display: flex; align-items: center; gap: 6px; font-size: 13px; color: #374151; cursor: pointer; user-select: none; }
+.controls .check input { min-width: auto; width: 15px; height: 15px; cursor: pointer; }
 </style>
 </head>
 <body>
 <div class="header">
   <h1>🏛 경기도의회 당선자 뉴스 대시보드</h1>
-  <div class="meta">제9회 전국동시지방선거(2026-06-03) 당선자 &nbsp;|&nbsp; 자동 업데이트: 2026년 06월 17일 03:20 KST &nbsp;|&nbsp; 총 167명 &nbsp;|&nbsp; 뉴스 있음 167명 / 501건</div>
+  <div class="meta">제9회 전국동시지방선거(2026-06-03) 당선자 &nbsp;|&nbsp; 자동 업데이트: 2026년 06월 17일 15:44 KST &nbsp;|&nbsp; 총 167명 &nbsp;|&nbsp; 뉴스 있음 167명 / 501건</div>
 </div>
+
 <div class="controls">
   <input type="text" id="search" placeholder="당선자 이름 또는 선거구 검색...">
   <select id="cityFilter"><option value="">전체 시·군</option><option value="가평군">가평군</option><option value="경기도">경기도</option><option value="고양시">고양시</option><option value="과천시">과천시</option><option value="광명시">광명시</option><option value="광주시">광주시</option><option value="구리시">구리시</option><option value="군포시">군포시</option><option value="김포시">김포시</option><option value="남양주시">남양주시</option><option value="동두천시">동두천시</option><option value="부천시">부천시</option><option value="성남시">성남시</option><option value="수원시">수원시</option><option value="시흥시">시흥시</option><option value="안산시">안산시</option><option value="안성시">안성시</option><option value="안양시">안양시</option><option value="양주시">양주시</option><option value="양평군">양평군</option><option value="여주시">여주시</option><option value="연천군">연천군</option><option value="오산시">오산시</option><option value="용인시">용인시</option><option value="의왕시">의왕시</option><option value="의정부시">의정부시</option><option value="이천시">이천시</option><option value="파주시">파주시</option><option value="평택시">평택시</option><option value="포천시">포천시</option><option value="하남시">하남시</option><option value="화성시">화성시</option></select>
@@ -52,6 +63,7 @@ tr.hidden { display: none; }
     <option value="true">뉴스 있음</option>
     <option value="false">뉴스 없음</option>
   </select>
+  <label class="check"><input type="checkbox" id="newOnly"> 오늘 새 소식만</label>
   <span class="stats" id="stats">167명 표시 중</span>
 </div>
 <div class="table-wrap">
@@ -60,1169 +72,1169 @@ tr.hidden { display: none; }
   <th>시·군</th><th>선거구</th><th>당선자</th><th>정당</th><th>득표율</th><th>관련 뉴스</th>
 </tr></thead>
 <tbody id="tbody">
-<tr data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+<tr class="" data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>수원시</td>
       <td>수원시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">최상규</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">54.7%</td>
       <td class="news-cell"><a href="https://www.public25.com/news/articleView.html?idxno=47733" target="_blank" class="news-link">[부고] 최상규씨(제12대 경기도의회 의원 당선인) 장모상</a><span class="news-date">2026-06-04</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>수원시</td>
       <td>수원시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">박옥분</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">62.5%</td>
       <td class="news-cell"><a href="https://www.newstnt.com/news/articleView.html?idxno=706575" target="_blank" class="news-link">박옥분 경기도의원, 스쿨존 탄력 속도제한 건의안 통과</a><span class="news-date">2026-06-16</span><a href="https://n.news.naver.com/mnews/article/421/0009006776?sid=102" target="_blank" class="news-link">박옥분, 제12대 경기도의회 의장 불출마…&quot;남종섭 지지&quot;</a><span class="news-date">2026-06-16</span><a href="http://www.hansbiz.co.kr/news/articleView.html?idxno=844618" target="_blank" class="news-link">박옥분 경기도의원, 의장 선거 불출마 선언</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>수원시</td>
       <td>수원시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">한운옥</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.2%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>수원시</td>
       <td>수원시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">장한별</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.8%</td>
       <td class="news-cell"><a href="http://www.newstown.co.kr/news/articleView.html?idxno=706103" target="_blank" class="news-link">경기도의회 교육행정연구회, AI 기반 교육재정 분석 활용 가능성 제시</a><span class="news-date">2026-06-15</span><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264970" target="_blank" class="news-link">경기도의회 교육행정연구회, AI 교육재정 연구 최종보고회 개최</a><span class="news-date">2026-06-14</span><a href="https://n.news.naver.com/mnews/article/030/0003437244?sid=100" target="_blank" class="news-link">경기도의회 교육행정연구회, AI 교육재정 분석 연구 최종보고회 개최</a><span class="news-date">2026-06-13</span></td>
-    </tr><tr data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>수원시</td>
       <td>수원시 제5선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">황수영</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.9%</td>
       <td class="news-cell"><a href="https://www.newspim.com/news/view/20260616000244" target="_blank" class="news-link">경기도의회 민주당, 22일 전반기 대표의원·의장단 후보 선출</a><span class="news-date">2026-06-16</span><a href="https://www.m-i.kr/news/articleView.html?idxno=1381832" target="_blank" class="news-link">경기도의회 제12대 원 구성 주도권 경쟁 점화… 민주 22일· 국힘 24일 대표</a><span class="news-date">2026-06-16</span><a href="http://www.joygm.com/news/articleView.html?idxno=215238" target="_blank" class="news-link">167석 중 144석...경기도의회 민주당, 전반기 대표의원 및 의장단 후보 선출</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>수원시</td>
       <td>수원시 제6선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">최찬민</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">53.5%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>수원시</td>
       <td>수원시 제7선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">최종현</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">54.4%</td>
       <td class="news-cell"><a href="https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606161030529090505" target="_blank" class="news-link">경기도의회 더불어민주당, 전반기 의장ㆍ 대표의원 선출 본격 준비 나서</a><span class="news-date">2026-06-16</span><a href="https://www.newspim.com/news/view/20260616000244" target="_blank" class="news-link">경기도의회 민주당, 22일 전반기 대표의원·의장단 후보 선출</a><span class="news-date">2026-06-16</span><a href="http://www.enewstoday.co.kr/news/articleView.html?idxno=2439078" target="_blank" class="news-link">경기도의회 민주당, 22일 대표의원·의장단 후보 선출</a><span class="news-date">2026-06-15</span></td>
-    </tr><tr data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>수원시</td>
       <td>수원시 제8선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">채명기</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">56.2%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="수원시" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="수원시" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>수원시</td>
       <td>수원시 제9선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이오수</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">50.2%</td>
       <td class="news-cell"><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1265313" target="_blank" class="news-link">이오수 경기도의원, 경기미 김밥 페스타서 소비 확대 강조</a><span class="news-date">2026-06-15</span><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1265316" target="_blank" class="news-link">이오수 경기도의원, 경기도지사배 경주대회서 말산업 발전 강조</a><span class="news-date">2026-06-15</span><a href="https://www.ekn.kr/web/view.php?key=20260616020173465" target="_blank" class="news-link">[브리프] 경기도의회 6월 15일 주요 의정 소식</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>수원시</td>
       <td>수원시 제10선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">조명자</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">53.1%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>수원시</td>
       <td>수원시 제11선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">장정희</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">58.9%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="수원시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>수원시</td>
       <td>수원시 제12선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이병숙</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">56.9%</td>
       <td class="news-cell"><a href="https://www.newspim.com/news/view/20260616000244" target="_blank" class="news-link">경기도의회 민주당, 22일 전반기 대표의원·의장단 후보 선출</a><span class="news-date">2026-06-16</span><a href="https://www.m-i.kr/news/articleView.html?idxno=1381832" target="_blank" class="news-link">경기도의회 제12대 원 구성 주도권 경쟁 점화… 민주 22일· 국힘 24일 대표</a><span class="news-date">2026-06-16</span><a href="http://www.joygm.com/news/articleView.html?idxno=215238" target="_blank" class="news-link">167석 중 144석...경기도의회 민주당, 전반기 대표의원 및 의장단 후보 선출</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>고양시</td>
       <td>고양시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">임유진</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.1%</td>
       <td class="news-cell"><a href="http://www.mygoyang.com/news/articleView.html?idxno=89026" target="_blank" class="news-link">&quot;준비된 신인, 실적으로 답하겠다&quot;</a><span class="news-date">2026-06-10</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>고양시</td>
       <td>고양시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">변재석</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.0%</td>
       <td class="news-cell"><a href="http://www.newstown.co.kr/news/articleView.html?idxno=706103" target="_blank" class="news-link">경기도의회 교육행정연구회, AI 기반 교육재정 분석 활용 가능성 제시</a><span class="news-date">2026-06-15</span><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264970" target="_blank" class="news-link">경기도의회 교육행정연구회, AI 교육재정 연구 최종보고회 개최</a><span class="news-date">2026-06-14</span><a href="https://n.news.naver.com/mnews/article/030/0003437244?sid=100" target="_blank" class="news-link">경기도의회 교육행정연구회, AI 교육재정 분석 연구 최종보고회 개최</a><span class="news-date">2026-06-13</span></td>
-    </tr><tr data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>고양시</td>
       <td>고양시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">류기준</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.5%</td>
       <td class="news-cell"><a href="http://www.mygoyang.com/news/articleView.html?idxno=89056" target="_blank" class="news-link">발로 뛴 &#x27;원팀&#x27; 선거… 초선답지 않은 성과로 보답할 것</a><span class="news-date">2026-06-11</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>고양시</td>
       <td>고양시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">최규진</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.4%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://n.news.naver.com/mnews/article/421/0008988760?sid=102" target="_blank" class="news-link">고양시 광역의원 12석 민주당 &#x27;싹쓸이&#x27;…추미애 도정과 시너지 기대</a><span class="news-date">2026-06-06</span></td>
-    </tr><tr data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>고양시</td>
       <td>고양시 제5선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">정연일</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">63.6%</td>
       <td class="news-cell"><a href="http://www.mygoyang.com/news/articleView.html?idxno=89055" target="_blank" class="news-link">향동·덕은 교통 문제 투트랙으로 해결하겠다</a><span class="news-date">2026-06-11</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>고양시</td>
       <td>고양시 제6선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">송규근</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">62.5%</td>
       <td class="news-cell"><a href="http://www.mygoyang.com/news/articleView.html?idxno=89054" target="_blank" class="news-link">삼송·원흥·지축·창릉 통합생활권 완성할 것</a><span class="news-date">2026-06-11</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>고양시</td>
       <td>고양시 제7선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김해련</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">58.8%</td>
       <td class="news-cell"><a href="http://www.mygoyang.com/news/articleView.html?idxno=89009" target="_blank" class="news-link">고양포럼 &#x27;6·3 지방선거 당선인과의 대화&#x27; 15일 개최</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://n.news.naver.com/mnews/article/421/0008988760?sid=102" target="_blank" class="news-link">고양시 광역의원 12석 민주당 &#x27;싹쓸이&#x27;…추미애 도정과 시너지 기대</a><span class="news-date">2026-06-06</span></td>
-    </tr><tr data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>고양시</td>
       <td>고양시 제8선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이성한</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.8%</td>
       <td class="news-cell"><a href="http://www.mygoyang.com/news/articleView.html?idxno=89053" target="_blank" class="news-link">국회·도·시 협력으로 고양 미래 성장동력 구축할 것</a><span class="news-date">2026-06-11</span><a href="http://www.mygoyang.com/news/articleView.html?idxno=89009" target="_blank" class="news-link">고양포럼 &#x27;6·3 지방선거 당선인과의 대화&#x27; 15일 개최</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>고양시</td>
       <td>고양시 제9선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이기대</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">58.2%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728003" target="_blank" class="news-link">[6.3 지방선거] 고양시 경기도의원 12명 모두 민주당 당선…도정 연계 힘</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>고양시</td>
       <td>고양시 제10선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">고은정</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">61.6%</td>
       <td class="news-cell"><a href="http://www.weeklytoday.com/news/articleView.html?idxno=780234" target="_blank" class="news-link">[위클리오늘] 제11대 경기도의회 후반기 경제노동위원회, 의정활동 성공</a><span class="news-date">2026-06-16</span><a href="http://www.metroseoul.co.kr/article/20260615500565" target="_blank" class="news-link">경기도시장상권진흥원, 경제노동위에 주요 사업 보고</a><span class="news-date">2026-06-16</span><a href="http://www.weeklytoday.com/news/articleView.html?idxno=780064" target="_blank" class="news-link">[위클리오늘] 경상원, 경기도의회 경노위와 소상공인ㆍ전통시장 현안 논의</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>고양시</td>
       <td>고양시 제11선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김운남</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.9%</td>
       <td class="news-cell"><a href="https://www.newspim.com/news/view/20260616000244" target="_blank" class="news-link">경기도의회 민주당, 22일 전반기 대표의원·의장단 후보 선출</a><span class="news-date">2026-06-16</span><a href="https://www.m-i.kr/news/articleView.html?idxno=1381832" target="_blank" class="news-link">경기도의회 제12대 원 구성 주도권 경쟁 점화… 민주 22일· 국힘 24일 대표</a><span class="news-date">2026-06-16</span><a href="http://www.joygm.com/news/articleView.html?idxno=215238" target="_blank" class="news-link">167석 중 144석...경기도의회 민주당, 전반기 대표의원 및 의장단 후보 선출</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="고양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>고양시</td>
       <td>고양시 제12선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이윤승</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.5%</td>
       <td class="news-cell"><a href="http://www.mygoyang.com/news/articleView.html?idxno=89030" target="_blank" class="news-link">&quot;시의장 출신, 실질적 변화와 성과로 보답할 것&quot;</a><span class="news-date">2026-06-11</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="http://www.mygoyang.com/news/articleView.html?idxno=88968" target="_blank" class="news-link">고양시 경기도의원 12석, 민주당 싹쓸이</a><span class="news-date">2026-06-05</span></td>
-    </tr><tr data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>용인시</td>
       <td>용인시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">한영수</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.1%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>용인시</td>
       <td>용인시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김성태</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">52.8%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>용인시</td>
       <td>용인시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">남종섭</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">무투표</td>
       <td class="news-cell"><a href="https://n.news.naver.com/mnews/article/421/0009006776?sid=102" target="_blank" class="news-link">박옥분, 제12대 경기도의회 의장 불출마…&quot;남종섭 지지&quot;</a><span class="news-date">2026-06-16</span><a href="http://www.hansbiz.co.kr/news/articleView.html?idxno=844618" target="_blank" class="news-link">박옥분 경기도의원, 의장 선거 불출마 선언</a><span class="news-date">2026-06-16</span><a href="https://n.news.naver.com/mnews/article/003/0014009680?sid=102" target="_blank" class="news-link">박옥분 의원, 경기도의회 의장 선거 불출마…&quot;4선 무게는 권한 아닌 책임&quot;</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>용인시</td>
       <td>용인시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">전자영</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.2%</td>
       <td class="news-cell"><a href="https://www.kgnews.co.kr/news/article.html?no=899862" target="_blank" class="news-link">[추미애號 새로운 경기도 完] &#x27;여대야소&#x27; 날개 단 秋, 민생 중심 성과</a><span class="news-date">2026-06-14</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728551" target="_blank" class="news-link">&#x27;압도적 다수&#x27; 도의회 민주 대표의원 누구… 안광률vs최만식 선거전 돌입</a><span class="news-date">2026-06-11</span><a href="https://n.news.naver.com/mnews/article/666/0000110914?sid=100" target="_blank" class="news-link">경기도의회, 학교운동장 패러다임 전환 모색…&quot;체육시설 넘어 다기능&quot;</a><span class="news-date">2026-06-11</span></td>
-    </tr><tr data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>용인시</td>
       <td>용인시 제5선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">채명신</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.6%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="용인시" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="용인시" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>용인시</td>
       <td>용인시 제6선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김선희</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">51.5%</td>
       <td class="news-cell"><a href="http://www.doctorstimes.com/news/articleView.html?idxno=238575" target="_blank" class="news-link">6·3 지방선거 보건의료인 출신 30명 당선</a><span class="news-date">2026-06-16</span><a href="https://n.news.naver.com/mnews/article/666/0000110753?sid=100" target="_blank" class="news-link">경기도의회 국민의힘, 12대 대표 선출 19일 당선인 총회 후 본격화</a><span class="news-date">2026-06-10</span><a href="http://www.enewstoday.co.kr/news/articleView.html?idxno=2437303" target="_blank" class="news-link">경기도의회, 홍보 혁신 이끈 의정홍보위원회 활동 종료</a><span class="news-date">2026-06-09</span></td>
-    </tr><tr data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>용인시</td>
       <td>용인시 제7선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김용찬</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">52.6%</td>
       <td class="news-cell"><a href="https://www.newspim.com/news/view/20260616000244" target="_blank" class="news-link">경기도의회 민주당, 22일 전반기 대표의원·의장단 후보 선출</a><span class="news-date">2026-06-16</span><a href="https://www.m-i.kr/news/articleView.html?idxno=1381832" target="_blank" class="news-link">경기도의회 제12대 원 구성 주도권 경쟁 점화… 민주 22일· 국힘 24일 대표</a><span class="news-date">2026-06-16</span><a href="http://www.joygm.com/news/articleView.html?idxno=215238" target="_blank" class="news-link">167석 중 144석...경기도의회 민주당, 전반기 대표의원 및 의장단 후보 선출</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>용인시</td>
       <td>용인시 제8선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이건한</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">54.4%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>용인시</td>
       <td>용인시 제9선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">고찬석</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">54.1%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>용인시</td>
       <td>용인시 제10선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">우현욱</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">53.6%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="용인시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>용인시</td>
       <td>용인시 제11선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">엄교섭</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">54.8%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>화성시</td>
       <td>화성시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이홍근</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">62.4%</td>
       <td class="news-cell"><a href="https://www.joongboo.com/news/articleView.html?idxno=363728461" target="_blank" class="news-link">안광률 &quot;제12대 도의회 민주당 원내대표 도전… 성과로 증명하겠다&quot;</a><span class="news-date">2026-06-11</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.kgnews.co.kr/news/article.html?no=899011" target="_blank" class="news-link">다시 선택받은 도의원 55명…연임 성공한 의원 지난 의정활동 성적표는</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>화성시</td>
       <td>화성시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">오현정</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">52.6%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>화성시</td>
       <td>화성시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김영훈</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.8%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>화성시</td>
       <td>화성시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">신미숙</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.6%</td>
       <td class="news-cell"><a href="https://www.joongboo.com/news/articleView.html?idxno=363728551" target="_blank" class="news-link">&#x27;압도적 다수&#x27; 도의회 민주 대표의원 누구… 안광률vs최만식 선거전 돌입</a><span class="news-date">2026-06-11</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728461" target="_blank" class="news-link">안광률 &quot;제12대 도의회 민주당 원내대표 도전… 성과로 증명하겠다&quot;</a><span class="news-date">2026-06-11</span><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264075" target="_blank" class="news-link">안명규 경기도의원, 조례시행추진관리단 해단식 참석</a><span class="news-date">2026-06-10</span></td>
-    </tr><tr data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>화성시</td>
       <td>화성시 제5선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김태형</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">56.0%</td>
       <td class="news-cell"><a href="https://www.newspim.com/news/view/20260616000244" target="_blank" class="news-link">경기도의회 민주당, 22일 전반기 대표의원·의장단 후보 선출</a><span class="news-date">2026-06-16</span><a href="https://www.m-i.kr/news/articleView.html?idxno=1381832" target="_blank" class="news-link">경기도의회 제12대 원 구성 주도권 경쟁 점화… 민주 22일· 국힘 24일 대표</a><span class="news-date">2026-06-16</span><a href="http://www.joygm.com/news/articleView.html?idxno=215238" target="_blank" class="news-link">167석 중 144석...경기도의회 민주당, 전반기 대표의원 및 의장단 후보 선출</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>화성시</td>
       <td>화성시 제6선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김회철</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">무투표</td>
       <td class="news-cell"><a href="http://www.newstown.co.kr/news/articleView.html?idxno=706103" target="_blank" class="news-link">경기도의회 교육행정연구회, AI 기반 교육재정 분석 활용 가능성 제시</a><span class="news-date">2026-06-15</span><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264970" target="_blank" class="news-link">경기도의회 교육행정연구회, AI 교육재정 연구 최종보고회 개최</a><span class="news-date">2026-06-14</span><a href="https://n.news.naver.com/mnews/article/030/0003437244?sid=100" target="_blank" class="news-link">경기도의회 교육행정연구회, AI 교육재정 분석 연구 최종보고회 개최</a><span class="news-date">2026-06-13</span></td>
-    </tr><tr data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>화성시</td>
       <td>화성시 제7선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이진형</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.6%</td>
       <td class="news-cell"><a href="http://www.doctorstimes.com/news/articleView.html?idxno=238575" target="_blank" class="news-link">6·3 지방선거 보건의료인 출신 30명 당선</a><span class="news-date">2026-06-16</span><a href="https://www.newscj.com/news/articleView.html?idxno=3409313" target="_blank" class="news-link">최만식, 민주당 대표의원 출마 선언</a><span class="news-date">2026-06-15</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728461" target="_blank" class="news-link">안광률 &quot;제12대 도의회 민주당 원내대표 도전… 성과로 증명하겠다&quot;</a><span class="news-date">2026-06-11</span></td>
-    </tr><tr data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>화성시</td>
       <td>화성시 제8선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김영수</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">무투표</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.safetimes.co.kr/news/articleView.html?idxno=243308" target="_blank" class="news-link">[오늘의 주요일정·9일] 김민석 국무총리 비상경제본부회의</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="화성시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>화성시</td>
       <td>화성시 제9선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">오진택</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.1%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="성남시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="성남시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>성남시</td>
       <td>성남시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">문승호</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.8%</td>
       <td class="news-cell"><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1265309" target="_blank" class="news-link">문승호 경기도의원, &quot;소외되는 교육구성원 없도록 살펴야&quot;</a><span class="news-date">2026-06-15</span><a href="https://www.m-i.kr/news/articleView.html?idxno=1381366" target="_blank" class="news-link">문승호 경기도의원 &quot;경기교육, 소외되는 교육구성원 없게 세심히 살펴야...</a><span class="news-date">2026-06-15</span><a href="https://www.asiatime.co.kr/article/20260615500148" target="_blank" class="news-link">경기도의회 교육 재정·학교 현안 집중 점검… &quot;예산운용부터 교육환경...</a><span class="news-date">2026-06-15</span></td>
-    </tr><tr data-city="성남시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="성남시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>성남시</td>
       <td>성남시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">최만식</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">58.7%</td>
       <td class="news-cell"><a href="http://www.metroseoul.co.kr/article/20260615500593" target="_blank" class="news-link">경기도의회 최만식 의원, 민주당 대표의원 출마 선언</a><span class="news-date">2026-06-16</span><a href="https://www.thereport.co.kr/news/articleView.html?idxno=88788" target="_blank" class="news-link">민주당은 &#x27;운영 능력&#x27;, 국민의힘은 &#x27;협상력&#x27;… 12대 경기도의회 원구성...</a><span class="news-date">2026-06-16</span><a href="https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606161030529090505" target="_blank" class="news-link">경기도의회 더불어민주당, 전반기 의장ㆍ 대표의원 선출 본격 준비 나서</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="성남시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="성남시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>성남시</td>
       <td>성남시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">전석훈</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.7%</td>
       <td class="news-cell"><a href="http://www.weeklytoday.com/news/articleView.html?idxno=780023" target="_blank" class="news-link">[위클리오늘] 경기도의회 미래과학협력위원회, 2년 의정활동 마무리</a><span class="news-date">2026-06-15</span><a href="https://n.news.naver.com/mnews/article/081/0003652681?sid=102" target="_blank" class="news-link">경기도의회 미래과학협력위, 후반기 2년 대장정 마무리… 미래산업 제도...</a><span class="news-date">2026-06-15</span><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1265430" target="_blank" class="news-link">경기도의회 미래과학협력위, 후반기 의정활동 마무리</a><span class="news-date">2026-06-15</span></td>
-    </tr><tr data-city="성남시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="성남시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>성남시</td>
       <td>성남시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">국중범</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.0%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.kgnews.co.kr/news/article.html?no=899160" target="_blank" class="news-link">12대 경기도의회, 여전히 50대 중심…청년 줄고 여성 늘었다</a><span class="news-date">2026-06-08</span><a href="https://www.kgnews.co.kr/news/article.html?no=899011" target="_blank" class="news-link">다시 선택받은 도의원 55명…연임 성공한 의원 지난 의정활동 성적표는</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="성남시" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="성남시" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>성남시</td>
       <td>성남시 제5선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">방성환</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">49.1%</td>
       <td class="news-cell"><a href="https://www.thereport.co.kr/news/articleView.html?idxno=88788" target="_blank" class="news-link">민주당은 &#x27;운영 능력&#x27;, 국민의힘은 &#x27;협상력&#x27;… 12대 경기도의회 원구성...</a><span class="news-date">2026-06-16</span><a href="https://www.m-i.kr/news/articleView.html?idxno=1381832" target="_blank" class="news-link">경기도의회 제12대 원 구성 주도권 경쟁 점화… 민주 22일· 국힘 24일 대...</a><span class="news-date">2026-06-16</span><a href="https://www.ekn.kr/web/view.php?key=20260616020173465" target="_blank" class="news-link">[브리프] 경기도의회 6월 15일 주요 의정 소식</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="성남시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="성남시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>성남시</td>
       <td>성남시 제6선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김진명</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">50.5%</td>
       <td class="news-cell"><a href="http://www.globalepic.co.kr/view.php?ud=20260612150142685f69d33b22_29" target="_blank" class="news-link">김진명 경기도의원, &quot;학생 체감하는 교육정책 돼야&quot;</a><span class="news-date">2026-06-13</span><a href="http://www.mediagunpo.co.kr/21492" target="_blank" class="news-link">경기도의회 연구 최종보고회 개최… 군포·산본신도시 포함 1기 신도시...</a><span class="news-date">2026-06-16</span><a href="https://www.asiatime.co.kr/article/20260615500148" target="_blank" class="news-link">경기도의회 교육 재정·학교 현안 집중 점검… &quot;예산운용부터 교육환경...</a><span class="news-date">2026-06-15</span></td>
-    </tr><tr data-city="성남시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="성남시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>성남시</td>
       <td>성남시 제7선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">정종혁</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">50.1%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.kyeongin.com/article/1765013" target="_blank" class="news-link">국민의힘 시장 당선 성남시…경기도의원은 민주당 &#x27;8곳 중 6곳 승리&#x27;</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="성남시" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="성남시" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>성남시</td>
       <td>성남시 제8선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">정용한</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">54.7%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>부천시</td>
       <td>부천시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이선구</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">61.1%</td>
       <td class="news-cell"><a href="https://www.kihoilbo.co.kr/news/articleView.html?idxno=3026077" target="_blank" class="news-link">경기도의회 원 구성 시동 거는 민주당… 지도부 선출 준비 분주</a><span class="news-date">2026-06-15</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728816" target="_blank" class="news-link">경기도의회 민주당, 전반기 의장단·원내대표 선거 일정 확정</a><span class="news-date">2026-06-15</span><a href="https://n.news.naver.com/mnews/article/666/0000111228?sid=100" target="_blank" class="news-link">&#x27;전체 86% 확보&#x27; 경기도의회 민주당 당선인 한 자리에…의장·대표 2파전...</a><span class="news-date">2026-06-15</span></td>
-    </tr><tr data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>부천시</td>
       <td>부천시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">박상현</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">무투표</td>
       <td class="news-cell"><a href="https://www.newsclaim.co.kr/news/articleView.html?idxno=3066629" target="_blank" class="news-link">경기도의회 기재위 차세대 융합기술연구원 방문</a><span class="news-date">2026-06-16</span><a href="https://kpenews.com/View.aspx?No=4114202" target="_blank" class="news-link">경기도의회, 차세대융합기술연구원 현장 방문..도민 활용 극대화 주문</a><span class="news-date">2026-06-16</span><a href="http://www.weeklytoday.com/news/articleView.html?idxno=780109" target="_blank" class="news-link">[위클리오늘] 경기도의회 기획재정위원회, 차세대융합기술연구원 현장...</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>부천시</td>
       <td>부천시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이재영</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">62.0%</td>
       <td class="news-cell"><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264493" target="_blank" class="news-link">이재영 경기도의원 대표발의 경제민주화 조례 개정안 상임위 통과</a><span class="news-date">2026-06-11</span><a href="https://n.news.naver.com/mnews/article/081/0003651534?sid=102" target="_blank" class="news-link">이재영 경기도의원 대표발의 &#x27;경기도 경제민주화 조례&#x27; 일부개정안 상...</a><span class="news-date">2026-06-11</span><a href="https://www.kgnews.co.kr/news/article.html?no=899011" target="_blank" class="news-link">다시 선택받은 도의원 55명…연임 성공한 의원 지난 의정활동 성적표는</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>부천시</td>
       <td>부천시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">명성숙</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">55.7%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>부천시</td>
       <td>부천시 제5선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">최성운</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.8%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>부천시</td>
       <td>부천시 제6선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김동희</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">64.0%</td>
       <td class="news-cell"><a href="https://www.kgnews.co.kr/news/article.html?no=899160" target="_blank" class="news-link">12대 경기도의회, 여전히 50대 중심…청년 줄고 여성 늘었다</a><span class="news-date">2026-06-08</span><a href="https://www.ppss.kr/news/articleView.html?idxno=298094" target="_blank" class="news-link">&#x27;초선 과반·다선 중추&#x27;…제12대 경기도의회, 내달 출범</a><span class="news-date">2026-06-08</span><a href="https://www.kgnews.co.kr/news/article.html?no=899011" target="_blank" class="news-link">다시 선택받은 도의원 55명…연임 성공한 의원 지난 의정활동 성적표는</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>부천시</td>
       <td>부천시 제7선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">유경현</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">62.2%</td>
       <td class="news-cell"><a href="https://www.joongboo.com/news/articleView.html?idxno=363728461" target="_blank" class="news-link">안광률 &quot;제12대 도의회 민주당 원내대표 도전… 성과로 증명하겠다&quot;</a><span class="news-date">2026-06-11</span><a href="https://www.kgnews.co.kr/news/article.html?no=899011" target="_blank" class="news-link">다시 선택받은 도의원 55명…연임 성공한 의원 지난 의정활동 성적표는</a><span class="news-date">2026-06-07</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="부천시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>부천시</td>
       <td>부천시 제8선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">박순희</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">61.9%</td>
       <td class="news-cell"><a href="http://news.lghellovision.net/news/articleView.html?idxno=545310" target="_blank" class="news-link">[미니인터뷰] 박순희 경기도의원 당선인 &quot;재선 시의원 경험 살려 이제는...</a><span class="news-date">2026-06-12</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안산시</td>
       <td>안산시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김동규</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.7%</td>
       <td class="news-cell"><a href="https://www.shinailbo.co.kr/news/articleView.html?idxno=5030988" target="_blank" class="news-link">김동규 경기도의원, 안산교육지원청과 간담회 가져</a><span class="news-date">2026-06-16</span><a href="https://www.newspim.com/news/view/20260616000244" target="_blank" class="news-link">경기도의회 민주당, 22일 전반기 대표의원·의장단 후보 선출</a><span class="news-date">2026-06-16</span><a href="https://www.m-i.kr/news/articleView.html?idxno=1381832" target="_blank" class="news-link">경기도의회 제12대 원 구성 주도권 경쟁 점화… 민주 22일· 국힘 24일 대...</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안산시</td>
       <td>안산시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김태희</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">무투표</td>
       <td class="news-cell"><a href="https://n.news.naver.com/mnews/article/081/0003652897?sid=102" target="_blank" class="news-link">김태희 경기도의원, &#x27;전국 최초 모듈러주택 지원 조례&#x27;로 우수조례 의...</a><span class="news-date">2026-06-16</span><a href="http://www.lawissue.co.kr/view.php?ud=202606151450414084d94aa4ada6_12" target="_blank" class="news-link">김태희 경기도의원, 조례 이행 점검 공로 감사패 수상</a><span class="news-date">2026-06-15</span><a href="https://www.ekn.kr/web/view.php?key=20260616020173465" target="_blank" class="news-link">[브리프] 경기도의회 6월 15일 주요 의정 소식</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안산시</td>
       <td>안산시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">장윤정</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.2%</td>
       <td class="news-cell"><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264967" target="_blank" class="news-link">장윤정 부위원장, 경기도교육청 예산유보 운영 점검… &quot;절감보다 적기 ...</a><span class="news-date">2026-06-14</span><a href="https://www.ekn.kr/web/view.php?key=20260616020173465" target="_blank" class="news-link">[브리프] 경기도의회 6월 15일 주요 의정 소식</a><span class="news-date">2026-06-16</span><a href="https://www.asiatime.co.kr/article/20260615500148" target="_blank" class="news-link">경기도의회 교육 재정·학교 현안 집중 점검… &quot;예산운용부터 교육환경...</a><span class="news-date">2026-06-15</span></td>
-    </tr><tr data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안산시</td>
       <td>안산시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">유재수</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">61.8%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://n.news.naver.com/mnews/article/087/0001197423?sid=100" target="_blank" class="news-link">이광재(평창)·한동훈(춘천연고)·이수희(삼척)·이응우(횡성) 강원 출향...</a><span class="news-date">2026-06-05</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안산시</td>
       <td>안산시 제5선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이은미</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">무투표</td>
       <td class="news-cell"><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1265323" target="_blank" class="news-link">이은미 경기도의원, 안산 소방서비스 강화 대책 점검</a><span class="news-date">2026-06-15</span><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264998" target="_blank" class="news-link">이은미 경기도의원, 안산 소방 인프라 확충 촉구</a><span class="news-date">2026-06-14</span><a href="https://n.news.naver.com/mnews/article/081/0003652109?sid=102" target="_blank" class="news-link">이은미 경기도의원 &quot;수암119안전센터 인력 증원과 안산소방서 이전사업...</a><span class="news-date">2026-06-12</span></td>
-    </tr><tr data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안산시</td>
       <td>안산시 제6선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">박은경</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">62.4%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안산시</td>
       <td>안산시 제7선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">황은화</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">58.9%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안산시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안산시</td>
       <td>안산시 제8선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이철형</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">54.9%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>남양주시</td>
       <td>남양주시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이건희</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.0%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.safetimes.co.kr/news/articleView.html?idxno=243308" target="_blank" class="news-link">[오늘의 주요일정·9일] 김민석 국무총리 비상경제본부회의</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>남양주시</td>
       <td>남양주시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">유병수</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">61.2%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>남양주시</td>
       <td>남양주시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김승기</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.2%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>남양주시</td>
       <td>남양주시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이대한</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">63.6%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>남양주시</td>
       <td>남양주시 제5선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김창식</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.0%</td>
       <td class="news-cell"><a href="https://n.news.naver.com/mnews/article/081/0003652499?sid=102" target="_blank" class="news-link">김창식 경기도의원, 경기도지사배 경주대회 시상자로 참석... &quot;말산업...</a><span class="news-date">2026-06-15</span><a href="https://www.ekn.kr/web/view.php?key=20260616020173465" target="_blank" class="news-link">[브리프] 경기도의회 6월 15일 주요 의정 소식</a><span class="news-date">2026-06-16</span><a href="https://www.asiatime.co.kr/article/20260612500103" target="_blank" class="news-link">경기 공공산후조리원 집행률 4.5%…결산심사서 쏟아진 실효성 주문</a><span class="news-date">2026-06-12</span></td>
-    </tr><tr data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>남양주시</td>
       <td>남양주시 제6선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">유호준</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">61.3%</td>
       <td class="news-cell"><a href="https://n.news.naver.com/mnews/article/081/0003652679?sid=102" target="_blank" class="news-link">유호준 경기도의원, 미등록이주민 체류권 보장 촉구 오체투지 함께해</a><span class="news-date">2026-06-15</span><a href="https://www.kyeongin.com/article/1765334" target="_blank" class="news-link">경기도의회, 전국 첫 &#x27;외국인 노동자 유족 지원&#x27; 조례 의결</a><span class="news-date">2026-06-09</span><a href="https://n.news.naver.com/mnews/article/056/0012196721?sid=102" target="_blank" class="news-link">경기도의회, &#x27;산재사망 외국인유가족 지원조례안&#x27; 전국 최초 의결</a><span class="news-date">2026-06-09</span></td>
-    </tr><tr data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>남양주시</td>
       <td>남양주시 제7선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">장송회</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">55.9%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="남양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>남양주시</td>
       <td>남양주시 제8선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">정현미</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">54.0%</td>
       <td class="news-cell"><a href="https://www.newstnt.com/news/articleView.html?idxno=705509" target="_blank" class="news-link">남양주 정현미, 현역 도의원 꺾고 경기도의회 입성</a><span class="news-date">2026-06-08</span><a href="https://www.kgnews.co.kr/news/article.html?no=899000" target="_blank" class="news-link">정현미, 남양주 제8선거구 도의원 당선…남양주병 첫 여성 경기도의원</a><span class="news-date">2026-06-07</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="안양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안양시</td>
       <td>안양시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김성수</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.2%</td>
       <td class="news-cell"><a href="https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606161030529090505" target="_blank" class="news-link">경기도의회 더불어민주당, 전반기 의장ㆍ 대표의원 선출 본격 준비 나서</a><span class="news-date">2026-06-16</span><a href="https://www.newspim.com/news/view/20260616000244" target="_blank" class="news-link">경기도의회 민주당, 22일 전반기 대표의원·의장단 후보 선출</a><span class="news-date">2026-06-16</span><a href="https://www.m-i.kr/news/articleView.html?idxno=1381832" target="_blank" class="news-link">경기도의회 제12대 원 구성 주도권 경쟁 점화… 민주 22일· 국힘 24일 대...</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="안양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안양시</td>
       <td>안양시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">최경순</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.8%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="http://www.breaknews.com/1212323" target="_blank" class="news-link">[6.3 지방선거] 경기도의회 &#x27;황금분할&#x27; 깨졌다…더불어민주당 압승, ...</a><span class="news-date">2026-06-05</span><a href="https://n.news.naver.com/mnews/article/003/0013989052?sid=102" target="_blank" class="news-link">안양 정치 지형 재편…민주당 도의원 6석 싹쓸이</a><span class="news-date">2026-06-05</span></td>
-    </tr><tr data-city="안양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안양시</td>
       <td>안양시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">윤도희</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">55.4%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="http://www.breaknews.com/1212323" target="_blank" class="news-link">[6.3 지방선거] 경기도의회 &#x27;황금분할&#x27; 깨졌다…더불어민주당 압승, ...</a><span class="news-date">2026-06-05</span><a href="https://n.news.naver.com/mnews/article/003/0013989052?sid=102" target="_blank" class="news-link">안양 정치 지형 재편…민주당 도의원 6석 싹쓸이</a><span class="news-date">2026-06-05</span></td>
-    </tr><tr data-city="안양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안양시</td>
       <td>안양시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">박준모</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">54.9%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="http://www.breaknews.com/1212323" target="_blank" class="news-link">[6.3 지방선거] 경기도의회 &#x27;황금분할&#x27; 깨졌다…더불어민주당 압승, ...</a><span class="news-date">2026-06-05</span><a href="https://n.news.naver.com/mnews/article/003/0013989052?sid=102" target="_blank" class="news-link">안양 정치 지형 재편…민주당 도의원 6석 싹쓸이</a><span class="news-date">2026-06-05</span></td>
-    </tr><tr data-city="안양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안양시</td>
       <td>안양시 제5선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">장민수</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">52.8%</td>
       <td class="news-cell"><a href="http://www.mediagunpo.co.kr/21492" target="_blank" class="news-link">경기도의회 연구 최종보고회 개최… 군포·산본신도시 포함 1기 신도시...</a><span class="news-date">2026-06-16</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728461" target="_blank" class="news-link">안광률 &quot;제12대 도의회 민주당 원내대표 도전… 성과로 증명하겠다&quot;</a><span class="news-date">2026-06-11</span><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264196" target="_blank" class="news-link">정윤경 경기도의회 부의장, 1기 신도시 정비 연구 최종보고회 참석</a><span class="news-date">2026-06-10</span></td>
-    </tr><tr data-city="안양시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안양시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안양시</td>
       <td>안양시 제6선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이채명</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">58.5%</td>
       <td class="news-cell"><a href="https://www.newsclaim.co.kr/news/articleView.html?idxno=3066629" target="_blank" class="news-link">경기도의회 기재위 차세대 융합기술연구원 방문</a><span class="news-date">2026-06-16</span><a href="https://kpenews.com/View.aspx?No=4114202" target="_blank" class="news-link">경기도의회, 차세대융합기술연구원 현장 방문..도민 활용 극대화 주문</a><span class="news-date">2026-06-16</span><a href="http://www.weeklytoday.com/news/articleView.html?idxno=780109" target="_blank" class="news-link">[위클리오늘] 경기도의회 기획재정위원회, 차세대융합기술연구원 현장...</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="평택시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="평택시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>평택시</td>
       <td>평택시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">양경석</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">53.1%</td>
       <td class="news-cell"><a href="https://www.kgnews.co.kr/news/article.html?no=899605" target="_blank" class="news-link">[포토] &#x27;제12대 경기도의회 의원 등록&#x27; 당선인들의 본격 행보</a><span class="news-date">2026-06-11</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="평택시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="평택시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>평택시</td>
       <td>평택시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김명숙</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">55.0%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://n.news.naver.com/mnews/article/421/0008985509?sid=162" target="_blank" class="news-link">경기남부 6·3지선 선거사범 663명 조사…35명 송치</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="평택시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="평택시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>평택시</td>
       <td>평택시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김경옥</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">58.1%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="평택시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="평택시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>평택시</td>
       <td>평택시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">한규찬</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">55.6%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="평택시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="평택시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>평택시</td>
       <td>평택시 제5선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">안계명</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">55.1%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="평택시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="평택시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>평택시</td>
       <td>평택시 제6선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">한승훈</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">52.6%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="시흥시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="시흥시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>시흥시</td>
       <td>시흥시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">안광률</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">무투표</td>
       <td class="news-cell"><a href="https://n.news.naver.com/mnews/article/421/0009005840?sid=102" target="_blank" class="news-link">안광률 경기도의원 &quot;의정활동 뒷받침할 강인한 &#x27;정책 사령탑&#x27; 되겠다&quot;</a><span class="news-date">2026-06-16</span><a href="https://www.thereport.co.kr/news/articleView.html?idxno=88788" target="_blank" class="news-link">민주당은 &#x27;운영 능력&#x27;, 국민의힘은 &#x27;협상력&#x27;… 12대 경기도의회 원구성...</a><span class="news-date">2026-06-16</span><a href="https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606161030529090505" target="_blank" class="news-link">경기도의회 더불어민주당, 전반기 의장ㆍ 대표의원 선출 본격 준비 나서</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="시흥시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="시흥시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>시흥시</td>
       <td>시흥시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">최동식</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">61.5%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://n.news.naver.com/mnews/article/047/0002518490?sid=100" target="_blank" class="news-link">[6.3 지방선거] 무투표·나번 돌풍·재검표 역전… 시흥 지방선거 &#x27;이변...</a><span class="news-date">2026-06-05</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="시흥시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="시흥시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>시흥시</td>
       <td>시흥시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김영훈</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">무투표</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://n.news.naver.com/mnews/article/047/0002518490?sid=100" target="_blank" class="news-link">[6.3 지방선거] 무투표·나번 돌풍·재검표 역전… 시흥 지방선거 &#x27;이변...</a><span class="news-date">2026-06-05</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="시흥시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="시흥시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>시흥시</td>
       <td>시흥시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김종배</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">64.1%</td>
       <td class="news-cell"><a href="https://www.kihoilbo.co.kr/news/articleView.html?idxno=3026077" target="_blank" class="news-link">경기도의회 원 구성 시동 거는 민주당… 지도부 선출 준비 분주</a><span class="news-date">2026-06-15</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728816" target="_blank" class="news-link">경기도의회 민주당, 전반기 의장단·원내대표 선거 일정 확정</a><span class="news-date">2026-06-15</span><a href="https://n.news.naver.com/mnews/article/666/0000111228?sid=100" target="_blank" class="news-link">&#x27;전체 86% 확보&#x27; 경기도의회 민주당 당선인 한 자리에…의장·대표 2파전...</a><span class="news-date">2026-06-15</span></td>
-    </tr><tr data-city="시흥시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="시흥시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>시흥시</td>
       <td>시흥시 제5선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이성원</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">65.0%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://n.news.naver.com/mnews/article/047/0002518490?sid=100" target="_blank" class="news-link">[6.3 지방선거] 무투표·나번 돌풍·재검표 역전… 시흥 지방선거 &#x27;이변...</a><span class="news-date">2026-06-05</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="파주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="파주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>파주시</td>
       <td>파주시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">박은주</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">무투표</td>
       <td class="news-cell"><a href="https://www.ekn.kr/web/view.php?key=20260610027342006" target="_blank" class="news-link">[패트롤] 고양시-김포시-남양주시-양주시-파주시</a><span class="news-date">2026-06-10</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="파주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="파주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>파주시</td>
       <td>파주시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">손희정</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">66.4%</td>
       <td class="news-cell"><a href="https://www.ekn.kr/web/view.php?key=20260610027342006" target="_blank" class="news-link">[패트롤] 고양시-김포시-남양주시-양주시-파주시</a><span class="news-date">2026-06-10</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="파주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="파주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>파주시</td>
       <td>파주시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">손성익</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">63.8%</td>
       <td class="news-cell"><a href="https://www.ekn.kr/web/view.php?key=20260610027342006" target="_blank" class="news-link">[패트롤] 고양시-김포시-남양주시-양주시-파주시</a><span class="news-date">2026-06-10</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="파주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="파주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>파주시</td>
       <td>파주시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김순현</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">52.9%</td>
       <td class="news-cell"><a href="https://www.ekn.kr/web/view.php?key=20260610027342006" target="_blank" class="news-link">[패트롤] 고양시-김포시-남양주시-양주시-파주시</a><span class="news-date">2026-06-10</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="파주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="파주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>파주시</td>
       <td>파주시 제5선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이종춘</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">54.8%</td>
       <td class="news-cell"><a href="https://www.ekn.kr/web/view.php?key=20260610027342006" target="_blank" class="news-link">[패트롤] 고양시-김포시-남양주시-양주시-파주시</a><span class="news-date">2026-06-10</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="의정부시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="의정부시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>의정부시</td>
       <td>의정부시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">유수연</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">56.6%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="의정부시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="의정부시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>의정부시</td>
       <td>의정부시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이영봉</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">56.0%</td>
       <td class="news-cell"><a href="https://www.m-i.kr/news/articleView.html?idxno=1381369" target="_blank" class="news-link">이영봉 경기도의원 &quot;불길 끄는 소방관, 마음의 불은 누가 끄나&quot;</a><span class="news-date">2026-06-15</span><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264969" target="_blank" class="news-link">이영봉 경기도의원, 소방공무원 PTSD 치유시설 조성 제안</a><span class="news-date">2026-06-14</span><a href="https://n.news.naver.com/mnews/article/001/0016141877?sid=102" target="_blank" class="news-link">경기북부소방, 북한산119산악구조팀 개청…상시 출동태세</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="의정부시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="의정부시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>의정부시</td>
       <td>의정부시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김지호</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.7%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://news.ifm.kr/news/articleView.html?idxno=472408" target="_blank" class="news-link">경기도의회 &#x27;여대야소&#x27;로 대격변…민주 144석·국힘 22석·혁신 1석</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="의정부시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="의정부시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>의정부시</td>
       <td>의정부시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">조병진</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.3%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="광명시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="광명시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>광명시</td>
       <td>광명시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">심상록</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.6%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="광명시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="광명시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>광명시</td>
       <td>광명시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">최민</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.2%</td>
       <td class="news-cell"><a href="https://www.newspim.com/news/view/20260615000812" target="_blank" class="news-link">최민 경기도의원 &#x27;교육대전환 인수위&#x27; 합류...&quot;광명 교육현안 해결 로드...</a><span class="news-date">2026-06-15</span><a href="https://www.kgnews.co.kr/news/article.html?no=899011" target="_blank" class="news-link">다시 선택받은 도의원 55명…연임 성공한 의원 지난 의정활동 성적표는</a><span class="news-date">2026-06-07</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="광명시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="광명시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>광명시</td>
       <td>광명시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">유종상</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">58.1%</td>
       <td class="news-cell"><a href="http://www.joygm.com/news/articleView.html?idxno=215230" target="_blank" class="news-link">유종상 도의원, 민간단체 보조금 집행 매뉴얼 시급</a><span class="news-date">2026-06-13</span><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264489" target="_blank" class="news-link">유종상 경기도의원, 수도관 개량사업 집행률 편차 지적</a><span class="news-date">2026-06-11</span><a href="https://n.news.naver.com/mnews/article/081/0003651528?sid=102" target="_blank" class="news-link">유종상 경기도의원, 시군별 극과 극 &#x27;수도관 개량사업&#x27; 질타… &quot;광명...</a><span class="news-date">2026-06-11</span></td>
-    </tr><tr data-city="광명시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="광명시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>광명시</td>
       <td>광명시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김용성</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">61.2%</td>
       <td class="news-cell"><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264776" target="_blank" class="news-link">김용성 경기도의원 &quot;희귀질환자 심리·정서 지원사업, 권역별 운영 필요...</a><span class="news-date">2026-06-13</span><a href="http://www.lawissue.co.kr/view.php?ud=202606121418178431d94aa4ada6_12" target="_blank" class="news-link">김용성 경기도의원, 희귀질환자 지원사업 운영 개선 필요성 제기</a><span class="news-date">2026-06-12</span><a href="https://www.asiatime.co.kr/article/20260612500103" target="_blank" class="news-link">경기 공공산후조리원 집행률 4.5%…결산심사서 쏟아진 실효성 주문</a><span class="news-date">2026-06-12</span></td>
-    </tr><tr data-city="군포시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="군포시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>군포시</td>
       <td>군포시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">성복임</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">58.3%</td>
       <td class="news-cell"><a href="https://www.kgnews.co.kr/news/article.html?no=899173" target="_blank" class="news-link">군포의 새로운 여정 시작… 6·3 지방선거 당선인 &#x27;당선증&#x27; 교부</a><span class="news-date">2026-06-09</span><a href="https://www.kgnews.co.kr/news/article.html?no=899011" target="_blank" class="news-link">다시 선택받은 도의원 55명…연임 성공한 의원 지난 의정활동 성적표는</a><span class="news-date">2026-06-07</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="군포시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="군포시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>군포시</td>
       <td>군포시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">성기황</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">61.0%</td>
       <td class="news-cell"><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264997" target="_blank" class="news-link">성기황 경기도의원, 교육지원청 청사 기준 마련 촉구</a><span class="news-date">2026-06-14</span><a href="http://www.globalepic.co.kr/view.php?ud=2026061215051756335f69d33b22_29" target="_blank" class="news-link">성기황 경기도의원, &quot;교육지원청 신설, 적정 부지 규모 기준 필요&quot;</a><span class="news-date">2026-06-13</span><a href="https://www.asiatime.co.kr/article/20260615500148" target="_blank" class="news-link">경기도의회 교육 재정·학교 현안 집중 점검… &quot;예산운용부터 교육환경...</a><span class="news-date">2026-06-15</span></td>
-    </tr><tr data-city="군포시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="군포시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>군포시</td>
       <td>군포시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김미숙</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.2%</td>
       <td class="news-cell"><a href="http://www.doctorstimes.com/news/articleView.html?idxno=238575" target="_blank" class="news-link">6·3 지방선거 보건의료인 출신 30명 당선</a><span class="news-date">2026-06-16</span><a href="https://www.kihoilbo.co.kr/news/articleView.html?idxno=3026077" target="_blank" class="news-link">경기도의회 원 구성 시동 거는 민주당… 지도부 선출 준비 분주</a><span class="news-date">2026-06-15</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728816" target="_blank" class="news-link">경기도의회 민주당, 전반기 의장단·원내대표 선거 일정 확정</a><span class="news-date">2026-06-15</span></td>
-    </tr><tr data-city="군포시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="군포시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>군포시</td>
       <td>군포시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김귀근</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">무투표</td>
       <td class="news-cell"><a href="https://www.newspim.com/news/view/20260616000244" target="_blank" class="news-link">경기도의회 민주당, 22일 전반기 대표의원·의장단 후보 선출</a><span class="news-date">2026-06-16</span><a href="https://www.m-i.kr/news/articleView.html?idxno=1381832" target="_blank" class="news-link">경기도의회 제12대 원 구성 주도권 경쟁 점화… 민주 22일· 국힘 24일 대...</a><span class="news-date">2026-06-16</span><a href="http://www.joygm.com/news/articleView.html?idxno=215238" target="_blank" class="news-link">167석 중 144석...경기도의회 민주당, 전반기 대표의원 및 의장단 후보 ...</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="김포시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="김포시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>김포시</td>
       <td>김포시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">최명진</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.0%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="김포시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="김포시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>김포시</td>
       <td>김포시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">채신덕</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.4%</td>
       <td class="news-cell"><a href="https://www.newsclaim.co.kr/news/articleView.html?idxno=3066201" target="_blank" class="news-link">김포시장직 인수위 출범… &#x27;시민 대 도약&#x27; 본격 시동</a><span class="news-date">2026-06-11</span><a href="https://www.kihoilbo.co.kr/news/articleView.html?idxno=3025754" target="_blank" class="news-link">민선9기 이기형 김포시장 인수위 본격 출범</a><span class="news-date">2026-06-11</span><a href="https://www.newsfreezone.co.kr/news/articleView.html?idxno=693872" target="_blank" class="news-link">이기형 김포시장 당선인 인수위 출범…&#x27;김포시민 대도약 준비위원회&#x27; 본...</a><span class="news-date">2026-06-10</span></td>
-    </tr><tr data-city="김포시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="김포시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>김포시</td>
       <td>김포시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">신명순</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">56.2%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="김포시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="김포시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>김포시</td>
       <td>김포시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김철환</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">61.3%</td>
       <td class="news-cell"><a href="https://www.newsclaim.co.kr/news/articleView.html?idxno=3066201" target="_blank" class="news-link">김포시장직 인수위 출범… &#x27;시민 대 도약&#x27; 본격 시동</a><span class="news-date">2026-06-11</span><a href="https://www.kihoilbo.co.kr/news/articleView.html?idxno=3025754" target="_blank" class="news-link">민선9기 이기형 김포시장 인수위 본격 출범</a><span class="news-date">2026-06-11</span><a href="https://www.newsfreezone.co.kr/news/articleView.html?idxno=693872" target="_blank" class="news-link">이기형 김포시장 당선인 인수위 출범…&#x27;김포시민 대도약 준비위원회&#x27; 본...</a><span class="news-date">2026-06-10</span></td>
-    </tr><tr data-city="광주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="광주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>광주시</td>
       <td>광주시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">최보라</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">57.5%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="광주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="광주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>광주시</td>
       <td>광주시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">임창휘</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">61.0%</td>
       <td class="news-cell"><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264085" target="_blank" class="news-link">임창휘 경기도의원, 광명시흥 공공주택지구 사업 속도·친환경 공법 촉...</a><span class="news-date">2026-06-10</span><a href="http://www.lawissue.co.kr/view.php?ud=202606101537503513d94aa4ada6_12" target="_blank" class="news-link">경기도, 광명시흥 공공주택사업 속도전 주문… 임창휘 의원 &quot;공급 시기...</a><span class="news-date">2026-06-10</span><a href="https://www.g-enews.com/view.php?ud=2026061009573654908fbfc802b3_1" target="_blank" class="news-link">경기 광명시흥 공공주택사업, 공급 속도 높이고 친환경 전환도 과제로</a><span class="news-date">2026-06-10</span></td>
-    </tr><tr data-city="광주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="광주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>광주시</td>
       <td>광주시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이자형</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">61.1%</td>
       <td class="news-cell"><a href="https://www.joongboo.com/news/articleView.html?idxno=363728461" target="_blank" class="news-link">안광률 &quot;제12대 도의회 민주당 원내대표 도전… 성과로 증명하겠다&quot;</a><span class="news-date">2026-06-11</span><a href="https://www.gukjenews.com/news/articleView.html?idxno=3602638" target="_blank" class="news-link">첫 2000년대생 경기도의원, 주인공은 서인하</a><span class="news-date">2026-06-08</span><a href="https://www.kgnews.co.kr/news/article.html?no=899011" target="_blank" class="news-link">다시 선택받은 도의원 55명…연임 성공한 의원 지난 의정활동 성적표는</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="광주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="광주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>광주시</td>
       <td>광주시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김미경</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">55.0%</td>
       <td class="news-cell"><a href="https://n.news.naver.com/mnews/article/666/0000111440?sid=102" target="_blank" class="news-link">국힘 이주훈 경기도의원 전 후보, 선거소청 제기… &quot;재검표 요구&quot;</a><span class="news-date">2026-06-16</span><a href="https://www.kyeongin.com/article/1765654" target="_blank" class="news-link">경기교육감 선거 &#x27;입력 오류&#x27; 파장… &#x27;광주 제4선거구&#x27; 도의원 선거...</a><span class="news-date">2026-06-16</span><a href="https://www.kyeongin.com/article/1765531" target="_blank" class="news-link">시누이·올케가 나란히 도의원… 광주 정치권 화제</a><span class="news-date">2026-06-14</span></td>
-    </tr><tr data-city="하남시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="하남시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>하남시</td>
       <td>하남시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">오민용</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">52.1%</td>
       <td class="news-cell"><a href="https://n.news.naver.com/mnews/article/047/0002518976?sid=100" target="_blank" class="news-link">시장은 국민의힘, 의회는 민주당 우위… 하남시정 협치 시험대</a><span class="news-date">2026-06-10</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="하남시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="하남시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>하남시</td>
       <td>하남시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">강성삼</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">51.0%</td>
       <td class="news-cell"><a href="https://n.news.naver.com/mnews/article/047/0002518976?sid=100" target="_blank" class="news-link">시장은 국민의힘, 의회는 민주당 우위… 하남시정 협치 시험대</a><span class="news-date">2026-06-10</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="하남시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="하남시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>하남시</td>
       <td>하남시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">오지훈</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.8%</td>
       <td class="news-cell"><a href="https://n.news.naver.com/mnews/article/047/0002518976?sid=100" target="_blank" class="news-link">시장은 국민의힘, 의회는 민주당 우위… 하남시정 협치 시험대</a><span class="news-date">2026-06-10</span><a href="https://www.ekn.kr/web/view.php?key=20260609025501900" target="_blank" class="news-link">[패트롤] 경기도-경지주택도시공사-경기도의회</a><span class="news-date">2026-06-09</span><a href="https://n.news.naver.com/mnews/article/081/0003650943?sid=102" target="_blank" class="news-link">경기도의회 문화체육관광연구회, 공공 문화·체육행사 ESG 접목 연구용역...</a><span class="news-date">2026-06-09</span></td>
-    </tr><tr data-city="하남시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="하남시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>하남시</td>
       <td>하남시 제4선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">방미숙</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">56.2%</td>
       <td class="news-cell"><a href="https://n.news.naver.com/mnews/article/047/0002518976?sid=100" target="_blank" class="news-link">시장은 국민의힘, 의회는 민주당 우위… 하남시정 협치 시험대</a><span class="news-date">2026-06-10</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>양주시</td>
       <td>양주시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">채정선</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">54.0%</td>
       <td class="news-cell"><a href="https://www.joongboo.com/news/articleView.html?idxno=363728047" target="_blank" class="news-link">&#x27;복지통&#x27; 채정선, 현역 프리미엄 뚫고 경기도의회 입성</a><span class="news-date">2026-06-06</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>양주시</td>
       <td>양주시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">정석원</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">58.9%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="양주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>양주시</td>
       <td>양주시 제3선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">최수연</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">63.8%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="동두천시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="동두천시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>동두천시</td>
       <td>동두천시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">안시현</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">52.9%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363727926" target="_blank" class="news-link">동두천, 보수 이미지 벗나…민주당 도의원 석권·시의회 약진, 정치지형...</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="동두천시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="동두천시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>동두천시</td>
       <td>동두천시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">심동용</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">50.8%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363727926" target="_blank" class="news-link">동두천, 보수 이미지 벗나…민주당 도의원 석권·시의회 약진, 정치지형...</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="구리시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="구리시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>구리시</td>
       <td>구리시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">장승희</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">55.1%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.kyeongin.com/article/1765033" target="_blank" class="news-link">민주당이 휩쓴 구리… GH 이전 재추진 주목</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="구리시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="구리시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>구리시</td>
       <td>구리시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">임창열</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">52.6%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.kyeongin.com/article/1765033" target="_blank" class="news-link">민주당이 휩쓴 구리… GH 이전 재추진 주목</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="오산시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="오산시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>오산시</td>
       <td>오산시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김영희</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">60.4%</td>
       <td class="news-cell"><a href="https://www.kihoilbo.co.kr/news/articleView.html?idxno=3025818" target="_blank" class="news-link">KT 경기남부지사, 오산 야맥축제 참여… 전통시장 DX 전환 앞장</a><span class="news-date">2026-06-12</span><a href="https://www.kgnews.co.kr/news/article.html?no=899665" target="_blank" class="news-link">KT 경기남부지사-오색시장, &#x27;야맥축제&#x27; 손잡고 지역사회 동반 성장 가...</a><span class="news-date">2026-06-12</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843173" target="_blank" class="news-link">수원특례시의회, 민주21석 탈환…재선의원 생환 속 세대교체 흐름 뚜렷</a><span class="news-date">2026-06-08</span></td>
-    </tr><tr data-city="오산시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="오산시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>오산시</td>
       <td>오산시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">전예슬</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">59.4%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.asiatime.co.kr/article/20260604500193" target="_blank" class="news-link">경기도의회 &#x27;여야동수&#x27; 넘어 민주당 압도 구도로 재편</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="의왕시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="의왕시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>의왕시</td>
       <td>의왕시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">박근철</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">55.8%</td>
       <td class="news-cell"><a href="https://www.btnnews.tv/news/articleView.html?idxno=90512" target="_blank" class="news-link">의왕 백운사 호국영령 위령재‥12년째 이어온 추모와 나눔</a><span class="news-date">2026-06-15</span><a href="https://www.kihoilbo.co.kr/news/articleView.html?idxno=3025668" target="_blank" class="news-link">경기도의회 원 구성 앞두고 여야 &#x27;물밑 경쟁&#x27; 본격화</a><span class="news-date">2026-06-10</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843520" target="_blank" class="news-link">167석 거대 여당 이끌 경기도의회 의장은 누구…남종섭 대세론 확산</a><span class="news-date">2026-06-10</span></td>
-    </tr><tr data-city="의왕시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="의왕시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>의왕시</td>
       <td>의왕시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">장태환</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">52.4%</td>
       <td class="news-cell"><a href="https://www.ppss.kr/news/articleView.html?idxno=298094" target="_blank" class="news-link">&#x27;초선 과반·다선 중추&#x27;…제12대 경기도의회, 내달 출범</a><span class="news-date">2026-06-08</span><a href="https://www.kihoilbo.co.kr/news/articleView.html?idxno=3025269" target="_blank" class="news-link">제12대 도의회 내달 1일 출범 초선 96명… 과반 &#x27;세대 교체&#x27;</a><span class="news-date">2026-06-07</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="이천시" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="이천시" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>이천시</td>
       <td>이천시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김일중</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">51.5%</td>
       <td class="news-cell"><a href="http://www.newstown.co.kr/news/articleView.html?idxno=706103" target="_blank" class="news-link">경기도의회 교육행정연구회, AI 기반 교육재정 분석 활용 가능성 제시</a><span class="news-date">2026-06-15</span><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1264970" target="_blank" class="news-link">경기도의회 교육행정연구회, AI 교육재정 연구 최종보고회 개최</a><span class="news-date">2026-06-14</span><a href="https://n.news.naver.com/mnews/article/030/0003437244?sid=100" target="_blank" class="news-link">경기도의회 교육행정연구회, AI 교육재정 분석 연구 최종보고회 개최</a><span class="news-date">2026-06-13</span></td>
-    </tr><tr data-city="이천시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="이천시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>이천시</td>
       <td>이천시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김인영</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">50.6%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363727951" target="_blank" class="news-link">파랗게 물든 제12대 경기도의회… 민주당, &#x27;거대여당&#x27; 지위 회복</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="안성시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안성시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안성시</td>
       <td>안성시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이주현</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">56.6%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.kgnews.co.kr/news/article.html?no=898928" target="_blank" class="news-link">민주당 안성 당선자들 첫 행보…광복사·현충탑 참배하며 초심 다짐</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="안성시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="안성시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>안성시</td>
       <td>안성시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">백승기</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">52.0%</td>
       <td class="news-cell"><a href="https://www.joongboo.com/news/articleView.html?idxno=363728461" target="_blank" class="news-link">안광률 &quot;제12대 도의회 민주당 원내대표 도전… 성과로 증명하겠다&quot;</a><span class="news-date">2026-06-11</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.kgnews.co.kr/news/article.html?no=898928" target="_blank" class="news-link">민주당 안성 당선자들 첫 행보…광복사·현충탑 참배하며 초심 다짐</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="포천시" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="포천시" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>포천시</td>
       <td>포천시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">윤충식</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">56.0%</td>
       <td class="news-cell"><a href="https://www.newspim.com/news/view/20260615001203" target="_blank" class="news-link">[인터뷰] 윤충식 경기도의원 &quot;규제 묶인 포천 접경지, 기회의 땅으로 바...</a><span class="news-date">2026-06-15</span><a href="http://www.weeklytoday.com/news/articleView.html?idxno=780023" target="_blank" class="news-link">[위클리오늘] 경기도의회 미래과학협력위원회, 2년 의정활동 마무리</a><span class="news-date">2026-06-15</span><a href="https://n.news.naver.com/mnews/article/081/0003652681?sid=102" target="_blank" class="news-link">경기도의회 미래과학협력위, 후반기 2년 대장정 마무리… 미래산업 제도...</a><span class="news-date">2026-06-15</span></td>
-    </tr><tr data-city="포천시" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="포천시" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>포천시</td>
       <td>포천시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김성남</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">49.0%</td>
       <td class="news-cell"><a href="https://www.joongboo.com/news/articleView.html?idxno=363728423" target="_blank" class="news-link">의석 줄어든 도의회 국힘, 19일 당선인총회 진행… 대표의원 선거전 &#x27;본...</a><span class="news-date">2026-06-10</span><a href="https://www.kgnews.co.kr/news/article.html?no=899439" target="_blank" class="news-link">12대 경기도의회 출범 앞두고 의장단 후보군 윤곽</a><span class="news-date">2026-06-10</span><a href="https://n.news.naver.com/mnews/article/666/0000110753?sid=100" target="_blank" class="news-link">경기도의회 국민의힘, 12대 대표 선출 19일 당선인 총회 후 본격화</a><span class="news-date">2026-06-10</span></td>
-    </tr><tr data-city="여주시" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="여주시" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>여주시</td>
       <td>여주시 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">서광범</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">55.6%</td>
       <td class="news-cell"><a href="https://n.news.naver.com/mnews/article/081/0003651673?sid=102" target="_blank" class="news-link">서광범 경기도의원, 반려문화 협약 환영…&quot;반려마루 여주 실질 활성화...</a><span class="news-date">2026-06-11</span><a href="https://www.asiatime.co.kr/article/20260612500103" target="_blank" class="news-link">경기 공공산후조리원 집행률 4.5%…결산심사서 쏟아진 실효성 주문</a><span class="news-date">2026-06-12</span><a href="https://n.news.naver.com/mnews/article/666/0000110753?sid=100" target="_blank" class="news-link">경기도의회 국민의힘, 12대 대표 선출 19일 당선인 총회 후 본격화</a><span class="news-date">2026-06-10</span></td>
-    </tr><tr data-city="여주시" data-party="더불어민주당" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="여주시" data-party="더불어민주당" data-type="지역구" data-has-news="true" data-new="false">
       <td>여주시</td>
       <td>여주시 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">유필선</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">51.1%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span><a href="https://n.news.naver.com/mnews/article/666/0000110028?sid=100" target="_blank" class="news-link">여주시민의 선택은 &#x27;절묘한 균형&#x27;…시의회 3대3·도의회 여야 양분</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="양평군" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="양평군" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>양평군</td>
       <td>양평군 제1선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">윤순옥</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">50.5%</td>
       <td class="news-cell"><a href="https://m.sports.naver.com/general/article/450/0000151841" target="_blank" class="news-link">양평군, &#x27;제28회 양평 이봉주마라톤대회 성료</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.kihoilbo.co.kr/news/articleView.html?idxno=3025473" target="_blank" class="news-link">양평군 새마을회, 클린농촌 특공대 발대식</a><span class="news-date">2026-06-09</span></td>
-    </tr><tr data-city="양평군" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="양평군" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>양평군</td>
       <td>양평군 제2선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">이혜원</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">56.4%</td>
       <td class="news-cell"><a href="https://www.newsclaim.co.kr/news/articleView.html?idxno=3066629" target="_blank" class="news-link">경기도의회 기재위 차세대 융합기술연구원 방문</a><span class="news-date">2026-06-16</span><a href="https://www.thereport.co.kr/news/articleView.html?idxno=88788" target="_blank" class="news-link">민주당은 &#x27;운영 능력&#x27;, 국민의힘은 &#x27;협상력&#x27;… 12대 경기도의회 원구성...</a><span class="news-date">2026-06-16</span><a href="https://kpenews.com/View.aspx?No=4114202" target="_blank" class="news-link">경기도의회, 차세대융합기술연구원 현장 방문..도민 활용 극대화 주문</a><span class="news-date">2026-06-16</span></td>
-    </tr><tr data-city="과천시" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="과천시" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>과천시</td>
       <td>과천시 선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">김현석</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">54.7%</td>
       <td class="news-cell"><a href="https://n.news.naver.com/mnews/article/081/0003652114?sid=102" target="_blank" class="news-link">김현석 경기도의원 &quot;공립유치원 공동구매 간식, 가공식품 편중 탈피하...</a><span class="news-date">2026-06-12</span><a href="https://www.g-enews.com/view.php?ud=2026061212453936278fbfc802b3_1" target="_blank" class="news-link">김현석 경기도의원 &quot;공립유치원 간식, 편리함에 갇혔다&quot;…공구 후 가공...</a><span class="news-date">2026-06-12</span><a href="https://www.asiatime.co.kr/article/20260615500148" target="_blank" class="news-link">경기도의회 교육 재정·학교 현안 집중 점검… &quot;예산운용부터 교육환경...</a><span class="news-date">2026-06-15</span></td>
-    </tr><tr data-city="연천군" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="연천군" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>연천군</td>
       <td>연천군 선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">윤종영</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">52.7%</td>
       <td class="news-cell"><a href="https://www.thereport.co.kr/news/articleView.html?idxno=88788" target="_blank" class="news-link">민주당은 &#x27;운영 능력&#x27;, 국민의힘은 &#x27;협상력&#x27;… 12대 경기도의회 원구성...</a><span class="news-date">2026-06-16</span><a href="https://www.kyeongin.com/article/1765487" target="_blank" class="news-link">제12대 경기도의회 원 구성 시동… 여야 대표의원 선거 레이스</a><span class="news-date">2026-06-11</span><a href="https://www.kihoilbo.co.kr/news/articleView.html?idxno=3025668" target="_blank" class="news-link">경기도의회 원 구성 앞두고 여야 &#x27;물밑 경쟁&#x27; 본격화</a><span class="news-date">2026-06-10</span></td>
-    </tr><tr data-city="가평군" data-party="국민의힘" data-type="지역구" data-has-news="true">
+    </tr><tr class="" data-city="가평군" data-party="국민의힘" data-type="지역구" data-has-news="true" data-new="false">
       <td>가평군</td>
       <td>가평군 선거구<span class="type-tag">지역구</span></td>
       <td class="name-cell">박영선</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">55.4%</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 1번<span class="type-tag">비례</span></td>
       <td class="name-cell">서인하</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.gukjenews.com/news/articleView.html?idxno=3602638" target="_blank" class="news-link">첫 2000년대생 경기도의원, 주인공은 서인하</a><span class="news-date">2026-06-08</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.kgnews.co.kr/news/article.html?no=899160" target="_blank" class="news-link">12대 경기도의회, 여전히 50대 중심…청년 줄고 여성 늘었다</a><span class="news-date">2026-06-08</span></td>
-    </tr><tr data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 2번<span class="type-tag">비례</span></td>
       <td class="name-cell">김현덕</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 3번<span class="type-tag">비례</span></td>
       <td class="name-cell">서혜진</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.taxtimes.co.kr/news/article.html?no=275551" target="_blank" class="news-link">이재실 중부지방세무사회장 &quot;보수표 제정, 최우선 과제&quot;</a><span class="news-date">2026-06-16</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 4번<span class="type-tag">비례</span></td>
       <td class="name-cell">최혜경</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 5번<span class="type-tag">비례</span></td>
       <td class="name-cell">지영일</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.joongboo.com/news/articleView.html?idxno=363728654" target="_blank" class="news-link">[사람in] 지영일 대한주택관리사협회 경기도회장 &quot;집=삶의 근간, 편안한...</a><span class="news-date">2026-06-14</span><a href="https://www.hapt.co.kr/news/articleView.html?idxno=168698" target="_blank" class="news-link">&quot;제재보다 지원을…&quot; 현장이 원하는 공동주택관리지원센터는?</a><span class="news-date">2026-06-10</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span></td>
-    </tr><tr data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 6번<span class="type-tag">비례</span></td>
       <td class="name-cell">박정균</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 7번<span class="type-tag">비례</span></td>
       <td class="name-cell">최순자</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 8번<span class="type-tag">비례</span></td>
       <td class="name-cell">송연섭</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 9번<span class="type-tag">비례</span></td>
       <td class="name-cell">이미정</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 10번<span class="type-tag">비례</span></td>
       <td class="name-cell">김성기</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://news.skbroadband.com/news/articleView.html?idxno=229404" target="_blank" class="news-link">정책 조력자에서 의원으로…경기도의회 비례대표 21명은?</a><span class="news-date">2026-06-15</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="더불어민주당" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 11번<span class="type-tag">비례</span></td>
       <td class="name-cell">장경임</td>
       <td><span class="badge" style="background:#0052A5">더불어민주당</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.kyeongin.com/article/1765531" target="_blank" class="news-link">시누이·올케가 나란히 도의원… 광주 정치권 화제</a><span class="news-date">2026-06-14</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 1번<span class="type-tag">비례</span></td>
       <td class="name-cell">이지혜</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 2번<span class="type-tag">비례</span></td>
       <td class="name-cell">오남석</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://news.skbroadband.com/news/articleView.html?idxno=229404" target="_blank" class="news-link">정책 조력자에서 의원으로…경기도의회 비례대표 21명은?</a><span class="news-date">2026-06-15</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span></td>
-    </tr><tr data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 3번<span class="type-tag">비례</span></td>
       <td class="name-cell">최미금</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 4번<span class="type-tag">비례</span></td>
       <td class="name-cell">김한슬</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 5번<span class="type-tag">비례</span></td>
       <td class="name-cell">최지원</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 6번<span class="type-tag">비례</span></td>
       <td class="name-cell">권태익</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 7번<span class="type-tag">비례</span></td>
       <td class="name-cell">금종례</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.joongboo.com/news/articleView.html?idxno=363728423" target="_blank" class="news-link">의석 줄어든 도의회 국힘, 19일 당선인총회 진행… 대표의원 선거전 &#x27;본...</a><span class="news-date">2026-06-10</span><a href="https://www.kgnews.co.kr/news/article.html?no=899439" target="_blank" class="news-link">12대 경기도의회 출범 앞두고 의장단 후보군 윤곽</a><span class="news-date">2026-06-10</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span></td>
-    </tr><tr data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 8번<span class="type-tag">비례</span></td>
       <td class="name-cell">김진후</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="국민의힘" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 9번<span class="type-tag">비례</span></td>
       <td class="name-cell">국은주</td>
       <td><span class="badge" style="background:#E61E2B">국민의힘</span></td>
       <td class="rate-cell">정당비례</td>
       <td class="news-cell"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843355" target="_blank" class="news-link">&#x27;파란 물결&#x27; 휩쓴 경기도의회…달라진 경기 정치지형</a><span class="news-date">2026-06-09</span><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=843105" target="_blank" class="news-link">&#x27;78대 78&#x27; 끝났다…경기도의회, 민주 144석 압승 속 추미애 도정 탄력</a><span class="news-date">2026-06-07</span><a href="https://www.joongboo.com/news/articleView.html?idxno=363728022" target="_blank" class="news-link">민선 9기 새 시대 새 일꾼... 6·3 지방선거 경기·인천 당선자 명단</a><span class="news-date">2026-06-04</span></td>
-    </tr><tr data-city="경기도" data-party="조국혁신당" data-type="비례" data-has-news="true">
+    </tr><tr class="" data-city="경기도" data-party="조국혁신당" data-type="비례" data-has-news="true" data-new="false">
       <td>경기도</td>
       <td>광역비례 1번<span class="type-tag">비례</span></td>
       <td class="name-cell">차유미</td>
@@ -1241,6 +1253,7 @@ function filterTable() {
   const party = document.getElementById('partyFilter').value;
   const type = document.getElementById('typeFilter').value;
   const news = document.getElementById('newsFilter').value;
+  const newOnly = document.getElementById('newOnly').checked;
   const rows = document.querySelectorAll('#tbody tr');
   let shown = 0;
   rows.forEach(r => {
@@ -1249,7 +1262,8 @@ function filterTable() {
       (!city || r.dataset.city === city) &&
       (!party || r.dataset.party === party) &&
       (!type || r.dataset.type === type) &&
-      (!news || r.dataset.hasNews === news);
+      (!news || r.dataset.hasNews === news) &&
+      (!newOnly || r.dataset.new === 'true');
     r.classList.toggle('hidden', !match);
     if (match) shown++;
   });
@@ -1258,6 +1272,7 @@ function filterTable() {
 ['search','cityFilter','partyFilter','typeFilter','newsFilter'].forEach(id => {
   document.getElementById(id).addEventListener('input', filterTable);
 });
+document.getElementById('newOnly').addEventListener('change', filterTable);
 filterTable();
 </script>
 </body>
