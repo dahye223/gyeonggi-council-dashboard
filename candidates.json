@@ -1,5 +1,5 @@
 {
-  "업데이트일시": "2026-09-08 13:01 KST",
+  "업데이트일시": "2026-09-09 13:07 KST",
   "기준": "제9회 전국동시지방선거(2026-06-03) 경기도의회 당선자",
   "총당선자수": 167,
   "뉴스보유당선자수": 167,
@@ -15,6 +15,11 @@
       "행정동": "파장동·영화동·송죽동·조원1동·조원2동·연무동",
       "뉴스": [
         {
+          "제목": "국민의힘 광진구(을) 당협, '주민소통 민원의 날' 운영…생활민원·정책...",
+          "링크": "https://www.upkoreanews.kr/news/articleView.html?idxno=100160",
+          "날짜": "2026-09-09"
+        },
+        {
           "제목": "광진구의회, 광진소방서 방문",
           "링크": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160279694484165",
           "날짜": "2026-09-04"
@@ -23,11 +28,6 @@
           "제목": "광진구의회, 광진소방서 찾아 지역 소방·안전 현안 논의",
           "링크": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5056441",
           "날짜": "2026-08-30"
-        },
-        {
-          "제목": "경기도의회 예결특위, 42조2천억 추경 심사 돌입… 재정 여건·사업 적정...",
-          "링크": "http://www.lawissue.co.kr/view.php?ud=202608281604561021d94aa4ada6_12",
-          "날짜": "2026-08-28"
         }
       ]
     },
@@ -41,6 +41,11 @@
       "행정동": "정자1동·정자2동·정자3동",
       "뉴스": [
         {
+          "제목": "박옥분 경기도의원, 어린이 건강과일 지키고 비예산·저예산 대안도 발...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500294?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "박옥분 경기도의원 “어려울수록 소통하라” 주문…추미애 지사, 상생협...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500056?wlog_tag3=naver",
           "날짜": "2026-09-07"
@@ -49,11 +54,6 @@
           "제목": "\"유리천장 깨고 싶다\"…경기도의회 첫 4선 여성의원 박옥분[영상]",
           "링크": "https://www.nocutnews.co.kr/news/6573344?utm_source=naver&utm_medium=article&utm_campaign=20260905053102",
           "날짜": "2026-09-05"
-        },
-        {
-          "제목": "박옥분 경기도의원 “경기도 재정위기, 선언 넘어 해법 내놔야”",
-          "링크": "https://www.nspna.com/news/?mode=view&newsid=826966",
-          "날짜": "2026-09-03"
         }
       ]
     },
@@ -93,19 +93,19 @@
       "행정동": "평동·금곡동·호매실동",
       "뉴스": [
         {
-          "제목": "장한별 경기도의원 “도 공공기관 통합채용 위탁비용 산출기준 점검해...",
-          "링크": "https://www.viva100.com/article/20260908500811",
-          "날짜": "2026-09-08"
+          "제목": "장한별 경기도의원 “채용 규모 달라도 위탁비 8억 안팎”... 道 통합채...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500025?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "장한별 경기도의원, 경기도 통합채용 위탁비 점검…\"관행적 지출 살펴야...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650904",
-          "날짜": "2026-09-08"
+          "제목": "남종섭 시도의장협의회장, '지방의회법' 제정 촉구 공동 기자회견",
+          "링크": "https://www.hankookilbo.com/news/article/A2026090912460002239?did=NA",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "'신약·오빠 게이트' 확산…\"민주당 오빠들\"vs\"철없는 관종\"",
-          "링크": "http://www.yonhapnewstv.co.kr/news/MYH20260908114502VUv",
-          "날짜": "2026-09-08"
+          "제목": "남종섭 경기도의회 의장 지방의회법 연내 제정 촉구",
+          "링크": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3074783",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -124,9 +124,9 @@
           "날짜": "2026-09-04"
         },
         {
-          "제목": "황수영 경기도의원 “재정이 어려울수록 정책의지가 중요…민주시민교...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500288?wlog_tag3=naver",
-          "날짜": "2026-09-04"
+          "제목": "김진명 경기도의원 “학교사회복지사는 학생 곁 전문인력...처우개선 및...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500023?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -145,13 +145,13 @@
           "날짜": "2026-09-03"
         },
         {
-          "제목": "남종섭 경기도의회 의장, 국회서 ‘지방의회법’ 연내 제정 촉구 기자회...",
-          "링크": "https://hbnpress.com/news/view/1065589678052189",
+          "제목": "경기도의회, 국회서 ‘지방의회법 연내 제정’ 강력 촉구",
+          "링크": "https://www.kukinews.com/article/view/kuk202609030226",
           "날짜": "2026-09-03"
         },
         {
-          "제목": "경기도의회, 국회서 ‘지방의회법 연내 제정’ 강력 촉구",
-          "링크": "https://www.kukinews.com/article/view/kuk202609030226",
+          "제목": "남종섭 경기도의회 의장, 국회서 ‘지방의회법’ 연내 제정 촉구 기자회...",
+          "링크": "https://hbnpress.com/news/view/1065589678052189",
           "날짜": "2026-09-03"
         }
       ]
@@ -166,19 +166,19 @@
       "행정동": "매탄1동·매탄2동·매탄3동·매탄4동",
       "뉴스": [
         {
-          "제목": "최종현 강원도의원 \"숫자 채우기 성과 평가 이제 그만\"",
-          "링크": "https://www.pressian.com/pages/articles/2026090722391528327?utm_source=naver&utm_medium=search",
-          "날짜": "2026-09-07"
+          "제목": "최종현 도의원 \"소상공인 지원 개정안\" 상임위 통과",
+          "링크": "https://www.g1tv.co.kr/news?mid=1_207_6&newsid=348450",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "최종현 경기도의원, 인권영향평가 대상 구체화 조례안 상임위 통과",
-          "링크": "http://www.globalepic.co.kr/view.php?ud=2026090716461899915f69d33b22_29",
-          "날짜": "2026-09-07"
+          "제목": "최종현 도의원, “소상공인 생업현장 안전부터 재난피해까지 촘촘하게...",
+          "링크": "https://www.kwnews.co.kr/article/20260908501686",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "최종현 경기도의원 발의 인권보장 조례안 상임위 통과…18일 본회의서 ...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650854",
-          "날짜": "2026-09-07"
+          "제목": "[위클리오늘] 최종현 강원도의원 발의 '소상공인 지원 조례안' 수정 가...",
+          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793639",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -202,9 +202,9 @@
           "날짜": "2026-07-22"
         },
         {
-          "제목": "고찬석 경기도의회 건설교통위원장, 경기남부 녹색어머니연합회와 간담...",
-          "링크": "https://hbnpress.com/news/view/1065596007842072",
-          "날짜": "2026-09-03"
+          "제목": "경기도의회 건설교통위원회, 현장정책회의 철도·도로공사 현장시찰 ‘...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500309?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -270,19 +270,19 @@
       "행정동": "권선2동·곡선동",
       "뉴스": [
         {
-          "제목": "장정희 경기도의원, 그린리모델링 “공모 선정 후 도비 미지원...시·군...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/24/20260824500230?wlog_tag3=naver",
-          "날짜": "2026-08-24"
+          "제목": "장정희 경기도의원 “도비 9% 안내해 공모 독려하고 선정 뒤 지원 철회...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500160?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "장정희 경기도의원 “에너지협동조합 중심 주민참여형 태양광 확대해야...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/21/20260821500284?wlog_tag3=naver",
-          "날짜": "2026-08-21"
+          "제목": "[포토] 연천 연진쌀 고품질 계획 설명하는 '장정희 경기농기원 팀장'",
+          "링크": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5060073",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "[패트롤] 경기도-경기도의회-경기도교육청",
-          "링크": "https://www.ekn.kr/web/view.php?key=20260825026396039",
-          "날짜": "2026-08-25"
+          "제목": "장정희 경기도의원, 기후·환경 추경예산 점검… “예산 조정에도 도민...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500225?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -322,18 +322,18 @@
       "행정동": "주교동·성사1동·성사2동·식사동",
       "뉴스": [
         {
-          "제목": "경기도의회 임유진 의원 \"추경, 감액보다 사업 실행력·재정 지속성 살...",
-          "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1291120",
-          "날짜": "2026-09-08"
+          "제목": "임유진 경기도의원 “주거복지 예산 감액, 취약계층 실질 지원 축소로 ...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500150?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "경기도의회 임유진 의원, 고양은평선 식사동 2.04㎞ 연장 국가계획 반영...",
-          "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1290056",
-          "날짜": "2026-09-08"
+          "제목": "경기도의회 임유진 의원 \"주거복지 예산 감액, 지원 수준 저하로 이어져...",
+          "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1291577",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "임유진 경기도의회 의원, “추경, 숫자 줄이기에 그쳐선 안 돼”",
-          "링크": "https://www.munhwa.com/article/11615229?ref=naver",
+          "제목": "임유진 경기도의원 “추경, 숫자 줄이기에 그쳐선 안 돼… 사업 실행력...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500210?wlog_tag3=naver",
           "날짜": "2026-09-08"
         }
       ]
@@ -400,18 +400,18 @@
       "행정동": "능곡동·행주동·행신1동·행신3동",
       "뉴스": [
         {
+          "제목": "최규진 경기도의원 “공표한 상금은 깎고 9천만원 감액근거는 빠뜨려”...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500024?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "최규진 경기도의원 “상금 깎고 ‘사탕’ 대책”…DMZ영화제 추경 정조...",
+          "링크": "https://www.etoday.co.kr/news/view/2623276",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "최규진 경기도의원 “확정 전 감액 반영, 예산심의권 침해”",
           "링크": "https://www.sedaily.com/article/20088071?ref=naver",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "최규진 경기도의원 “미의결 감액안을 확정예산처럼 적용… 있을 수 없...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500278?wlog_tag3=naver",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "최규진 경기도의원, DMZ영화제 21.1% 감액 선반영 질타… \"의회 심의권 ...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650814",
           "날짜": "2026-09-07"
         }
       ]
@@ -478,19 +478,19 @@
       "행정동": "중산1동·중산2동·고봉동·일산2동",
       "뉴스": [
         {
+          "제목": "경기도의회 건설교통위원회, 현장정책회의 철도·도로공사 현장시찰 ‘...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500309?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "[위클리오늘] 경기도의회 보건복지위원회, 경기도의료원 출연계획 동의...",
+          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793562",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "경기도의회, 의정홍보위원회 출범, “도민 체감형 홍보로 전환”",
           "링크": "http://www.breaknews.com/1234726",
           "날짜": "2026-09-07"
-        },
-        {
-          "제목": "경기도의회 의정홍보위원회 출범…웹드라마·소식지 등 홍보전략 심의",
-          "링크": "http://www.newstown.co.kr/news/articleView.html?idxno=714774",
-          "날짜": "2026-09-04"
-        },
-        {
-          "제목": "경기도의회, 미디어 변화 대응할 의정홍보위원회 출범",
-          "링크": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2466596",
-          "날짜": "2026-09-03"
         }
       ]
     },
@@ -504,19 +504,19 @@
       "행정동": "정발산동·풍산동·장항1동·장항2동",
       "뉴스": [
         {
-          "제목": "이성한 경기도의회 의원, 추경 심사서 “도민 안전 예산 기계적 삭감 안...",
-          "링크": "https://www.munhwa.com/article/11615281?ref=naver",
+          "제목": "이성한 경기도의원 “역사는 미래를 비추는 거울… 위령사업·기록원 건...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500051?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "이성한 경기도의원 “위령사업 예산 감액은 면피적 소극행정…재추진해...",
+          "링크": "https://www.sedaily.com/article/20088535?ref=naver",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "상임위 내팽개치고 '한동훈 가이드' 자처한 부산시의원",
-          "링크": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003265476&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+          "제목": "이성한 경기도의원, 2026년 제2회 추경 심사서 ‘도민 안전 예산’ 집중...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500310?wlog_tag3=naver",
           "날짜": "2026-09-08"
-        },
-        {
-          "제목": "\"20년 표류 고양 금정굴 평화공원 조성, 이제 경기도가 결단 내려야\"",
-          "링크": "https://news.ifm.kr/news/articleView.html?idxno=478535",
-          "날짜": "2026-09-03"
         }
       ]
     },
@@ -540,9 +540,9 @@
           "날짜": "2026-09-07"
         },
         {
-          "제목": "가을밤 수놓은 1만 인파…킨텍스, 야간 문화축제 '킨밤 지새우고' 성료",
-          "링크": "https://www.cstimes.com/news/articleView.html?idxno=719741",
-          "날짜": "2026-09-08"
+          "제목": "[1보] 경기도의회 경노위, 제2회 추경예산안 심의-일율적 예산 감액은 도...",
+          "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1291667",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -556,18 +556,18 @@
       "행정동": "일산1동·탄현1동·탄현2동",
       "뉴스": [
         {
-          "제목": "고은정 경기도부의장, 예측 가능한 농정 강조…\"농업인과의 정책 신뢰 ...",
-          "링크": "https://www.tournews21.com/news/articleView.html?idxno=142878",
+          "제목": "고은정 경기도부의장 \"RE100 외치면서 태양광 예산 98.8% 삭감…정책과...",
+          "링크": "https://www.tournews21.com/news/articleView.html?idxno=142949",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "[의장단이 말하다] 고은정 경기도의회 부의장 “청렴 없이는 의정활동 ...",
-          "링크": "https://www.kgnews.co.kr/news/article.html?no=910380",
-          "날짜": "2026-09-07"
+          "제목": "고은정 경기도의회 부의장 \"RE100 태양광 예산 98.8% 삭감…사실상 사업...",
+          "링크": "http://www.newstown.co.kr/news/articleView.html?idxno=715147",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "가을밤 수놓은 1만 인파…킨텍스, 야간 문화축제 '킨밤 지새우고' 성료",
-          "링크": "https://www.cstimes.com/news/articleView.html?idxno=719741",
+          "제목": "고은정 경기도의회 부의장 “RE100 태양광 예산 98.8% 삭감…정책 신뢰 ...",
+          "링크": "http://www.beyondpost.co.kr/view.php?ud=202609081826207014c878f8fa1_30",
           "날짜": "2026-09-08"
         }
       ]
@@ -582,6 +582,11 @@
       "행정동": "일산3동·주엽1동·주엽2동·대화동",
       "뉴스": [
         {
+          "제목": "김운남 경기도의원 ‘글로벌 AI 허브 경기도 유치’ 첫 관문 넘었다",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500267?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "김운남 경기도의원, 추경 감액 잇단 지적…\"예산보다 행정 신뢰가 먼저...",
           "링크": "https://www.tournews21.com/news/articleView.html?idxno=142827",
           "날짜": "2026-09-07"
@@ -590,11 +595,6 @@
           "제목": "김운남 경기도의원 ‘평가 끝내고 약속한 인센티브 32억 삭감... 경기도...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500263?wlog_tag3=naver",
           "날짜": "2026-09-07"
-        },
-        {
-          "제목": "김운남 경기도의원 ‘인천2호선 고양 연장 예타 통과, 이제 경기도가 움...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/01/20260901500316?wlog_tag3=naver",
-          "날짜": "2026-09-01"
         }
       ]
     },
@@ -634,13 +634,18 @@
       "행정동": "포곡읍·모현읍·역북동·유림1동",
       "뉴스": [
         {
-          "제목": "송연섭·한영수 경기도의원 “공공배달앱 이용자 확대, 하반기 마케팅 ...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500106?wlog_tag3=naver",
+          "제목": "한영수 의원, 전국 첫 지방노동감독관 지원 조례 상임위 문턱 넘었다",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500352?wlog_tag3=naver",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "송연섭·한영수 경기도의원, 정부 '상생배달앱' 앞두고 '배달특급' 점검",
-          "링크": "https://www.mt.co.kr/policy/2026/09/08/2026090810353779160",
+          "제목": "한영수 ‘지방노동감독관 조례’ 상임위 통과…170명 현장체계 받친다",
+          "링크": "https://www.etoday.co.kr/news/view/2623251",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "한영수 경기도의원, 산업단지·공업지역 화재·재해 예방 지원 근거 마...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500303?wlog_tag3=naver",
           "날짜": "2026-09-08"
         }
       ]
@@ -655,19 +660,19 @@
       "행정동": "이동읍·남사읍·중앙동·삼가동",
       "뉴스": [
         {
-          "제목": "김성태 구리시의원 \"공모사업 선정률 높이고 미선정 사업도 지속 관리해...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650898",
-          "날짜": "2026-09-08"
+          "제목": "[인터뷰] 김성태 경기도의원 \"농정 성과, 결국 농민 소득으로 증명\"",
+          "링크": "https://www.newscj.com/news/articleView.html?idxno=3431102",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "김성태 경기도의원 “폭염 속 농사, 목숨 걸고 짓게 둘 수 없다”…온열...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500319?wlog_tag3=naver",
-          "날짜": "2026-09-07"
+          "제목": "[단독] 윤석열 취임 두 달 뒤, 수상한 국정원 TF 가동",
+          "링크": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003264633&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "국힘, 김승원에 \"추악한 쥐약 게이트, 의원직도 사퇴해야\" 맹공(종합)",
-          "링크": "https://www.yna.co.kr/view/AKR20260907072851001?input=1195m",
-          "날짜": "2026-09-07"
+          "제목": "[뉴스포커스] 호르무즈 해협 파병 현실화?…현지 조사단 파견",
+          "링크": "http://www.yonhapnewstv.co.kr/news/MYH20260909105901g2v",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -681,19 +686,19 @@
       "행정동": "신갈동·영덕1동·영덕2동·기흥동·서농동",
       "뉴스": [
         {
-          "제목": "남종섭 경기도의회 의장, 의원 청렴교육 의무화 추진…155명 공동발의",
-          "링크": "http://www.newstown.co.kr/news/articleView.html?idxno=715020",
-          "날짜": "2026-09-08"
+          "제목": "남종섭 시도의장협의회장, '지방의회법' 제정 촉구 공동 기자회견",
+          "링크": "https://www.hankookilbo.com/news/article/A2026090912460002239?did=NA",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "남종섭 경기도의회 의장, 여주 소망교도소 방문… 사회복귀 지원·교통...",
-          "링크": "http://www.newstown.co.kr/news/articleView.html?idxno=715000",
-          "날짜": "2026-09-07"
+          "제목": "남종섭 경기도의회 의장, '지방의회법 연내 제정' 전국 시·도의회 공동...",
+          "링크": "https://www.g-enews.com/view.php?ud=2026090911304381568fbfc802b3_1",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "남종섭 경기도의장, 의원 청렴교육 의무화 추진…도의원 155명 뜻 모아",
-          "링크": "http://www.globalepic.co.kr/view.php?ud=202609071505395425f69d33b22_29",
-          "날짜": "2026-09-07"
+          "제목": "남종섭 경기도의회 의장 지방의회법 연내 제정 촉구",
+          "링크": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3074783",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -733,6 +738,11 @@
       "행정동": "보라동·동백2동·상하동",
       "뉴스": [
         {
+          "제목": "채명신 경기도의원 “예산은 줄어도 도민 문화서비스까지 줄어선 안 돼...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500283?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "채명신 경기도의원 “문화예술 예산 줄이고도 공연의 질 유지...현장 현...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500305?wlog_tag3=naver",
           "날짜": "2026-09-07"
@@ -740,11 +750,6 @@
         {
           "제목": "채명신 “‘14억→5억’ 문화사계, 그래도 질 유지? 근거부터 내라”",
           "링크": "https://www.etoday.co.kr/news/view/2622672",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "채명신 경기도의원, 문화예술 예산 감액 대응책 마련 촉구",
-          "링크": "http://www.srtimes.kr/news/articleView.html?idxno=211774",
           "날짜": "2026-09-07"
         }
       ]
@@ -775,19 +780,19 @@
       "행정동": "풍덕천1동·동천동",
       "뉴스": [
         {
-          "제목": "순천시의회 김용찬 의원, 농어촌 기본소득 대상 확대 촉구",
-          "링크": "https://www.m-i.kr/news/articleView.html?idxno=1411169",
+          "제목": "김용찬 경기도의원 “유지비는 경기도, 과태료는 국고… 재정부담 구조...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500291?wlog_tag3=naver",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "김용찬 순천시의원, '농어촌 기본소득'... 도농복합시 농촌 배제 해소 건...",
-          "링크": "https://www.newsworker.co.kr/news/articleView.html?idxno=503011",
-          "날짜": "2026-09-07"
+          "제목": "김용찬 경기도의원, 무인단속장비 운영비 감액 지적…\"필수 예산 확보해...",
+          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650978",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "\"경전선 전철화 조속 추진·구례구역 명칭 변경\"",
-          "링크": "https://ysmbc.co.kr/NewsArticle/1535840",
-          "날짜": "2026-09-07"
+          "제목": "순천시의회 김용찬 의원, 농어촌 기본소득 대상 확대 촉구",
+          "링크": "https://www.m-i.kr/news/articleView.html?idxno=1411169",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -853,6 +858,11 @@
       "행정동": "보정동·죽전1동·죽전2동·죽전3동·상현2동",
       "뉴스": [
         {
+          "제목": "우현욱 경기도의원, 최중증 발달장애인 지원 예산 감액 지적...인력이 없...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500246?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "우현욱 경기도의원, 출자·출연 동의안 자료 개선 요구...판단할 수 있는...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500120?wlog_tag3=naver",
           "날짜": "2026-09-07"
@@ -860,11 +870,6 @@
         {
           "제목": "우현욱 경기도의원 \"느린학습자 아닌 특수교육도 제도 개선 필요…특수...",
           "링크": "https://www.kmaeil.com/news/articleView.html?idxno=648086",
-          "날짜": "2026-08-11"
-        },
-        {
-          "제목": "우현욱 경기도의원, 특수교육 학부모·교육청 간담회 참석",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/11/20260811500037?wlog_tag3=naver",
           "날짜": "2026-08-11"
         }
       ]
@@ -983,19 +988,19 @@
       "행정동": "동탄7동·동탄9동",
       "뉴스": [
         {
-          "제목": "김태형 경기도의회 미래과학협력위원장, ‘2026년 SW미래채움 AI페스티벌...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500114?wlog_tag3=naver",
-          "날짜": "2026-09-08"
+          "제목": "대학교 '천원매점' 확대 운영…첫날부터 '오픈런'",
+          "링크": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5217991",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "[1보] 경기도의회 미래과학협력위원회 회의서  유엔AI 허브 경기도 유치...",
-          "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1291258",
-          "날짜": "2026-09-08"
+          "제목": "경기도-경기도경제과학진흥원, '경기도 앵커 성과·혁신 포럼' 개최",
+          "링크": "http://www.metroseoul.co.kr/article/20260908500531",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "경기도의회, 경제위 등 6개 상임위 조례안건 심의·추경심사 속개",
-          "링크": "https://www.m-i.kr/news/articleView.html?idxno=1411193",
-          "날짜": "2026-09-08"
+          "제목": "경기앵커센터, '성과·혁신 포럼' 개최…1차 연도 성과 공유",
+          "링크": "https://www.news1.kr/local/gyeonggi/6284326",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -1019,8 +1024,8 @@
           "날짜": "2026-09-01"
         },
         {
-          "제목": "서울시의회-경기도의회 민주당, 지방의회법 단일안 마련한다",
-          "링크": "https://www.newsis.com/view/NISX20260908_0003780649",
+          "제목": "경기도의회 민주당, ‘지방의회법 제정’ 위해 충남·전북과 맞손…전국...",
+          "링크": "https://www.nspna.com/news/?mode=view&newsid=827476",
           "날짜": "2026-09-08"
         }
       ]
@@ -1035,19 +1040,19 @@
       "행정동": "진안동·병점1동·병점2동·화산동",
       "뉴스": [
         {
-          "제목": "화성시약, 회원·가족과 한탄강 문화행사",
-          "링크": "https://www.dailypharm.com/user/news/342275?REFERER=NP",
+          "제목": "경기도의회 문화체육관광위원회, 현장 중심 의정 활동 본격 시동…“도...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500307?wlog_tag3=naver",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "\"9개월 전엔 지켜야 한다더니\"…경기도 문체예산 536억 삭감에 도의회 ...",
-          "링크": "https://www.joongboo.com/news/articleView.html?idxno=363736011",
-          "날짜": "2026-09-07"
+          "제목": "[경기도의회 소식] 문화체육관광위원회‧전석훈‧윤순옥 경기도의원",
+          "링크": "http://www.iminju.net/news/articleView.html?idxno=169232",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "\"사업 축소 기준도 없이 536억 싹둑\"…경기도의회 문체위, 추경안 '거센...",
-          "링크": "https://www.kpinews.kr/newsView/1065596749639015",
-          "날짜": "2026-09-07"
+          "제목": "[위클리오늘] 경기도의회 보건복지위원회, 경기도의료원 출연계획 동의...",
+          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793562",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -1061,19 +1066,19 @@
       "행정동": "반월동·동탄3동",
       "뉴스": [
         {
+          "제목": "김영수 경기도의원 “경기도도 재정 어렵다...지역상생발전기금 불합리...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500027?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
           "제목": "김영수 의원 “경기도, 수도권이라고 계속 부담해야 하나”",
           "링크": "https://www.viva100.com/article/20260908500777",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "김영수 경기도의원 “무조건 삭감이 능사 아니다... 필요한 사업은 지켜...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500261?wlog_tag3=naver",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "경기도의회 기획재정위, 제2회 추경안 사전점검",
-          "링크": "http://www.breaknews.com/1234727",
-          "날짜": "2026-09-07"
+          "제목": "\"경기도 재정위기 극복까지 지역상생발전기금 유예해야\"",
+          "링크": "https://www.newsis.com/view/NISX20260908_0003781362",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -1113,6 +1118,11 @@
       "행정동": "신흥1동·신흥2동·신흥3동·수진1동·수진2동·단대동·신촌동·고등동·시흥동",
       "뉴스": [
         {
+          "제목": "문승호 경기도의원 “장애인 지원사업 집중 점검… 장애인 필수 돌봄 차...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500295?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "문승호 경기도의원, 산모신생아 건강관리 국고 환원 촉구안 보건복지위...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500272?wlog_tag3=naver",
           "날짜": "2026-09-07"
@@ -1120,11 +1130,6 @@
         {
           "제목": "문승호 경기도의회 의원, \" 장애인정책 면밀히 살피겠다\"",
           "링크": "https://www.siminsori.com/news/articleView.html?idxno=401361",
-          "날짜": "2026-09-04"
-        },
-        {
-          "제목": "문승호 경기도의원, 중증·중복 뇌병변장애인 지원체계 개선 의견 청취",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500076?wlog_tag3=naver",
           "날짜": "2026-09-04"
         }
       ]
@@ -1139,19 +1144,19 @@
       "행정동": "태평1동·태평2동·태평3동·태평4동·산성동·양지동·복정동·위례동",
       "뉴스": [
         {
+          "제목": "최만식 경기도의원 “추석 장바구니 비상인데 42억 삭감” 농수산물 할...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500037?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "최만식 경기도의원 “재정 어렵다고 미래농업까지 줄이나” 연구·교육...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500287?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "최만식 경기도의원, 버려지던 농식품 부산물 ‘산업 원료·제품’으로…...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500317?wlog_tag3=naver",
           "날짜": "2026-09-07"
-        },
-        {
-          "제목": "[경기도의회 소식] 남종섭 의장‧최만식‧최종현 경기도의원",
-          "링크": "http://www.iminju.net/news/articleView.html?idxno=169152",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "[지방의회 24時] 최만식 경기도의원 \"재정 어려워도 장바구니 물가·민생...",
-          "링크": "https://www.joongangenews.com/news/articleView.html?idxno=544198",
-          "날짜": "2026-08-31"
         }
       ]
     },
@@ -1165,19 +1170,19 @@
       "행정동": "성남동·상대원1동·상대원2동·상대원3동·하대원동·도촌동",
       "뉴스": [
         {
-          "제목": "전석훈 경기도의원, \"산업단지마다 AI고 거점 세워야… 산단이 곧 교실...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=649940",
-          "날짜": "2026-08-28"
+          "제목": "전석훈 경기도의원, 전국 첫 휴머노이드 로봇산업 지원 조례 상임위 통...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500098?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "전석훈 경기도의회 의원 \"성남테크노과학고, AI 특화고로 전환해야\"",
-          "링크": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2464048",
-          "날짜": "2026-08-27"
+          "제목": "전석훈 경기도의원 \"휴머노이드 산업은 이미 현장에…이제 제도가 뒷받...",
+          "링크": "https://www.tournews21.com/news/articleView.html?idxno=142951",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "전석훈 경기도의원, 경기도에 인공지능고등학교 설립 촉구",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/27/20260827500241?wlog_tag3=naver",
-          "날짜": "2026-08-27"
+          "제목": "전석훈 도의원 \"경기도를 대한민국 휴머노이드 전진기지로\"",
+          "링크": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2468230",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -1217,19 +1222,19 @@
       "행정동": "이매1동·이매2동·야탑1동·야탑2동·야탑3동·삼평동",
       "뉴스": [
         {
-          "제목": "방성환 경기도의원 “AI 예산 47억 삭감…AI국, 재정 기조에 순응만 해선...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500024?wlog_tag3=naver",
+          "제목": "방성환 경기도의원“그린바이오 월드스타 키운다”… 농업·첨단산업 잇...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500132?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "방성환 경기도의원, 그린바이오 6대 분야 지원 추진",
+          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=651075",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "방성환 경기도의원 “기업 몰렸는데 예산 반납… 예비후보제만 있었어...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500159?wlog_tag3=naver",
           "날짜": "2026-09-08"
-        },
-        {
-          "제목": "방성환 도의원 \"AI 경쟁 골든타임…예산 축소 안 돼\"",
-          "링크": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2467699",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "방성환 경기도의원, \"그린바이오 새 사업보다 기존 자원 연결·산업화 우...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650746",
-          "날짜": "2026-09-07"
         }
       ]
     },
@@ -1242,6 +1247,11 @@
       "유형": "지역구",
       "행정동": "서현1동·서현2동·판교동·백현동·운중동",
       "뉴스": [
+        {
+          "제목": "김진명 경기도의원 “학교사회복지사는 학생 곁 전문인력...처우개선 및...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500023?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
         {
           "제목": "'돈 없다'는 경기도에 여야 도의원 한목소리⋯ \"무엇을 줄이고 지킬지 ...",
           "링크": "https://www.asiatime.co.kr/article/20260907500366",
@@ -1259,18 +1269,18 @@
       "행정동": "분당동·수내3동·정자2동·정자3동·구미동",
       "뉴스": [
         {
-          "제목": "정종혁 경기도의원 \"기후재난은 사전대응이 핵심…분당 재건축 물량제한...",
-          "링크": "https://www.newstnt.com/news/articleView.html?idxno=717210",
+          "제목": "정종혁 경기도의원 “상대원119안전센터 매입 더 이상 늦춰선 안 돼”",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500153?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "정종혁 경기도의원, 재난피해자지원센터 설치 조례안 상임위 통과",
+          "링크": "https://www.safetynews.co.kr/news/articleView.html?idxno=250455",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "정종혁 경기도의원, ‘재난피해자 통합지원체계 구축’ 조례안 상임위 ...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500103?wlog_tag3=naver",
-          "날짜": "2026-09-08"
-        },
-        {
-          "제목": "정종혁 경기도의원, OBS 라디오 출연… “현장에서 답 찾는 의정활동 펼...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500101?wlog_tag3=naver",
+          "제목": "정종혁 경기도의원 “안전예산, 사고 뒤 수습보다 사전 예방에 써야”",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500266?wlog_tag3=naver",
           "날짜": "2026-09-08"
         }
       ]
@@ -1285,19 +1295,19 @@
       "행정동": "수내1동·수내2동·정자동·정자1동·금곡동·구미1동",
       "뉴스": [
         {
-          "제목": "정용한 경기도의원 “누적된 기금 빚·공공기관 유사사업 구조 재편 시...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/02/20260902500327?wlog_tag3=naver",
-          "날짜": "2026-09-02"
+          "제목": "정용한 경기도의원 “사업비는 줄고 인건비·운영비는 늘어나는 구조, ...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500151?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "정용한 경기도의원 \"도 산하기관, 유사·중복 사업 통합·조정해야\"",
-          "링크": "https://news.ifm.kr/news/articleView.html?idxno=478493",
-          "날짜": "2026-09-02"
+          "제목": "'투표 인증 강요' 정용한 경기도의원 1심서 의원직 상실형",
+          "링크": "https://www.newsis.com/view/NISX20260909_0003782366",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "정용한, 공공기관 인사·보수 질타…추미애 “투명성·효율화 강화”",
-          "링크": "https://www.kyeonggi.com/article/20260902580340",
-          "날짜": "2026-09-02"
+          "제목": "성남시의회 의장 선거 출마해 투표 인증 강요…정용한 도의원 1심서 집...",
+          "링크": "https://news.tf.co.kr/read/national/2363719.htm",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -1311,19 +1321,19 @@
       "행정동": "심곡1동·심곡2동·심곡3동·원미1동·원미2동·춘의동·도당동",
       "뉴스": [
         {
+          "제목": "이선구 경기도의원, 급식비 지원사업 추경편성 적정성·친환경 농가 피...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500275?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "학교급식비 추경 반복, 본예산부터 바로잡아야",
+          "링크": "http://www.fsnews.co.kr/news/articleView.html?idxno=62122",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "[의료기기업계 소식] 9월 1일",
           "링크": "http://www.doctorstimes.com/news/articleView.html?idxno=239774",
           "날짜": "2026-09-01"
-        },
-        {
-          "제목": "켄델라 코리아, 'ACE APEX Train-the-Trainer' 개최…국내 임상 교육 체계...",
-          "링크": "http://www.ktnews.com/news/articleView.html?idxno=148114",
-          "날짜": "2026-09-01"
-        },
-        {
-          "제목": "충북도의회, 김복진 선생의 예술적 가치 발전 위한 정책토론회 개최",
-          "링크": "https://www.viva100.com/article/20260825501406",
-          "날짜": "2026-08-26"
         }
       ]
     },
@@ -1337,19 +1347,19 @@
       "행정동": "원종1동·원종2동·오정동·신흥동",
       "뉴스": [
         {
-          "제목": "박상현 경기도의원, 경기도의료원 연구개발 및 기술사업화 근거 마련.....",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500023?wlog_tag3=naver",
-          "날짜": "2026-09-08"
+          "제목": "박상현 경기도의원, AI사업 사전절차 지연 지적",
+          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=651073",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "[1보] 경기도의회 미래과학협력위원회 회의서  유엔AI 허브 경기도 유치...",
-          "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1291258",
-          "날짜": "2026-09-08"
+          "제목": "박상현 경기도의원 \"AI 정책, 기술만큼 행정 속도 중요\"",
+          "링크": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2468335",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "군포시의회 “재정안정화기금 4년 새 89% 감소… 복원 시급”",
-          "링크": "http://www.mediagunpo.co.kr/21811",
-          "날짜": "2026-09-08"
+          "제목": "군포시의회, 금정역 개발·도로시설 안전관리 집중 점검",
+          "링크": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3034113",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -1363,9 +1373,9 @@
       "행정동": "중동·상동·상1동·상2동·상3동",
       "뉴스": [
         {
-          "제목": "‘12억 광교 관사’ 택한 추미애..탈관사 전통 정면 역주행",
-          "링크": "https://www.viva100.com/article/20260908500755",
-          "날짜": "2026-09-08"
+          "제목": "\"한동훈 폭로, 반문명적 방식\" VS \"국민은 김승원 부적절\"[뉴스연구소]",
+          "링크": "https://www.nocutnews.co.kr/news/6575315?utm_source=naver&utm_medium=article&utm_campaign=20260909104254",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -1379,6 +1389,11 @@
       "행정동": "약대동·중1동·중2동·중3동·중4동",
       "뉴스": [
         {
+          "제목": "명성숙 경기도의원, 복지사업 부실 집행·성과 부풀리기·취약계층 예산...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500301?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "명성숙 경기도의원, \"안성휴게소의원 폐쇄 성급한 결정 안닌가?\"",
           "링크": "https://www.tournews21.com/news/articleView.html?idxno=140694",
           "날짜": "2026-08-11"
@@ -1386,11 +1401,6 @@
         {
           "제목": "안성휴게소의원 5년 만에 폐쇄… 명성숙 의원 \"결정 과정부터 검증해야...",
           "링크": "https://www.thereport.co.kr/news/articleView.html?idxno=90324",
-          "날짜": "2026-08-10"
-        },
-        {
-          "제목": "명성숙 경기도의원 “안성휴게소의원 폐쇄, 결정 과정과 절차부터 따져...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/10/20260810500215?wlog_tag3=naver",
           "날짜": "2026-08-10"
         }
       ]
@@ -1405,6 +1415,11 @@
       "행정동": "심곡본1동·심곡본동·송내1동·송내2동",
       "뉴스": [
         {
+          "제목": "최성운 경기도의원 “선수 경기력 직결 예산 감액… 전국체전 준비 차질...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500270?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "최성운 경기도의원, 스포츠인권센터 민간위탁 “피해자 보호·사업 연속...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500306?wlog_tag3=naver",
           "날짜": "2026-09-07"
@@ -1412,11 +1427,6 @@
         {
           "제목": "경기도의회 민주당, 25개 교육지원청 순회...현장 교육정책 발굴",
           "링크": "https://www.kmaeil.com/news/articleView.html?idxno=649592",
-          "날짜": "2026-08-25"
-        },
-        {
-          "제목": "경기도의회 민주당 수석대표단, 현장중심 교육정책 수립 대장정",
-          "링크": "https://www.kpinews.kr/newsView/1065601844971846",
           "날짜": "2026-08-25"
         }
       ]
@@ -1431,6 +1441,11 @@
       "행정동": "범박동·옥길동·역곡3동·괴안동",
       "뉴스": [
         {
+          "제목": "김동희 경기도의원, 경기융합타운 용역비 15억 절감...안전관리까지 줄...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500328?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "김동희 경기도의원, 자율방범대 지원부터 체감치안까지 현장중심 자치경...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500091?wlog_tag3=naver",
           "날짜": "2026-09-08"
@@ -1439,11 +1454,6 @@
           "제목": "민주당, 김승원 전담 대응팀 꾸려…\"네거티브 대응\"",
           "링크": "https://www.natv.go.kr/natv/news/newsView.do?newsId=514145",
           "날짜": "2026-09-07"
-        },
-        {
-          "제목": "민주당 \"대전충남 통합, 당 약속\"…\"불금민생단 출발\"",
-          "링크": "https://www.natv.go.kr/natv/news/newsView.do?newsId=514136",
-          "날짜": "2026-09-04"
         }
       ]
     },
@@ -1457,19 +1467,19 @@
       "행정동": "성곡동·고강본동·고강1동",
       "뉴스": [
         {
-          "제목": "서울시의회-경기도의회 민주당, 지방의회법 단일안 마련한다",
-          "링크": "https://www.newsis.com/view/NISX20260908_0003780649",
+          "제목": "경기도의회 민주당, ‘지방의회법 제정’ 위해 충남·전북과 맞손…전국...",
+          "링크": "https://www.nspna.com/news/?mode=view&newsid=827476",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "서울시의회 더불어민주당, 경기도의회 더불어민주당과 교섭단체 간담회...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/smc_movement/2026/09/08/20260908500079?wlog_tag3=naver",
+          "제목": "경기도의회 민주당, 충남·전북도의회와 지방의회법 제정 논의",
+          "링크": "https://www.m-i.kr/news/articleView.html?idxno=1411531",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "경기도의회 \"지방의회법 연내 제정해야\"…조직권·예산권 촉구",
-          "링크": "https://www.newsis.com/view/NISX20260903_0003775705",
-          "날짜": "2026-09-03"
+          "제목": "서울시의회·경기도의회 민주당 교섭단체 간담회…정책보좌관·조직권·...",
+          "링크": "https://www.fntoday.co.kr/news/articleView.html?idxno=392474",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -1488,14 +1498,14 @@
           "날짜": "2026-09-03"
         },
         {
-          "제목": "박순희 경기도의원, 경기도어린이집연합회 회원들과 외국인 자녀 교육 ...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/24/20260824500195?wlog_tag3=naver",
-          "날짜": "2026-08-24"
-        },
-        {
           "제목": "추미애 지사, 포천~철원 고속도로 예타 앞두고 강원과 공동 대응…우상...",
           "링크": "http://www.consumernews.co.kr/news/articleView.html?idxno=763154",
           "날짜": "2026-09-04"
+        },
+        {
+          "제목": "[의회 목소리]국중범 도의회 교육기획위원장 “초·중등 교육재정 축소...",
+          "링크": "https://www.nspna.com/news/?mode=view&newsid=826554",
+          "날짜": "2026-09-01"
         }
       ]
     },
@@ -1509,18 +1519,18 @@
       "행정동": "사동·사이동·해양동·본오3동",
       "뉴스": [
         {
-          "제목": "경기도의회, 경제위 등 6개 상임위 조례안건 심의·추경심사 속개",
-          "링크": "https://www.m-i.kr/news/articleView.html?idxno=1411193",
-          "날짜": "2026-09-08"
+          "제목": "부평구의회, 인공지능·청소년 의료·환경 등 3개 조례안 통과",
+          "링크": "https://www.gukjenews.com/news/articleView.html?idxno=3689504",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "경기도의회 보건복지위, 14조424억원 추경 심사",
-          "링크": "http://www.metroseoul.co.kr/article/20260907500619",
-          "날짜": "2026-09-08"
+          "제목": "부평구의회, '생활밀착 3대 조례' 속도",
+          "링크": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2468360",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "경기도의회 보건복지위, 14조원대 제2회 추경예산안 심사 시작",
-          "링크": "https://www.m-i.kr/news/articleView.html?idxno=1411058",
+          "제목": "경기도의료원 110억 인건비 미편성…300명 넉달만에 다시 도청 앞",
+          "링크": "https://www.etoday.co.kr/news/view/2623263",
           "날짜": "2026-09-08"
         }
       ]
@@ -1535,19 +1545,19 @@
       "행정동": "본오1동·본오2동·반월동",
       "뉴스": [
         {
-          "제목": "김태희 경기도의원, 지역주도 자원순환 생태계 조성 위한 협력 방안 논...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500310?wlog_tag3=naver",
-          "날짜": "2026-09-07"
+          "제목": "추미애·민주 김태희 '7조 빚' 충돌, 중재한 3선 부의장 \"당내 갈등 아닌...",
+          "링크": "https://www.ytn.co.kr/_ln/0103_202609090842179170",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "김태희 경기도의원, 지역 순환경제 해법 ‘골몰’",
-          "링크": "https://www.viva100.com/article/20260907500978",
-          "날짜": "2026-09-07"
+          "제목": "김태희 경기도의원, 시·군 매칭사업 집행률 제고 대책 필요",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500297?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "2호기 발사 앞둔 경기 '기후위성'… 도의회서 집중 질의",
-          "링크": "https://www.joongboo.com/news/articleView.html?idxno=363735869",
-          "날짜": "2026-09-06"
+          "제목": "[티조챗] \"솔선수범\" 외치던 추미애, 호화 관사 논란 '침묵'…\"내로남불...",
+          "링크": "https://news.tvchosun.com/site/data/html_dir/2026/09/09/2026090990101.html",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -1577,19 +1587,19 @@
       "행정동": "부곡동·월피동·안산동",
       "뉴스": [
         {
-          "제목": "김현 의원, 안산 골목상권 민생행보…상인 애로사항 청취",
-          "링크": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5059661",
+          "제목": "경기도의회 건설교통위원회, 현장정책회의 철도·도로공사 현장시찰 ‘...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500309?wlog_tag3=naver",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "고찬석 경기도의회 건설교통위원장, 경기남부 녹색어머니연합회와 간담...",
-          "링크": "https://hbnpress.com/news/view/1065596007842072",
-          "날짜": "2026-09-03"
+          "제목": "[위클리오늘] 경기도의회 보건복지위원회, 경기도의료원 출연계획 동의...",
+          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793562",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "[패트롤] 경기도-경기도의회-경기도교육청-경기주택도시공사",
-          "링크": "https://www.ekn.kr/web/view.php?key=20260903023599933",
-          "날짜": "2026-09-03"
+          "제목": "김현 의원, 안산 골목상권 민생행보…상인 애로사항 청취",
+          "링크": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5059661",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -1603,18 +1613,18 @@
       "행정동": "고잔동·중앙동·호수동",
       "뉴스": [
         {
-          "제목": "이은미 경기도의원, 경기도 ‘블루카본 정책’ 제도화 첫발… 조례안 상...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500307?wlog_tag3=naver",
-          "날짜": "2026-09-07"
+          "제목": "이은미 경기도의원 “산불 대응은 예방주사처럼 미리 준비해야”",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500125?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "[1보] 경기도의회 미래과학협력위원회 회의서  유엔AI 허브 경기도 유치...",
-          "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1291258",
-          "날짜": "2026-09-08"
+          "제목": "이은미 경기도의원 “이런 게 진짜 예산절감”... 화훼 신품종 홍보 ‘...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500026?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "김현 의원, 안산 골목상권 민생행보…상인 애로사항 청취",
-          "링크": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5059661",
+          "제목": "이은미 경기도의원, 경기도 국제개발협력 제도적 기반 강화… ‘국제개...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500340?wlog_tag3=naver",
           "날짜": "2026-09-08"
         }
       ]
@@ -1645,6 +1655,11 @@
       "행정동": "원곡동·백운동·신길동·선부1동·선부2동",
       "뉴스": [
         {
+          "제목": "황은화 경기도의원 ‘법적 근거 오류, 공식 석상서 바로잡아야’",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500209?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "황은화 경기도의원, 3년간 지속적 감액에 '잘못된 재정설계' 질타",
           "링크": "https://www.m-i.kr/news/articleView.html?idxno=1411051",
           "날짜": "2026-09-08"
@@ -1652,11 +1667,6 @@
         {
           "제목": "황은화 경기도의원, 3년간 지속적인 감액에 ‘잘못된 재정설계’ 문제 ...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500289?wlog_tag3=naver",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "황은화 경기도의원, 경기도 문화사계 위탁 동의안 법적 근거 오류 지적",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500038?wlog_tag3=naver",
           "날짜": "2026-09-07"
         }
       ]
@@ -1671,19 +1681,19 @@
       "행정동": "초지동·대부동",
       "뉴스": [
         {
+          "제목": "이철형 경기도의원 “추모·범죄예방 정책, 재정난 이유로 위축돼선 안...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500250?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "이철형 경기도의원, 공무원 사기 진작 위한 복무제도 개선 나서",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500172?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "이철형 경기도의원, 선감학원 피해자 지원·역사문화공간 조성 촉구",
           "링크": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=707607",
           "날짜": "2026-09-04"
-        },
-        {
-          "제목": "이철형 경기도의원 “선감학원 피해자와의 약속, 경기도가 끝까지 책임...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500244?wlog_tag3=naver",
-          "날짜": "2026-09-04"
-        },
-        {
-          "제목": "이철형 경기도의원 \"선감학원 피해자 예산 복원해야\"",
-          "링크": "https://news.tf.co.kr/read/national/2361724.htm",
-          "날짜": "2026-09-03"
         }
       ]
     },
@@ -1697,8 +1707,18 @@
       "행정동": "화도읍·수동면",
       "뉴스": [
         {
-          "제목": "서울시의회 박계홍 의원, 송현동 부지(송현열린녹지광장) 임시개방 종료...",
-          "링크": "https://www.cnbizm.com/news/articleView.html?idxno=314264",
+          "제목": "이건희 경기도의원, 실험실 경험 바탕으로 보건환경연구원 시약 관리·...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500161?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "이건희 경기도의원, 취약지역 소아 진료 공백 해소 위해 남양주 공공의...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500152?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "이건희 경기도의원 “성과 있는 장애인 취업박람회 취소 아쉬워… 사업...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500239?wlog_tag3=naver",
           "날짜": "2026-09-08"
         }
       ]
@@ -1739,6 +1759,11 @@
       "행정동": "진접읍",
       "뉴스": [
         {
+          "제목": "김승기 경기도의원, 스포츠인권센터 연중 상시 운영체계 마련 촉구",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500031?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
           "제목": "제12대 경기도의회 전반기 의정홍보위원회 이영봉 위원장·김승기 부위...",
           "링크": "https://hbnpress.com/news/view/1065589280623999",
           "날짜": "2026-09-02"
@@ -1747,11 +1772,6 @@
           "제목": "이지혜 경기도의원 “성과사업은 자르고 집행 어려운 사업은 유지…예...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500025?wlog_tag3=naver",
           "날짜": "2026-09-08"
-        },
-        {
-          "제목": "경기도의회, 의정홍보위원회 출범, “도민 체감형 홍보로 전환”",
-          "링크": "http://www.breaknews.com/1234726",
-          "날짜": "2026-09-07"
         }
       ]
     },
@@ -1791,19 +1811,19 @@
       "행정동": "별내면·별내동",
       "뉴스": [
         {
+          "제목": "김창식 삼성전자 부사장 \"변리사법 개정안 조속히 통과돼야\"",
+          "링크": "https://zdnet.co.kr/view/?no=20260908200830",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "김창식 경기도의원 \"지역개발기금, 민생 사업에 적극 활용해야\"",
           "링크": "http://www.bizwnews.com/news/articleView.html?idxno=145419",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "김창식 경기도의회 기획재정위원장, 세수 결손기 지역개발기금의 적극...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500068?wlog_tag3=naver",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "김창식 경기도의원, 지방세 수입 감소에 따른 재정 위기 경고",
-          "링크": "https://www.viva100.com/article/20260907500163",
-          "날짜": "2026-09-07"
+          "제목": "기업 특허자문 조력자인 변리사… \"ACP 대상 포함해야\"",
+          "링크": "https://www.fnnews.com/news/202609081816471138",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -1817,6 +1837,11 @@
       "행정동": "다산1동",
       "뉴스": [
         {
+          "제목": "유호준 경기도의원 ‘지역혁신중심 대학지원체계(RISE)’ 위원회 구성에...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500321?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "유호준 경기도의원, 헌재 미등록 외국인 아동 출생등록 위헌 결정 환영",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/03/20260903500291?wlog_tag3=naver",
           "날짜": "2026-09-03"
@@ -1825,11 +1850,6 @@
           "제목": "유호준 경기도의원, 교육부 혐오·차별 가이드북 성소수자 삭제에 유감...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/02/20260902500318?wlog_tag3=naver",
           "날짜": "2026-09-02"
-        },
-        {
-          "제목": "유호준 경기도의원, ‘스타트업 ＆ AI 전문가 현장 정책 간담회’ 개최",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/20/20260820500215?wlog_tag3=naver",
-          "날짜": "2026-08-20"
         }
       ]
     },
@@ -1843,6 +1863,11 @@
       "행정동": "진건읍·퇴계원읍·양정동·다산2동",
       "뉴스": [
         {
+          "제목": "장송회 경기도의원 “예산 감액에도 법정검사 차질 없어야”… 기후환...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500223?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "장송회 경기도의원, 다산지금A3 후속조치 점검...“공정한 입주자 선정...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500106?wlog_tag3=naver",
           "날짜": "2026-09-07"
@@ -1850,11 +1875,6 @@
         {
           "제목": "[경기도의회 소식] 장태환 경제노동위원장‧장송회‧이종춘 경기도 의원",
           "링크": "http://www.iminju.net/news/articleView.html?idxno=169106",
-          "날짜": "2026-09-04"
-        },
-        {
-          "제목": "장송회 경기도의원 “이륜자동차 고소음 상시관리 강화”…개정조례안...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500340?wlog_tag3=naver",
           "날짜": "2026-09-04"
         }
       ]
@@ -1893,23 +1913,7 @@
       "득표율": "57.2%",
       "유형": "지역구",
       "행정동": "안양1동·안양3동·안양4동·안양5동·안양6동·안양7동·안양8동·안양9동",
-      "뉴스": [
-        {
-          "제목": "김성수 대법관 인사청문 특위 1차 회의에서 안건 처리하는 김도읍 위원...",
-          "링크": "https://www.yna.co.kr/view/PYH20260908076400013?input=1196m",
-          "날짜": "2026-09-08"
-        },
-        {
-          "제목": "김성수 대법관 인사청문 특위 1차 회의에서 안건 처리하는 김도읍 위원...",
-          "링크": "https://www.yna.co.kr/view/PYH20260908076300013?input=1196m",
-          "날짜": "2026-09-08"
-        },
-        {
-          "제목": "김성수 대법관 인사청문 특위 1차 회의에서 안건 처리하는 김도읍 위원...",
-          "링크": "https://www.yna.co.kr/view/PYH20260908076500013?input=1196m",
-          "날짜": "2026-09-08"
-        }
-      ]
+      "뉴스": []
     },
     {
       "이름": "최경순",
@@ -1921,6 +1925,11 @@
       "행정동": "안양2동·석수1동·석수2동·충훈동·박달동·호현동",
       "뉴스": [
         {
+          "제목": "최경순 경기도의원 “돌봄·장애인 일자리 예산은 끝까지 지켜야”… 재...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500228?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "최경순 경기도의원, 공유냉장고 식품 나눔 제도화 추진",
           "링크": "http://www.breaknews.com/1233565",
           "날짜": "2026-09-02"
@@ -1929,11 +1938,6 @@
           "제목": "최경순 경기도의원, ‘공유식품 나눔 활성화’ 위한 간담회 개최",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/31/20260831500195?wlog_tag3=naver",
           "날짜": "2026-08-31"
-        },
-        {
-          "제목": "최경순 경기도의원, 경기지역 공유냉장고 성과공유회 참석... “식품 나...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/27/20260827500047?wlog_tag3=naver",
-          "날짜": "2026-08-27"
         }
       ]
     },
@@ -1947,19 +1951,19 @@
       "행정동": "비산1동·비산2동·비산3동·부흥동",
       "뉴스": [
         {
-          "제목": "윤도희 경기도의원 “청소년 AI 바우처 삭감 유감…취약계층 50% 연내 긴...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500026?wlog_tag3=naver",
+          "제목": "윤도희 경기도의원 “1,281억 지역대학 지원, 지역동반성장 조례로 뒷받...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500104?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "윤도희 경기도의원 “1,599개 기업 몰린 ‘무역위기 패키지’ 반토막 삭...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500347?wlog_tag3=naver",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "윤도희 경기도의원 \"청소년 AI 바우처 전액 삭감 부적절...연내 50% 반영...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650858",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "윤도희 경기도의원 “사회적 갈등 해결할 민주시민교육”… 경기도교육...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500282?wlog_tag3=naver",
-          "날짜": "2026-09-07"
+          "제목": "윤도희, 1599개사 몰린 수출 지원…600곳 목표에 실제 539곳",
+          "링크": "https://www.etoday.co.kr/news/view/2623253",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -1978,13 +1982,13 @@
           "날짜": "2026-09-03"
         },
         {
-          "제목": "경기도의회, 국회서 ‘지방의회법 연내 제정’ 강력 촉구",
-          "링크": "https://www.kukinews.com/article/view/kuk202609030226",
+          "제목": "남종섭 경기도의회 의장, 국회서 ‘지방의회법’ 연내 제정 촉구 기자회...",
+          "링크": "https://hbnpress.com/news/view/1065589678052189",
           "날짜": "2026-09-03"
         },
         {
-          "제목": "남종섭 경기도의회 의장, 국회서 ‘지방의회법’ 연내 제정 촉구 기자회...",
-          "링크": "https://hbnpress.com/news/view/1065589678052189",
+          "제목": "경기도의회, 국회서 ‘지방의회법 연내 제정’ 강력 촉구",
+          "링크": "https://www.kukinews.com/article/view/kuk202609030226",
           "날짜": "2026-09-03"
         }
       ]
@@ -1999,18 +2003,18 @@
       "행정동": "평촌동·평안동·귀인동·범계동·갈산동",
       "뉴스": [
         {
+          "제목": "장민수 경기도의원 “부동산 침체 따른 세수 결손·추계 오차 심각... 신...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500055?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "장민수 경기도의원 “폭염 대응 특교세 적기 집행 필수… 사전 수요조사...",
+          "링크": "https://www.seoul.co.kr/news/spotlight/ggc-gyeonggi/2026/09/08/20260908500304?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "장민수 경기도의원 “폭염 특교세, 뒷북 행정 되풀이돼선 안 돼”",
           "링크": "https://www.viva100.com/article/20260908500793",
-          "날짜": "2026-09-08"
-        },
-        {
-          "제목": "경기도의회 ‘제12대 전반기 연구활동 지원 심의위원회’ 출범",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500078?wlog_tag3=naver",
-          "날짜": "2026-09-08"
-        },
-        {
-          "제목": "경기도의회, '전반기 연구활동 지원 심의위' 출범",
-          "링크": "https://www.getnews.co.kr/news/articleView.html?idxno=880122",
           "날짜": "2026-09-08"
         }
       ]
@@ -2025,19 +2029,19 @@
       "행정동": "호계1동·호계2동·호계3동·신촌동",
       "뉴스": [
         {
-          "제목": "이채명 경기도의원, 재정 어려울수록 반드시 지킬 예산부터 지켜야",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500083?wlog_tag3=naver",
-          "날짜": "2026-09-07"
+          "제목": "이채명 경기도의원, 출연·위탁 동의안 성과와 변화로 심사해야",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500029?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "이채명 경기도의원, AI 평균 정확도보다 누구에게 더 틀리는지 봐야",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500029?wlog_tag3=naver",
-          "날짜": "2026-09-04"
+          "제목": "이채명 경기도의원 발의 ‘디지털포용 조례안’ 상임위 통과",
+          "링크": "http://www.globalepic.co.kr/view.php?ud=2026090814244787645f69d33b22_29",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "이채명 경기도의원, 더불어민주당 광역의원 상임대표 선출",
-          "링크": "https://www.kgnews.co.kr/news/article.html?no=909640",
-          "날짜": "2026-08-31"
+          "제목": "이채명 경기도의원 대표발의, 경기도 디지털포용 조례안 상임위 통과",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500342?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -2051,19 +2055,19 @@
       "행정동": "진위면·서탄면·지산동·송북동·신장1동·신장2동",
       "뉴스": [
         {
+          "제목": "양경석 경기도의회 안전행정위원장 \"정확한 세입추계로 재정 안정성 높...",
+          "링크": "https://www.tournews21.com/news/articleView.html?idxno=143022",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "양경석 경기도의회 안전행정위원장, \"재정 어렵다고 도민 안전 위축돼선...",
+          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650965",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "양경석 위원장 \"재정 어렵다고 안전 줄여선 안 돼\"...경기도 추경 정밀...",
           "링크": "https://www.ajunews.com/view/20260907174626750",
           "날짜": "2026-09-07"
-        },
-        {
-          "제목": "양경석 경기도의회 안전행정위원장 “어려운 재정여건 속에서도 도민 안...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500295?wlog_tag3=naver",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "[지방의회 리더에게 듣는다] 양경석 \"안전은 예방이 우선…피부에 와닿...",
-          "링크": "https://www.obsnews.co.kr/news/articleView.html?idxno=1536175",
-          "날짜": "2026-09-02"
         }
       ]
     },
@@ -2077,19 +2081,14 @@
       "행정동": "중앙동·서정동·송탄동·통복동·세교동",
       "뉴스": [
         {
-          "제목": "김명숙 경기도의원, 추경 예산 ‘앞뒤 안 맞는 편성’ 제동",
-          "링크": "https://www.sentv.co.kr/article/view/sentv202609080076",
+          "제목": "김명숙 경기도의원 “사업 성과 면밀히 검증해 건전재정 원칙 확립해야...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500322?wlog_tag3=naver",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "김명숙 경기도의원, 추경 재정운영 집중 점검…\"관행적 예산 과감히 조...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650742",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "김명숙 경기도의원 “예측 가능한 세입은 제때 반영해야… 적극적인 재...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500346?wlog_tag3=naver",
-          "날짜": "2026-09-04"
+          "제목": "김명숙 경기도의원, 추경 예산 ‘앞뒤 안 맞는 편성’ 제동",
+          "링크": "https://www.sentv.co.kr/article/view/sentv202609080076",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -2103,14 +2102,9 @@
       "행정동": "비전1동·동삭동",
       "뉴스": [
         {
-          "제목": "김경옥 도의원, \"장애인교원, 제도적 장벽부터 개선\"",
-          "링크": "http://www.hansbiz.co.kr/news/articleView.html?idxno=862370",
-          "날짜": "2026-09-04"
-        },
-        {
-          "제목": "김경옥 경기도의원, 장애인교원과 정담회… “배제와 차별 없는 경기교...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500324?wlog_tag3=naver",
-          "날짜": "2026-09-04"
+          "제목": "김경옥 경기도의원, 죽백초서 시설사업 지원 설명회 열어… “교육공동...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500293?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         },
         {
           "제목": "[패트롤] 경기도-경기도의회-경기도교육청-경기평택항만공사",
@@ -2129,19 +2123,19 @@
       "행정동": "신평동·원평동·비전2동·용이동",
       "뉴스": [
         {
+          "제목": "박물관 55억 삭감 따지고 장애인체육 두 달째 추적…한규찬 의원 '냉온...",
+          "링크": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=708255",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "한규찬 경기도의원 “67만 평택에 국·공립 박물관 한 곳도 없어… 평택...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500320?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "경기도의회 문화체육관광위 한규찬 의원 인터뷰",
           "링크": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3032212",
           "날짜": "2026-08-20"
-        },
-        {
-          "제목": "한규찬 경기도의원 \"장애인 생활체육 환경 조성 강화 해야\"",
-          "링크": "https://www.newspim.com/news/view/20260723000364",
-          "날짜": "2026-07-23"
-        },
-        {
-          "제목": "한규찬·김현덕 의원, 장애인 권리 중심 정책 점검…예산·인력부터 이...",
-          "링크": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=700588",
-          "날짜": "2026-07-22"
         }
       ]
     },
@@ -2155,6 +2149,11 @@
       "행정동": "안중읍·포승읍·청북읍·오성면·현덕면",
       "뉴스": [
         {
+          "제목": "안계명 경기도의원, 예산 감액이 정책 성과 저하로 이어져선 안 돼… 사...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500208?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "안계명 경기도의원, RE100 소득마을·평택호 대책 관리 주문",
           "링크": "https://www.m-i.kr/news/articleView.html?idxno=1411053",
           "날짜": "2026-09-08"
@@ -2163,11 +2162,6 @@
           "제목": "안계명 경기도의원, 현덕지구 개발사업 점검...“사업 속도와 주민 신뢰...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/03/20260903500077?wlog_tag3=naver",
           "날짜": "2026-09-03"
-        },
-        {
-          "제목": "안계명 경기도의원, 평택항 중심 ‘서평택 통합발전 전략’ 마련해야",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/01/20260901500300?wlog_tag3=naver",
-          "날짜": "2026-09-01"
         }
       ]
     },
@@ -2181,9 +2175,14 @@
       "행정동": "팽성읍·고덕면·고덕동",
       "뉴스": [
         {
-          "제목": "[위클리오늘] 평택시, 도시재생 전략계획수립 위한 주민 표적 집단면접...",
-          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793296",
-          "날짜": "2026-09-07"
+          "제목": "경기도의회 건설교통위원회, 현장정책회의 철도·도로공사 현장시찰 ‘...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500309?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "[위클리오늘] 경기도의회 보건복지위원회, 경기도의료원 출연계획 동의...",
+          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793562",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -2197,6 +2196,11 @@
       "행정동": "신천동·은행동",
       "뉴스": [
         {
+          "제목": "안광률 경기도의원 “어린이 건강과일 공급 예산, 원래대로 복원해야”",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500171?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "경기도의회 안광률 의원, \"어린이 건강과일 공급 축소 안 돼\"",
           "링크": "http://www.metroseoul.co.kr/article/20260907500631",
           "날짜": "2026-09-08"
@@ -2205,11 +2209,6 @@
           "제목": "안광률 경기도의원, 어린이 건강과일 공급사업 예산 감액 철회 촉구",
           "링크": "https://www.m-i.kr/news/articleView.html?idxno=1411052",
           "날짜": "2026-09-08"
-        },
-        {
-          "제목": "안광률 “어린이 건강과일 예산 복원해야”…공급 축소 제동",
-          "링크": "https://www.m-economynews.com/news/article.html?no=70512",
-          "날짜": "2026-09-07"
         }
       ]
     },
@@ -2223,19 +2222,19 @@
       "행정동": "대야동·매화동·목감동·과림동",
       "뉴스": [
         {
+          "제목": "최동식 경기도의원, 취약계층 주거 복지 감액 지적…“재정 악화 핑계로...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500110?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "최동식 경기도의원, 에너지·환경 추가경정 예산안 심의…“도민 민생·...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500251?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "[경기의정 나침반] 최동식 경기도의원 “기업하기 좋은 경기도, 의회가...",
           "링크": "https://www.kgnews.co.kr/news/article.html?no=907112",
           "날짜": "2026-08-10"
-        },
-        {
-          "제목": "경기도의회, '5천억대 경기도 감액 추경' 민생 삭감·일방 추진 집중 질...",
-          "링크": "https://www.kyeonggi.com/article/20260907580520",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "청주시의회, 사회복지사 자격 보유 의원 16인 참석 속 ‘사회복지 동행...",
-          "링크": "http://www.breaknews.com/1232128",
-          "날짜": "2026-08-27"
         }
       ]
     },
@@ -2259,19 +2258,19 @@
       "행정동": "군자동·월곶동·정왕본동·정왕1동·정왕2동·능곡동",
       "뉴스": [
         {
-          "제목": "박정하 \"靑 인사검증시스템 확증편향 문제...계속 안고 가면 좋지 않은...",
-          "링크": "https://www.polinews.co.kr/news/articleView.html?idxno=742503",
-          "날짜": "2026-09-08"
+          "제목": "‘김승원 의혹’ 여야 신경전 가열…“한동훈 법적 조치”“권력형 게...",
+          "링크": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8658773&ref=A",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "권칠승 \"허위사실 행위 삭제 방안…우리도 오래 검토, 계기가 필요\"",
-          "링크": "https://www.news1.kr/politics/assembly/6283260",
-          "날짜": "2026-09-08"
+          "제목": "김승원 의혹 제보자 \"양씨가 죽여버리겠다 협박\"…한동훈 \"목숨 걸고 지...",
+          "링크": "https://www.sisajournal.com/news/articleView.html?idxno=386571",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "특검법 가라앉고 선거법 개정 수면 위로…진행 중인 재판 덮을 '면소' 카...",
-          "링크": "https://lawtalknews.co.kr/article/TU1JFSQPDZ1P",
-          "날짜": "2026-09-08"
+          "제목": "'김승원 의혹' 제보자 살해협박 주장…한동훈 \"목숨 걸고 지킬 것\"",
+          "링크": "https://news.tvchosun.com/site/data/html_dir/2026/09/09/2026090990118.html",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -2285,19 +2284,19 @@
       "행정동": "정왕3동·정왕4동·배곧1동·배곧2동·거북섬동",
       "뉴스": [
         {
-          "제목": "경기도의회 이성원 의원, 재정위기 해법 제시 촉구… 5년 단위 정상화 ...",
-          "링크": "http://www.lawissue.co.kr/view.php?ud=202609071543336692d94aa4ada6_12",
-          "날짜": "2026-09-07"
+          "제목": "이성원 경기도의원, 국고보조사업 재정 지속가능성 관리 제도화",
+          "링크": "http://www.globalepic.co.kr/view.php?ud=2026090814334340525f69d33b22_29",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "이성원 경기도의원, 재정 어렵다고 DMZ 행사부터 없앨 게 아니라 통합,재...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500254?wlog_tag3=naver",
-          "날짜": "2026-09-07"
+          "제목": "이성원 경기도의원, 공공기관 통합채용, 특정업체 중심 카르텔 구조 안...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500261?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "이성원 경기도의원, 재정비상 선언했다면 정상화 기준도 숫자로 제시해...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500251?wlog_tag3=naver",
-          "날짜": "2026-09-07"
+          "제목": "이성원 경기도의원 대표발의, 경기도 국고보조사업 성과관리 조례 제정...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500260?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -2311,6 +2310,11 @@
       "행정동": "운정1동·운정4동",
       "뉴스": [
         {
+          "제목": "박은주 경기도의원 “위탁사업 행정절차·성과관리 강화하고 변화에 맞...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500344?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "박은주 경기도의원, 결식아동 밥값·청년기본소득까지 편법 쪼개기...필...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500118?wlog_tag3=naver",
           "날짜": "2026-09-07"
@@ -2319,11 +2323,6 @@
           "제목": "박은주 경기도의원, 재난은 평등하지 않다...기후위기 맞춤형 재난대응...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/03/20260903500016?wlog_tag3=naver",
           "날짜": "2026-09-03"
-        },
-        {
-          "제목": "박은주 경기도의원, 기후재난 대응체계 개편 촉구… \"취약계층 사각지대...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650488",
-          "날짜": "2026-09-02"
         }
       ]
     },
@@ -2337,19 +2336,19 @@
       "행정동": "교하동·운정2동·운정5동",
       "뉴스": [
         {
-          "제목": "손희정 경기도의원, DMZ 평화마라톤 전면 중단에 “경기도 대표 평화사...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500274?wlog_tag3=naver",
-          "날짜": "2026-09-07"
+          "제목": "손희정 경기도의원, 통합채용 비용구조·지역상생발전기금 점검",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500325?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "손희정 경기도의원, DMZ 평화마라톤 전액 삭감·사후보고 질타",
-          "링크": "https://www.safetynews.co.kr/news/articleView.html?idxno=250430",
-          "날짜": "2026-09-07"
+          "제목": "\"경기도 재정위기 극복까지 지역상생발전기금 유예해야\"",
+          "링크": "https://www.newsis.com/view/NISX20260908_0003781362",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "계약하고 1억3000만원 줬는데 돌연 취소…경기도 'DMZ 평화마라톤' 논란",
-          "링크": "https://www.thepublic.kr/news/articleView.html?idxno=317870",
-          "날짜": "2026-09-07"
+          "제목": "[의정소식] 경기도의회 국힘 \"재정난 책임 시·군에 전가···도민 피해...",
+          "링크": "https://www.seoulfn.com/news/articleView.html?idxno=637490",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -2363,6 +2362,11 @@
       "행정동": "운정3동·운정6동",
       "뉴스": [
         {
+          "제목": "손성익 경기도의원, AI 교육, 실무에 맞게 더 촘촘하게 설계해야",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500343?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "손성익 경기도의원 ‘폰 프리 스쿨’ 지원 조례로 경기도교육청 핵심 정...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500322?wlog_tag3=naver",
           "날짜": "2026-09-04"
@@ -2370,11 +2374,6 @@
         {
           "제목": "손성익 경기도의원, 교사 부담 줄여 안전한 체험학습 조성할 것",
           "링크": "https://www.nspna.com/news/?mode=view&newsid=827018",
-          "날짜": "2026-09-04"
-        },
-        {
-          "제목": "손성익 경기도의원, 체험학습 교사 책임 개선 논의",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650624",
           "날짜": "2026-09-04"
         }
       ]
@@ -2394,14 +2393,14 @@
           "날짜": "2026-08-22"
         },
         {
-          "제목": "김순현 경기도의원, \"파주 주요 도로사업 예산 최종 반영에 최선\"",
-          "링크": "http://www.bizwnews.com/news/articleView.html?idxno=144029",
-          "날짜": "2026-08-22"
+          "제목": "경기도의회 건설교통위원회, 현장정책회의 철도·도로공사 현장시찰 ‘...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500309?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "김순현 도의원, 파주시 주요 도로공사 346억원 추경 편성",
-          "링크": "https://www.pressian.com/pages/articles/2026082117022023770?utm_source=naver&utm_medium=search",
-          "날짜": "2026-08-21"
+          "제목": "[위클리오늘] 경기도의회 보건복지위원회, 경기도의료원 출연계획 동의...",
+          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793562",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -2441,19 +2440,19 @@
       "행정동": "의정부1동·가능동·흥선동·녹양동",
       "뉴스": [
         {
-          "제목": "유수연 경기도의원, 경기도의료원 의정부병원 노조와 공공의료 정상화...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/01/20260901500255?wlog_tag3=naver",
-          "날짜": "2026-09-01"
-        },
-        {
-          "제목": "[지방의회 24時] 유수연 경기도의원, 의정부시 기업지원사업 점검",
-          "링크": "https://www.joongangenews.com/news/articleView.html?idxno=544096",
-          "날짜": "2026-08-31"
+          "제목": "유수연 경기도의원, 소상공인 재기부터 사업장 안전까지…지원망 강화...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500119?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
           "제목": "경기신보, 남양주와 정책금융 협력…'경기북동부' 성장 뒷받침",
           "링크": "https://www.pressian.com/pages/articles/2026090711124755287?utm_source=naver&utm_medium=search",
           "날짜": "2026-09-07"
+        },
+        {
+          "제목": "경기신보, 남양주 다산동서 본점 일부 및 남양주지점 이전식 개최",
+          "링크": "https://www.m-i.kr/news/articleView.html?idxno=1410452",
+          "날짜": "2026-09-06"
         }
       ]
     },
@@ -2467,19 +2466,19 @@
       "행정동": "의정부2동·호원1동·호원2동",
       "뉴스": [
         {
-          "제목": "경기도의회, 의정홍보위원회 출범, “도민 체감형 홍보로 전환”",
-          "링크": "http://www.breaknews.com/1234726",
-          "날짜": "2026-09-07"
+          "제목": "이영봉 경기도의원, AI·무역지원 예산 잇단 감액 지적...\"재정 운용 신...",
+          "링크": "https://www.ajunews.com/view/20260909000347821",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "경기도의회 의정홍보위원회 출범…웹드라마·소식지 등 홍보전략 심의",
-          "링크": "http://www.newstown.co.kr/news/articleView.html?idxno=714774",
-          "날짜": "2026-09-04"
+          "제목": "이영봉 경기도의원 \"몇 달 만에 뒤집힌 예산…편성 단계부터 꼼꼼히 살...",
+          "링크": "https://www.tournews21.com/news/articleView.html?idxno=142964",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "세대와 지역 잇는 '2026 경기전통놀이한마당' 9월 5일 개최",
-          "링크": "https://www.pointdaily.co.kr/news/articleView.html?idxno=318100",
-          "날짜": "2026-09-04"
+          "제목": "이영봉 경기도의원, 뒤집힌 예산에 흔들린 신뢰..편성 단계 개선 요구",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500339?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -2493,19 +2492,19 @@
       "행정동": "장암동·신곡1동·신곡2동·자금동",
       "뉴스": [
         {
+          "제목": "경기도의회 건설교통위원회, 현장정책회의 철도·도로공사 현장시찰 ‘...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500309?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "[위클리오늘] 경기도의회 보건복지위원회, 경기도의료원 출연계획 동의...",
+          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793562",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "\"김승원, 3일 동안 두문불출해서 나온 답변이 저 수준?...국민들이 빵 터...",
           "링크": "https://www.ikbc.co.kr/article/view/kbc202609070049",
           "날짜": "2026-09-07"
-        },
-        {
-          "제목": "\"미국과 이란 사이에서 등거리 외교?…아무도 자기편으로 생각하지 않아...",
-          "링크": "https://www.ikbc.co.kr/article/view/kbc202609070041",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "보령시의회 의원연구회 '시민 삶' 겨냥… 정책 발굴 본격화",
-          "링크": "https://www.dynews.co.kr/news/articleView.html?idxno=864234",
-          "날짜": "2026-09-03"
         }
       ]
     },
@@ -2569,7 +2568,18 @@
       "득표율": "60.2%",
       "유형": "지역구",
       "행정동": "광명4동·광명5동·광명6동·광명7동·철산4동·학온동",
-      "뉴스": []
+      "뉴스": [
+        {
+          "제목": "광명학온지구 입주 2월·개교 3월…최민 도의원 \"하나라도 밀리면 안돼...",
+          "링크": "http://www.joygm.com/news/articleView.html?idxno=215471",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "최민 경기도의원, 학온1초 설립 점검나서",
+          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650967",
+          "날짜": "2026-09-08"
+        }
+      ]
     },
     {
       "이름": "유종상",
@@ -2581,19 +2591,19 @@
       "행정동": "하안1동·하안2동·하안3동·하안4동",
       "뉴스": [
         {
-          "제목": "유종상 도의원, 공공시설 광고 허용범위 확대...불법광고 대응도 강화",
-          "링크": "http://www.joygm.com/news/articleView.html?idxno=215466",
-          "날짜": "2026-09-05"
+          "제목": "유종상 경기도의원 “전세사기 예방 도비 100% 지원·광명 산단 이주대...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500115?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "유종상 경기도의원, 공공시설 광고 허용범위 확대로 재정부담 완화...불...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500307?wlog_tag3=naver",
-          "날짜": "2026-09-04"
+          "제목": "유종상 경기도의원 “경기 RE100 소득마을 축소 유감... 정부 성과 편승...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500042?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "유종상 도의원, \"학온지구 중학교 수요 재산정하고, 일반산단 기업이전...",
-          "링크": "http://www.joygm.com/news/articleView.html?idxno=215455",
-          "날짜": "2026-09-03"
+          "제목": "예산 아끼려 도민 소득 줄이나…유종상 경기도의원, RE100 소득마을 축소...",
+          "링크": "https://www.nspna.com/news/?mode=view&newsid=827395",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -2631,7 +2641,18 @@
       "득표율": "58.3%",
       "유형": "지역구",
       "행정동": "군포1동·산본1동·금정동",
-      "뉴스": []
+      "뉴스": [
+        {
+          "제목": "경기도의회 건설교통위원회, 현장정책회의 철도·도로공사 현장시찰 ‘...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500309?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "[위클리오늘] 경기도의회 보건복지위원회, 경기도의료원 출연계획 동의...",
+          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793562",
+          "날짜": "2026-09-08"
+        }
+      ]
     },
     {
       "이름": "성기황",
@@ -2669,18 +2690,18 @@
       "행정동": "산본2동·궁내동·광정동",
       "뉴스": [
         {
-          "제목": "김미숙 경기도의회 부의장, 공공후견 지원 조례 전부개정안 상임위원회...",
-          "링크": "https://www.m-i.kr/news/articleView.html?idxno=1410339",
-          "날짜": "2026-09-06"
+          "제목": "김미숙 경기도의원 “방역 참여자 마음건강도 방역의 일부… 예산 감액...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500116?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "경기도의회 김미숙 부의장, 공공후견 통합지원체계 마련",
-          "링크": "https://www.k-health.com/news/articleView.html?idxno=101003",
-          "날짜": "2026-09-04"
+          "제목": "김미숙 경기도의원, 방역인력 정신건강 지원체계 촉구",
+          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=651071",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "경기도교육청, AI 영어교육 현장 확산",
-          "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1291170",
+          "제목": "김미숙 경기도의원, 농업 사업 차질 방지 당부",
+          "링크": "http://www.breaknews.com/1234996",
           "날짜": "2026-09-08"
         }
       ]
@@ -2695,19 +2716,19 @@
       "행정동": "재궁동·오금동·수리동",
       "뉴스": [
         {
-          "제목": "김귀근 경기도의원 “소교량 안전 사각지대 해소 촉구, 작은 다리라고 ...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500087?wlog_tag3=naver",
+          "제목": "김귀근, 지방세 3000억 감액 점검…“세입 흔들리면 세출도 흔들린다”",
+          "링크": "https://www.etoday.co.kr/news/view/2623254",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "김귀근 경기도의원, 현장 민원에서 출발한 공동주택 지하주차장 누수 예...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500246?wlog_tag3=naver",
-          "날짜": "2026-09-04"
+          "제목": "김귀근 경기도의원, 세입추계 정확성이 세출 안정성과 직결...세수 3천억...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500324?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "김귀근 경기도의원, 공동주택 ‘방수·방근’ 기준 마련 추진",
-          "링크": "http://www.breaknews.com/1233556",
-          "날짜": "2026-09-02"
+          "제목": "김귀근 경기도의원 “소교량 안전 사각지대 해소 촉구, 작은 다리라고 ...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500087?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -2731,19 +2752,19 @@
       "행정동": "김포본동·장기동",
       "뉴스": [
         {
+          "제목": "채신덕 경기도의회 문체위원장 “재정 어렵다고 문화·체육·관광부터 ...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500216?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "[경기의정을 말하다] 채신덕 “문화재정 2% 시대 열어야…문화·체육·관...",
+          "링크": "https://www.kgnews.co.kr/news/article.html?no=910737",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "채신덕 문화체육관광위원장 '경기도 유아체육지도자 육성·지원에 관한...",
           "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1290579",
           "날짜": "2026-09-06"
-        },
-        {
-          "제목": "채신덕 경기도의원 ‘경기도 유아체육지도자 육성 및 지원에 관한 조례...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500303?wlog_tag3=naver",
-          "날짜": "2026-09-04"
-        },
-        {
-          "제목": "채신덕 위원장 대표발의한 유아체육지도자 지원 조례안 상임위 가결",
-          "링크": "https://www.m-i.kr/news/articleView.html?idxno=1410219",
-          "날짜": "2026-09-04"
         }
       ]
     },
@@ -2783,18 +2804,18 @@
       "행정동": "장기본동·마산동·운양동",
       "뉴스": [
         {
-          "제목": "김철환 경기도의원, 경기도 택시 지원예산 정상 집행 촉구",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650679",
-          "날짜": "2026-09-04"
+          "제목": "경기도의회 건설교통위원회, 현장정책회의 철도·도로공사 현장시찰 ‘...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500309?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "[위클리오늘] 경기도의회 보건복지위원회, 경기도의료원 출연계획 동의...",
+          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793562",
+          "날짜": "2026-09-08"
         },
         {
           "제목": "천안아산경실련, 지방의회 후반기 의정활동 평가 결과 발표",
           "링크": "https://www.ccdn.co.kr/news/articleView.html?idxno=1097910",
-          "날짜": "2026-09-06"
-        },
-        {
-          "제목": "정병인·박종갑·천철호, 천안아산경실련 '우수의원' 선정",
-          "링크": "https://www.dynews.co.kr/news/articleView.html?idxno=864318",
           "날짜": "2026-09-06"
         }
       ]
@@ -2809,6 +2830,11 @@
       "행정동": "퇴촌면·남종면·남한산성면·송정동·탄벌동",
       "뉴스": [
         {
+          "제목": "최보라 경기도의원 대표 발의 ‘행정규제 기본 조례 개정안’ 상임위 통...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500102?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
           "제목": "경기신보, 남양주와 정책금융 협력…'경기북동부' 성장 뒷받침",
           "링크": "https://www.pressian.com/pages/articles/2026090711124755287?utm_source=naver&utm_medium=search",
           "날짜": "2026-09-07"
@@ -2816,11 +2842,6 @@
         {
           "제목": "경기신보, 남양주 다산동서 본점 일부 및 남양주지점 이전식 개최",
           "링크": "https://www.m-i.kr/news/articleView.html?idxno=1410452",
-          "날짜": "2026-09-06"
-        },
-        {
-          "제목": "경기신보, 본점·남양주지점 다산동 이전",
-          "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1290498",
           "날짜": "2026-09-06"
         }
       ]
@@ -2835,18 +2856,18 @@
       "행정동": "경안동·쌍령동·광남1동·광남2동",
       "뉴스": [
         {
+          "제목": "임창휘 경기도의원 “재정위기 경기도, 국제협력국 예산 전면 재설계해...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500318?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "임창휘 경기도의원 “경기도 ‘AI 휴머노믹스’ 철학, 업무계획에 담아...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500281?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "임창휘 경기도의원, 경기동부 첨단산업·도시개발 청사진 제시",
           "링크": "http://www.globalepic.co.kr/view.php?ud=2026090314282794525f69d33b22_29",
-          "날짜": "2026-09-03"
-        },
-        {
-          "제목": "임창휘 경기도의원 “경기동부, 규제 희생 넘어 ‘반도체·AI 클러스터’...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/03/20260903500183?wlog_tag3=naver",
-          "날짜": "2026-09-03"
-        },
-        {
-          "제목": "임창휘 경기도의원 \"규제에 갇힐 순 없다\"…미래산업서 돌파구",
-          "링크": "https://www.nocutnews.co.kr/news/6572245?utm_source=naver&utm_medium=article&utm_campaign=20260903050038",
           "날짜": "2026-09-03"
         }
       ]
@@ -2861,6 +2882,11 @@
       "행정동": "오포1동·오포2동·신현동·능평동",
       "뉴스": [
         {
+          "제목": "이자형 경기도의원 “재정 어렵다며 8억원 통합채용 민간위탁, 관행부터...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500348?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "이자형 경기도의원 “재정위기라면서 행정 관행은 그대로”",
           "링크": "https://www.viva100.com/article/20260908500780",
           "날짜": "2026-09-08"
@@ -2869,11 +2895,6 @@
           "제목": "경기도의회 이자형 의원, \"안전한 등굣길까지 꼼꼼히\"…오포중 이전 현...",
           "링크": "http://www.metroseoul.co.kr/article/20260831500572",
           "날짜": "2026-09-01"
-        },
-        {
-          "제목": "이자형 경기도의원, 광주 오포중 본교 이전 앞두고 준비 상황 점검",
-          "링크": "https://www.m-i.kr/news/articleView.html?idxno=1408153",
-          "날짜": "2026-08-31"
         }
       ]
     },
@@ -2885,7 +2906,18 @@
       "득표율": "55.0%",
       "유형": "지역구",
       "행정동": "초월읍·곤지암읍·도척면",
-      "뉴스": []
+      "뉴스": [
+        {
+          "제목": "김미경 경기도의원 “취약계층 주거 지원은 속도가 생명...도비 보조금...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500121?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "김미경 경기도의원 “200만 가입 ‘기후행동 기회소득 앱’ 운영 중단 ...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500043?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        }
+      ]
     },
     {
       "이름": "오민용",
@@ -2897,19 +2929,19 @@
       "행정동": "감북동·감일동·위례동·춘궁동·초이동",
       "뉴스": [
         {
+          "제목": "오민용 경기도의원, 전기차 보조금 반복 추경, 원인은 지자체의 수요예...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500315?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "오민용 경기도의원 \"전기차 보조금 반복 추경, 수요예측부터 손봐야\"",
+          "링크": "https://www.ajunews.com/view/20260908163301319",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "강성삼·오민용 경기도의원, 하남 학교환경개선 협력사업 추진 논의",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500294?wlog_tag3=naver",
           "날짜": "2026-09-07"
-        },
-        {
-          "제목": "강성삼·오민용 의원, 하남 13개교 교육환경 개선 협의",
-          "링크": "https://www.discoverynews.kr/news/articleView.html?idxno=1100744",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "오민용 경기도의원, 수출지원 '칸막이' 깬다...GBC·KOTRA·시군 역할 재...",
-          "링크": "https://www.ajunews.com/view/20260902150454745",
-          "날짜": "2026-09-02"
         }
       ]
     },
@@ -2923,19 +2955,19 @@
       "행정동": "천현동·신장1동·신장2동·덕풍1동·덕풍2동",
       "뉴스": [
         {
-          "제목": "강성삼 경기도의원, 병역명문가에 대한 실질적 예우와 지원 확대해야",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500320?wlog_tag3=naver",
-          "날짜": "2026-09-07"
+          "제목": "강성삼 경기도의원 “긴축재정일수록 현장 살피는 세심한 예산 편성 필...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500154?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "강성삼·오민용 경기도의원, 하남 학교환경개선 협력사업 추진 논의",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500294?wlog_tag3=naver",
-          "날짜": "2026-09-07"
+          "제목": "강성삼 의원, 추경 증액 뒤 감액 반복 지적…예산 편성 정교해야",
+          "링크": "https://www.discoverynews.kr/news/articleView.html?idxno=1100938",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "강성삼·오민용 의원, 하남 13개교 교육환경 개선 협의",
-          "링크": "https://www.discoverynews.kr/news/articleView.html?idxno=1100744",
-          "날짜": "2026-09-07"
+          "제목": "강성삼 경기도의원, ‘경기도 의용소방대 활성화 위한 정책연구’ 본격...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500265?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -2959,8 +2991,8 @@
           "날짜": "2026-09-04"
         },
         {
-          "제목": "경기도의회 ‘제12대 전반기 연구활동 지원 심의위원회’ 출범",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500078?wlog_tag3=naver",
+          "제목": "[ㄱㄱㄷ 의정 Pick!] 남종섭 의장, 광역의회 최초 '의원 청렴교육 의무화...",
+          "링크": "http://www.consumernews.co.kr/news/articleView.html?idxno=763296",
           "날짜": "2026-09-08"
         }
       ]
@@ -2975,6 +3007,11 @@
       "행정동": "덕풍3동·미사3동",
       "뉴스": [
         {
+          "제목": "방미숙 경기도의원 “한시사업 이유로 현장 호응 높은 복지사업 접어선...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500331?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "방미숙 경기도의원, \"사회복지사 웰빙보조비 한시사업 이유로 중단해선...",
           "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650902",
           "날짜": "2026-09-08"
@@ -2983,11 +3020,6 @@
           "제목": "방미숙 경기도의원 ‘복지정보안내도우미’ 현장 점검... “복지 사각지...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/28/20260828500180?wlog_tag3=naver",
           "날짜": "2026-08-28"
-        },
-        {
-          "제목": "방미숙 경기도의원, 국가보훈대상자 고독사 예방 조례 개정 추진",
-          "링크": "http://www.globalepic.co.kr/view.php?ud=2026082120433556875f69d33b22_29",
-          "날짜": "2026-08-23"
         }
       ]
     },
@@ -3001,19 +3033,19 @@
       "행정동": "백석읍·광적면·장흥면·양주1동·양주2동",
       "뉴스": [
         {
+          "제목": "채정선 경기도의원 “한정된 복지예산, 필요한 곳에 적재적소 쓰여야”",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500338?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "채정선 경기도의원 \"급증하는 청소년 마약…예방 예산 감액 재검토해야...",
+          "링크": "https://www.incheonilbo.com/news/articleView.html?idxno=1331531",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "채정선 경기도의원 “장애인가족지원센터, 당사자·가족 든든히 지키는...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/28/20260828500179?wlog_tag3=naver",
           "날짜": "2026-08-28"
-        },
-        {
-          "제목": "채정선 경기도의원 “발달장애인의 일자리, 자립 넘어 지역사회 함께 살...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/28/20260828500022?wlog_tag3=naver",
-          "날짜": "2026-08-28"
-        },
-        {
-          "제목": "채정선 경기도의원, “푸드뱅크는 물품 나눔 넘어 지역사회 안전망 만드...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/26/20260826500235?wlog_tag3=naver",
-          "날짜": "2026-08-26"
         }
       ]
     },
@@ -3084,18 +3116,18 @@
       "행정동": "생연1동·중앙동·보산동·불현동·소요동",
       "뉴스": [
         {
+          "제목": "심동용 경기도의원 ‘재정위기라면서 관행대로 증액... 경기도 행정부터...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500022?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "심동용 경기도의원 ‘재정위기라도 경기북부 미래 위한 예산까지 끊어선...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500212?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "심동용 경기도의원 ‘재정위기 고통분담도 공정해야... 경기북부 홀대 ...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500293?wlog_tag3=naver",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "경기도의회 기획재정위, 제2회 추경안 사전점검",
-          "링크": "http://www.breaknews.com/1234727",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "'돈 없다'는 경기도에 여야 도의원 한목소리⋯ \"무엇을 줄이고 지킬지 ...",
-          "링크": "https://www.asiatime.co.kr/article/20260907500366",
           "날짜": "2026-09-07"
         }
       ]
@@ -3110,19 +3142,19 @@
       "행정동": "갈매동·동구동·인창동·교문1동",
       "뉴스": [
         {
+          "제목": "장승희 경기도의원, 한유총 경기도지회와 간담회… 유보통합·사립유치...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500273?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "장승희 경기도의원, 구리남양주교육지원청과 간담회서 구리 교육현안·...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500245?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "장승희 경기도의원, 400억 부담하고 정차역 하나 없는 구리시, GTX-B 갈매...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/03/20260903500087?wlog_tag3=naver",
           "날짜": "2026-09-03"
-        },
-        {
-          "제목": "장승희 경기도의원, 친환경 인증 면적 확대 실적 평가, 전향적 개선 필...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/02/20260902500304?wlog_tag3=naver",
-          "날짜": "2026-09-02"
-        },
-        {
-          "제목": "장승희 경기도의원, 친환경 인증 평가 손질 촉구… 경기도 '8개 시 제외...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650440",
-          "날짜": "2026-09-02"
         }
       ]
     },
@@ -3160,7 +3192,23 @@
       "득표율": "60.4%",
       "유형": "지역구",
       "행정동": "중앙동·신장1동·신장2동·세마동",
-      "뉴스": []
+      "뉴스": [
+        {
+          "제목": "김영희 경기도의원, 특수교육지도사 현장 목소리 청취…“특수교육 확...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500108?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "김영희 경기도의원, 공동주택 관리제도 점검…“권한만큼 책임·투명성...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500103?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "김영희 경기도의원, 경기 특수교육 인력 격차 짚었다…1명당 학생 21.2명",
+          "링크": "https://www.etoday.co.kr/news/view/2623387",
+          "날짜": "2026-09-09"
+        }
+      ]
     },
     {
       "이름": "전예슬",
@@ -3172,18 +3220,18 @@
       "행정동": "대원1동·대원2동·남촌동·초평동",
       "뉴스": [
         {
-          "제목": "전예슬 의원, 경기둘레길 예산 감액에 안전관리 대책 주문",
-          "링크": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5059765",
+          "제목": "전예슬 경기도의원, 경기둘레길 안전관리 강조...“도민 안전 위한 예산...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500045?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "전예슬 경기도의원, 경기둘레길 예산 1억여원 감액에 \"안전관리 공백 없...",
+          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650972",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "전예슬 경기도의원, 경기둘레길 1억 감액에 “안전은 줄일 수 없다”",
-          "링크": "https://www.sentv.co.kr/article/view/sentv202609080077",
-          "날짜": "2026-09-08"
-        },
-        {
-          "제목": "전예슬 도의원 \"경기둘레길 예산 감액, 안전 공백 없어야\"",
-          "링크": "https://www.newsis.com/view/NISX20260908_0003780666",
+          "제목": "전예슬 의원, 제2차 문화체육관광위원회 2026년도 제2회 추경안 심사",
+          "링크": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3033991",
           "날짜": "2026-09-08"
         }
       ]
@@ -3250,19 +3298,19 @@
       "행정동": "신둔면·백사면·마장면·창전동·증포동·중리동·관고동",
       "뉴스": [
         {
+          "제목": "김일중 경기도의원 “시약 구입만큼 폐기까지 관리해야… 예산관리 빈틈...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500302?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "김일중 경기도의회 의원, 보건환경연구원에 시약·장비 '체계적 데이터...",
+          "링크": "https://hbnpress.com/news/view/1065590744613432",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "김일중 경기도의원, 재정 정상화 로드맵 요구",
           "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650619",
           "날짜": "2026-09-04"
-        },
-        {
-          "제목": "김일중 의원, 경기도 채무 6조원대 지적…재정 정상화 로드맵 요구",
-          "링크": "https://www.discoverynews.kr/news/articleView.html?idxno=1100530",
-          "날짜": "2026-09-03"
-        },
-        {
-          "제목": "김일중 도의원 \"경기도 재정 정상화 4년 로드맵 제시해야\"",
-          "링크": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2466577",
-          "날짜": "2026-09-03"
         }
       ]
     },
@@ -3276,6 +3324,11 @@
       "행정동": "장호원읍·부발읍·호법면·대월면·모가면·설성면·율면",
       "뉴스": [
         {
+          "제목": "김인영 경기도의원 “사룟값 폭등 속 조사료 지원 축소 아쉬워…체감형...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500096?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
           "제목": "김인영 경기도의원 “기후위기 속 농작물재해보험 예산 감액 안타까워…...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500283?wlog_tag3=naver",
           "날짜": "2026-09-07"
@@ -3284,11 +3337,6 @@
           "제목": "김인영 경기도의원 \"농기계 농로 진입 불편 해결 모색\"",
           "링크": "https://www.agrinet.co.kr/news/articleView.html?idxno=406824",
           "날짜": "2026-09-01"
-        },
-        {
-          "제목": "김인영 경기도의원, 농기계 진입 불편 해결방안 모색",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/27/20260827500121?wlog_tag3=naver",
-          "날짜": "2026-08-27"
         }
       ]
     },
@@ -3302,19 +3350,9 @@
       "행정동": "공도읍·미양면·대덕면·양성면·원곡면·고삼면·안성3동",
       "뉴스": [
         {
-          "제목": "이언주 의원, 신간 '공짜 질서는 끝났다' 용인 북콘서트 성황",
-          "링크": "https://www.pointe.co.kr/news/articleView.html?idxno=84390",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "국힘 원외위원장 51명 \"대법관 시녀화 폭거 규탄…탄핵 사유\"",
-          "링크": "https://www.newsworks.co.kr/news/articleView.html?idxno=852888",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "이언주 신간 북콘서트 성황…정계·산업계 인사 대거 참석",
-          "링크": "https://www.gukjenews.com/news/articleView.html?idxno=3687035",
-          "날짜": "2026-09-07"
+          "제목": "건강검진후 미세석회화 조직검사, 우선 기준은 '입체정위 유방생검술'",
+          "링크": "http://www.cancerline.co.kr/html/27387.html",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -3328,6 +3366,11 @@
       "행정동": "보개면·금광면·서운면·일죽면·죽산면·삼죽면·안성1동·안성2동",
       "뉴스": [
         {
+          "제목": "백승기 경기도의원 “가축 전염병 방역 예산 사수 및 대기업의 축산시장...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500095?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
           "제목": "백승기 경기도의원 “도민·농민 체감도 높은 ‘농수산물 할인쿠폰’ 예...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500027?wlog_tag3=naver",
           "날짜": "2026-09-08"
@@ -3335,11 +3378,6 @@
         {
           "제목": "[지방의회 리더에게 듣는다] 백승기 \"서민 위한 예산 편성…이정표 세울...",
           "링크": "https://www.obsnews.co.kr/news/articleView.html?idxno=1536645",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "백승기 경기도의원, 농수산물 할인쿠폰 예산 감액 질타...\"내년 확대해야...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650859",
           "날짜": "2026-09-07"
         }
       ]
@@ -3354,19 +3392,19 @@
       "행정동": "군내면·신북면·창수면·영중면·영북면·관인면·포천동·선단동",
       "뉴스": [
         {
-          "제목": "'생활정치인' 윤충식 경기도의원 \"체감해야 답도 보인다\"",
-          "링크": "https://www.nocutnews.co.kr/news/6569332?utm_source=naver&utm_medium=article&utm_campaign=20260828050025",
-          "날짜": "2026-08-28"
+          "제목": "윤충식 경기도의원 “재정 어렵다고 도민 안전·경기북부 발전까지 위축...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500033?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "추미애 \"포천~철원 고속도로, 경기북부 주민들의 실질적 교통복지…예타...",
-          "링크": "https://www.joongboo.com/news/articleView.html?idxno=363735778",
-          "날짜": "2026-09-04"
+          "제목": "윤충식 도의원, 도지사 관사 임차료 12억2천만원 적정성 지적",
+          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=651025",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "경기도의회 경기도청 예결위, 42조 원 규모 제2회 추경안 사전설명회 개...",
-          "링크": "https://hbnpress.com/news/view/1065594929347759",
-          "날짜": "2026-08-30"
+          "제목": "윤충식 경기도의원 “재정 비상 외치면서 12억 관사... 도민 눈높이에 ...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500351?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -3380,6 +3418,11 @@
       "행정동": "소흘읍·내촌면·가산면·일동면·이동면·화현면",
       "뉴스": [
         {
+          "제목": "김성남 경기도의원, 농축산물 할인쿠폰 감액은 도민과의 약속을 저버리...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500289?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "추미애 \"포천~철원 고속도로, 경기북부 주민들의 실질적 교통복지…예타...",
           "링크": "https://www.joongboo.com/news/articleView.html?idxno=363735778",
           "날짜": "2026-09-04"
@@ -3388,11 +3431,6 @@
           "제목": "김성태 경기도의원 \"예산 줄이고 농업 지킬 순 없어\"",
           "링크": "https://www.m-i.kr/news/articleView.html?idxno=1409982",
           "날짜": "2026-09-04"
-        },
-        {
-          "제목": "김성태 경기도의원, 한농연·용인 화훼농가와 머리 맞대... “예산 줄이...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/03/20260903500205?wlog_tag3=naver",
-          "날짜": "2026-09-03"
         }
       ]
     },
@@ -3406,6 +3444,11 @@
       "행정동": "가남읍·점동면·세종대왕면·북내면·강천면·여흥동",
       "뉴스": [
         {
+          "제목": "서광범 농정해양위원장 “경기도립동물병원보다 민간 동물병원 활용이...",
+          "링크": "https://www.dailyvet.co.kr/news/association/296163",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "서광범 경기도의원 대표발의 청년농 지원 조례안, 농정해양위 통과",
           "링크": "http://www.newstown.co.kr/news/articleView.html?idxno=714965",
           "날짜": "2026-09-07"
@@ -3413,11 +3456,6 @@
         {
           "제목": "서광범 경기도의원 발의 후계농어업인 지원 조례안 상임위 통과",
           "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650849",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "서광범 경기도의원, 후계농어업인단체 안정적 활동 기반 마련 나서",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500311?wlog_tag3=naver",
           "날짜": "2026-09-07"
         }
       ]
@@ -3432,6 +3470,11 @@
       "행정동": "흥천면·금사면·대신면·산북면·중앙동·오학동",
       "뉴스": [
         {
+          "제목": "유필선 경기도의원, 조례안 심사서 입법 취지 넘어 체계·실효성까지 꼼...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500300?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "유필선 경기도의원 “경기도 재정운용, 약속은 지키고 균형발전은 강화...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500260?wlog_tag3=naver",
           "날짜": "2026-09-07"
@@ -3440,11 +3483,6 @@
           "제목": "경기도의회 기획재정위, 제2회 추경안 사전점검",
           "링크": "http://www.breaknews.com/1234727",
           "날짜": "2026-09-07"
-        },
-        {
-          "제목": "'30%는 기준선인가 상한선인가'…경기도 421개 시·군 사업 다시 계산",
-          "링크": "https://www.etoday.co.kr/news/view/2622331",
-          "날짜": "2026-09-06"
         }
       ]
     },
@@ -3458,19 +3496,19 @@
       "행정동": "양평읍·양서면·옥천면·서종면",
       "뉴스": [
         {
-          "제목": "김진후·윤순옥 경기도의원, 김성제 의왕시장과 교통현안 논의",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/01/20260901500223?wlog_tag3=naver",
-          "날짜": "2026-09-01"
+          "제목": "[경기도의회 소식] 문화체육관광위원회‧전석훈‧윤순옥 경기도의원",
+          "링크": "http://www.iminju.net/news/articleView.html?idxno=169232",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "이혜원·윤순옥 경기도의원, 양평군과 현안 점검…\"현장 확인해 해결책...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650159",
-          "날짜": "2026-09-01"
+          "제목": "윤순옥 경기도의원 ‘소나무재선충병 국가책임 통합방제 촉구 건의안’...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500290?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "경기평택항만공사 사장 1년 넘게 공석…윤순옥 \"도지사 책임, 조속히 임...",
-          "링크": "http://www.newstown.co.kr/news/articleView.html?idxno=714247",
-          "날짜": "2026-09-01"
+          "제목": "윤순옥 경기도의원, 소나무재선충병 국가책임 방제 촉구",
+          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650997",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -3484,19 +3522,19 @@
       "행정동": "강상면·강하면·단월면·청운면·양동면·지평면·용문면·개군면",
       "뉴스": [
         {
-          "제목": "이혜원 경기도의원 “시군이 추가 부담 떠안는 구조 안 돼”… 재원 운...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500085?wlog_tag3=naver",
-          "날짜": "2026-09-08"
+          "제목": "이혜원 경기도의원, 4개 사업 도비 6억6969만원 감액 지적",
+          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=651058",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "이혜원 경기도의원 \"ASF방역비까지 삭감…감액 추경 기준 있나\"",
-          "링크": "https://www.newsis.com/view/NISX20260907_0003779683",
-          "날짜": "2026-09-07"
+          "제목": "이혜원 경기도의원 “도 자체사업 시군비 부담·예산 감액 개선해야”",
+          "링크": "https://www.kukinews.com/article/view/kuk202609090035",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "이혜원 부위원장, 경기도 주거 기본 조례 일부개정조례안 상임위 통과",
-          "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1290587",
-          "날짜": "2026-09-06"
+          "제목": "이혜원 도의원, 시군 부담률 최대 90% 경기도 자체사업 지적",
+          "링크": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2468330",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -3508,18 +3546,7 @@
       "득표율": "54.7%",
       "유형": "지역구",
       "행정동": "과천시 일원",
-      "뉴스": [
-        {
-          "제목": "김민석 \"개헌, 국민 원하는 선까지\"…장동혁 \"대통령에게 '연임 불가' 받...",
-          "링크": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5217684",
-          "날짜": "2026-09-08"
-        },
-        {
-          "제목": "김민석 \"개헌, 국민 원하는 선까지\"…장동혁 \"대통령에게 '연임 불가' 받...",
-          "링크": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5217644",
-          "날짜": "2026-09-07"
-        }
-      ]
+      "뉴스": []
     },
     {
       "이름": "윤종영",
@@ -3531,6 +3558,11 @@
       "행정동": "연천군 일원",
       "뉴스": [
         {
+          "제목": "윤종영 경기도의원, 전국 최초 「경기도 평화·안보 역사자원 보존 및 ...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500173?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "[위클리오늘] 윤종영 의원, 전국 최초 '경기도 평화·안보 역사자원 보...",
           "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793440",
           "날짜": "2026-09-07"
@@ -3538,11 +3570,6 @@
         {
           "제목": "윤종영 경기도의원 “재정위기 명분으로 도민 고충민원 처리 기능까지 ...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500343?wlog_tag3=naver",
-          "날짜": "2026-09-04"
-        },
-        {
-          "제목": "[위클리오늘] 윤종영 의원, \"재정위기 명분으로 도민 고충민원 처리 기...",
-          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793189",
           "날짜": "2026-09-04"
         }
       ]
@@ -3557,9 +3584,19 @@
       "행정동": "가평군 일원",
       "뉴스": [
         {
-          "제목": "정장선 전 평택시장, 출판 기념 북콘서트 개최",
-          "링크": "https://www.newspim.com/news/view/20260905000088",
-          "날짜": "2026-09-06"
+          "제목": "박영선 경기도의원 “예산 절감도 필요하지만 공무원 사기와 조직 활력...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500056?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "박영선 경기도의원 “재정위기 이유로 경기북부 미래·안전까지 위축돼...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500039?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "정장선 전 평택시장 \"처음이자 마지막 될 수도 있는 북콘서트...응원에...",
+          "링크": "https://www.ajunews.com/view/20260908214936791",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -3571,7 +3608,18 @@
       "득표율": "정당비례",
       "유형": "비례",
       "행정동": "",
-      "뉴스": []
+      "뉴스": [
+        {
+          "제목": "[단독] 김승원 법무장관 후보자 '부정공천' 의혹…'경선'만 강조한 민주...",
+          "링크": "https://monthly.chosun.com/news/articleView.html?idxno=71312",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "경기도 '감액 추경' 후폭풍⋯ 도의회 곳곳서 \"무엇을 지킬지 기준 있나...",
+          "링크": "https://www.asiatime.co.kr/article/20260908500184",
+          "날짜": "2026-09-08"
+        }
+      ]
     },
     {
       "이름": "김현덕",
@@ -3583,19 +3631,19 @@
       "행정동": "",
       "뉴스": [
         {
+          "제목": "김현덕 경기도의원 “장애인 치과 진료 대기 장기화... 진료기관·의료...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500050?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "김현덕 경기도의원 “재정 어렵다고 돌봄 줄이고 장애인 취업기회까지...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500255?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "\"37년 봉사에서 의정활동으로\"…김현덕 경기도의원, 장애인 이동권 확보...",
           "링크": "https://www.welfarenews.net/news/articleView.html?idxno=210877",
           "날짜": "2026-09-07"
-        },
-        {
-          "제목": "김현덕 경기도의원 \"정론직필로 온 국민에게 희망 전하는 언론 되길\"",
-          "링크": "https://www.startuptoday.co.kr/news/articleView.html?idxno=812027",
-          "날짜": "2026-09-04"
-        },
-        {
-          "제목": "김현덕 경기도의원 “사회서비스원 돌봄 영역 간 칸막이 낮추고 종사자...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/01/20260901500225?wlog_tag3=naver",
-          "날짜": "2026-09-01"
         }
       ]
     },
@@ -3614,14 +3662,14 @@
           "날짜": "2026-09-07"
         },
         {
-          "제목": "쯔양도 로봇과 '한판'…경기도 청소년 2000명, 피지컬 AI에 빠졌다",
-          "링크": "https://weekly.hankooki.com/news/articleView.html?idxno=7182728",
-          "날짜": "2026-09-07"
+          "제목": "김진명 경기도의원 “학교사회복지사는 학생 곁 전문인력...처우개선 및...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500023?wlog_tag3=naver",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "2026년 SW미래채움 AI페스티벌 초중고생 2천여명 참여 '성료'",
-          "링크": "https://www.onews.tv/news/articleView.html?idxno=286411",
-          "날짜": "2026-09-07"
+          "제목": "[단독] 김승원 법무장관 후보자 '부정공천' 의혹…'경선'만 강조한 민주...",
+          "링크": "https://monthly.chosun.com/news/articleView.html?idxno=71312",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -3635,19 +3683,9 @@
       "행정동": "",
       "뉴스": [
         {
-          "제목": "최혜경 경기도의원 “소상공인 정책, ‘생존과 재기’ 중심으로 전환해...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500031?wlog_tag3=naver",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "최혜경 경기도의원, 소상공인도 GBC 수출 지원 활용... 현장 홍보·연계...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/08/31/20260831500227?wlog_tag3=naver",
-          "날짜": "2026-08-31"
-        },
-        {
-          "제목": "창원도계부부시장, 달빛야시장 이틀 만에 5천여 명 발길",
-          "링크": "http://www.breaknews.com/1234545",
-          "날짜": "2026-09-07"
+          "제목": "[1보] 경기도의회 경노위, 제2회 추경예산안 심의-일율적 예산 감액은 도...",
+          "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1291667",
+          "날짜": "2026-09-09"
         }
       ]
     },
@@ -3661,19 +3699,19 @@
       "행정동": "",
       "뉴스": [
         {
-          "제목": "\"누전 확인 후 씻으라\"던 지하 기계실…20대 기전직원의 비극",
-          "링크": "http://www.aptn.co.kr/news/articleView.html?idxno=112799",
+          "제목": "지영일 경기도의원 “공동주택 안전 예산 삭감 안 돼…도비 분담 확대·...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500155?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "지영일 경기도의원, RE100·하수관로 예산 집행 개선 촉구… 지역별 차등...",
+          "링크": "http://www.lawissue.co.kr/view.php?ud=20260908124807164d94aa4ada6_12",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "남종섭 경기도의회 의장 “지방의회법 제정으로 지방자치 새 35년 열어야...",
-          "링크": "http://www.beyondpost.co.kr/view.php?ud=2026090318433269454c878f8fa1_30",
-          "날짜": "2026-09-03"
-        },
-        {
-          "제목": "경기도의회, 국회서 ‘지방의회법 연내 제정’ 강력 촉구",
-          "링크": "https://www.kukinews.com/article/view/kuk202609030226",
-          "날짜": "2026-09-03"
+          "제목": "지영일 경기도의원, 추가경정예산 심의서 에너지 전환·하수관로 정비 ...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500247?wlog_tag3=naver",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -3687,19 +3725,19 @@
       "행정동": "",
       "뉴스": [
         {
+          "제목": "박정균 경기도의원 “경기도는 세원은 나누자면서, 재정위기 부담은 시...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500285?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "박정균 경기도의원, 재정위기라면 삭발 각오로 중앙정부와 제도개선 싸...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500258?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "박정균 경기도의원, 평화협력국 존재 이유 보여줘야",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500300?wlog_tag3=naver",
           "날짜": "2026-09-07"
-        },
-        {
-          "제목": "박정균 경기도의원, 경기연구원, 싱크탱크 아닌 페이퍼컴퍼니로 만들 셈...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500297?wlog_tag3=naver",
-          "날짜": "2026-09-07"
-        },
-        {
-          "제목": "박정균 경기도의원, 감액 추경 '우선순위 원칙' 재정립 촉구",
-          "링크": "https://www.incheonilbo.com/news/articleView.html?idxno=1331201",
-          "날짜": "2026-09-03"
         }
       ]
     },
@@ -3770,13 +3808,13 @@
           "날짜": "2026-09-07"
         },
         {
-          "제목": "'예산 줄줄이 삭감'에 추경 심사 곳곳 파열음",
-          "링크": "https://www.obsnews.co.kr/news/articleView.html?idxno=1536647",
-          "날짜": "2026-09-07"
+          "제목": "경기도의회 문체위, 김동연표 '예술인·체육인 기회소득' 원상복구…도...",
+          "링크": "https://www.kpinews.kr/newsView/1065596209559589",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "\"9개월 전엔 지켜야 한다더니\"…경기도 문체예산 536억 삭감에 도의회 ...",
-          "링크": "https://www.joongboo.com/news/articleView.html?idxno=363736011",
+          "제목": "'예산 줄줄이 삭감'에 추경 심사 곳곳 파열음",
+          "링크": "https://www.obsnews.co.kr/news/articleView.html?idxno=1536647",
           "날짜": "2026-09-07"
         }
       ]
@@ -3789,7 +3827,23 @@
       "득표율": "정당비례",
       "유형": "비례",
       "행정동": "",
-      "뉴스": []
+      "뉴스": [
+        {
+          "제목": "김성기 경기도의원, 간병SOS 예산 감액 지적… “숫자 뒤에 가려진 사람...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500169?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
+          "제목": "문 닫은 '국내 유일 고속도로 공공의원'…정치권 \"다시 열어야\"",
+          "링크": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3042599",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "최초 고속도로 공공의료기관 '안성휴게소의원'은 왜 폐원했나…직원 8명...",
+          "링크": "https://www.medigatenews.com/news/2747268040",
+          "날짜": "2026-09-09"
+        }
+      ]
     },
     {
       "이름": "장경임",
@@ -3825,7 +3879,13 @@
       "득표율": "정당비례",
       "유형": "비례",
       "행정동": "",
-      "뉴스": []
+      "뉴스": [
+        {
+          "제목": "[건강칼럼] 편평사마귀, 피부 병변과 전반적인 건강 상태 함께 살펴야",
+          "링크": "https://www.gokorea.kr/news/articleView.html?idxno=877654",
+          "날짜": "2026-09-09"
+        }
+      ]
     },
     {
       "이름": "오남석",
@@ -3837,18 +3897,18 @@
       "행정동": "",
       "뉴스": [
         {
-          "제목": "오남석 경기도의원, '청소년 AI 성장 바우처' 재추진 주문...정부 사업과...",
-          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650853",
-          "날짜": "2026-09-07"
+          "제목": "오남석 경기도의원 \"산하기관 인건비 누락·중복사업 예산 점검해야\"",
+          "링크": "https://www.newstnt.com/news/articleView.html?idxno=717423",
+          "날짜": "2026-09-09"
         },
         {
-          "제목": "오남석 경기도의원 “시행도 못 한 청소년 AI 바우처 12억원 전액 삭감...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500324?wlog_tag3=naver",
-          "날짜": "2026-09-07"
+          "제목": "오남석 경기도의원, GBC·ODA 성과 점검… \"예산 집행보다 결과가 중요\"",
+          "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650976",
+          "날짜": "2026-09-08"
         },
         {
-          "제목": "[1보] 경기도의회 미래과학협력위원회 회의서  유엔AI 허브 경기도 유치...",
-          "링크": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1291258",
+          "제목": "오남석 경기도의원 “국제협력국 사업, 예산 집행보다 실제 성과 따져야...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500165?wlog_tag3=naver",
           "날짜": "2026-09-08"
         }
       ]
@@ -3889,14 +3949,14 @@
       "행정동": "",
       "뉴스": [
         {
+          "제목": "김한슬 경기도의원 “도비 행사예산 홍보물서 투명 공개”... 조례안 상...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500028?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
           "제목": "김한슬 경기도의원, 경기도 땜질식 재정 운용 질타... “돈 없다며 기금...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/07/20260907500030?wlog_tag3=naver",
           "날짜": "2026-09-07"
-        },
-        {
-          "제목": "김한슬 경기도의원 “학생 주소·학교 규모가 대입 기회 좌우해선 안 돼...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/02/20260902500314?wlog_tag3=naver",
-          "날짜": "2026-09-02"
         },
         {
           "제목": "'돈 없다'는 경기도에 여야 도의원 한목소리⋯ \"무엇을 줄이고 지킬지 ...",
@@ -3913,13 +3973,7 @@
       "득표율": "정당비례",
       "유형": "비례",
       "행정동": "",
-      "뉴스": [
-        {
-          "제목": "최지원 경기도의원, 경기도교육청 출자·출연기관 ‘재정 투명성 제고 ...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500312?wlog_tag3=naver",
-          "날짜": "2026-09-04"
-        }
-      ]
+      "뉴스": []
     },
     {
       "이름": "권태익",
@@ -3931,19 +3985,19 @@
       "행정동": "",
       "뉴스": [
         {
+          "제목": "권태익 경기도의원, 전액 삭감 반복되는 예산 편성, 실현 가능한 단계별...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/09/20260909500157?wlog_tag3=naver",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "권태익 경기도의원 “복지예산, 편성부터 집행까지 더욱 신중해야”",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500335?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "권태익 경기도의원, 장애인복지 예산·정책 의견 청취",
           "링크": "https://www.kmaeil.com/news/articleView.html?idxno=650623",
           "날짜": "2026-09-04"
-        },
-        {
-          "제목": "권태익 경기도의원, 장애인복지 정책간담회 참석...현장의 목소리 정책...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500070?wlog_tag3=naver",
-          "날짜": "2026-09-04"
-        },
-        {
-          "제목": "[경기도의회 소식] 김용성 여가교위원장‧권태익‧이성원 경기도의원",
-          "링크": "http://www.iminju.net/news/articleView.html?idxno=169055",
-          "날짜": "2026-09-03"
         }
       ]
     },
@@ -3957,6 +4011,11 @@
       "행정동": "",
       "뉴스": [
         {
+          "제목": "예산 투입만으론 한계…금종례 경기도의원, 가정 밖 청소년 자립 대책 ...",
+          "링크": "https://www.nspna.com/news/?mode=view&newsid=827387",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "금종례 경기도의원 “가정 밖 청소년 지원, 예산 투입 넘어 실질적 자립...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500097?wlog_tag3=naver",
           "날짜": "2026-09-08"
@@ -3965,11 +4024,6 @@
           "제목": "금종례 경기도의원 \"가정 밖 청소년 지원, 실질적 자립성과 점검해야\"",
           "링크": "https://www.kpinews.kr/newsView/1065575681280003",
           "날짜": "2026-09-08"
-        },
-        {
-          "제목": "금종례 경기도의원, 야간연장보육 운영비 축소는 현실 외면…추경서 예...",
-          "링크": "https://www.nspna.com/news/?mode=view&newsid=826779",
-          "날짜": "2026-09-03"
         }
       ]
     },
@@ -4009,19 +4063,19 @@
       "행정동": "",
       "뉴스": [
         {
-          "제목": "[위클리오늘] 국은주 경기도의원, 복지사업 대규모 감액 지적…\"현장 수...",
-          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793526",
+          "제목": "[위클리오늘] 국은주 경기도의원, 보건·의료사업 예산 미집행·삭감 반...",
+          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793746",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "국은주 경기도의원 “복지예산 감액, 현장과 도민에게 미칠 영향 먼저 ...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500333?wlog_tag3=naver",
           "날짜": "2026-09-08"
         },
         {
-          "제목": "국은주 경기도의원, 사회복지종사자 처우개선, 이제는 사각지대 없애야",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/04/20260904500241?wlog_tag3=naver",
-          "날짜": "2026-09-04"
-        },
-        {
-          "제목": "[위클리오늘] 경기도의회 국은주 의원, \"사회복지종사자 처우개선, 이제...",
-          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793054",
-          "날짜": "2026-09-04"
+          "제목": "[위클리오늘] 국은주 경기도의원, 복지사업 대규모 감액 지적…\"현장 수...",
+          "링크": "http://www.weeklytoday.com/news/articleView.html?idxno=793526",
+          "날짜": "2026-09-08"
         }
       ]
     },
@@ -4035,19 +4089,19 @@
       "행정동": "",
       "뉴스": [
         {
+          "제목": "차유미 경기도의원 \"출산·돌봄부터 공공의료까지 지속가능한 재정대책...",
+          "링크": "https://www.tournews21.com/news/articleView.html?idxno=143024",
+          "날짜": "2026-09-09"
+        },
+        {
+          "제목": "차유미 경기도의원 “재정 어려워도 취약계층 위한 복지의 가치 지켜야...",
+          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/08/20260908500330?wlog_tag3=naver",
+          "날짜": "2026-09-08"
+        },
+        {
           "제목": "차유미 경기도의원, 안산 ‘더불어숲’서 직업재활·피해장애아동 지원...",
           "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/02/20260902500290?wlog_tag3=naver",
           "날짜": "2026-09-02"
-        },
-        {
-          "제목": "차유미 경기도의원, 안산 장애인평생교육시설 ‘나무를심는장애인야학...",
-          "링크": "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/09/01/20260901500276?wlog_tag3=naver",
-          "날짜": "2026-09-01"
-        },
-        {
-          "제목": "차유미 경기도의원, 중증장애인 일자리·주거·돌봄 지원 현장 점검",
-          "링크": "http://www.globalepic.co.kr/view.php?ud=2026082814514433515f69d33b22_29",
-          "날짜": "2026-08-28"
         }
       ]
     }
