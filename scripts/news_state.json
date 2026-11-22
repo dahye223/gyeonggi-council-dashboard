@@ -1,75 +1,54 @@
 {
-  "last_run": "2026-11-21",
-  "data_hash": "d28e4d57c9751fa62899502c4c42a7dbef65533367cbbdcdb2b4a0ffbfd2416c",
-  "updated_candidates": 59,
-  "new_articles": 89,
+  "last_run": "2026-11-22",
+  "data_hash": "6384c66a893550f8026dd6ceb52e4b4b27838f3025fb31748dc8e787390718e6",
+  "updated_candidates": 43,
+  "new_articles": 69,
   "last_new_links": [
-    "http://www.breaknews.com/1252786",
-    "http://www.econonews.co.kr/news/articleView.html?idxno=447490",
-    "http://www.enewstoday.co.kr/news/articleView.html?idxno=2495331",
-    "http://www.hansbiz.co.kr/news/articleView.html?idxno=885726",
-    "http://www.joseilbo.com/news/news_read.php?uid=580146&class=33&grp=",
-    "http://www.weeklytoday.com/news/articleView.html?idxno=802877",
-    "http://www.yonhapnewstv.co.kr/news/MYH20261120225337TjL",
-    "https://news.tf.co.kr/read/national/2391619.htm",
-    "https://view.asiae.co.kr/article/2026112016351288056",
-    "https://www.asiatime.co.kr/article/20261120500196",
-    "https://www.asiatoday.co.kr/kn/view.php?key=20261120010007990",
-    "https://www.discoverynews.kr/news/articleView.html?idxno=1107427",
-    "https://www.discoverynews.kr/news/articleView.html?idxno=1107434",
-    "https://www.edaily.co.kr/News/Read?newsId=01797446645648016&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-    "https://www.etnews.com/20261120000326",
-    "https://www.etnews.com/20261120000327",
-    "https://www.etnews.com/20261120000328",
-    "https://www.etoday.co.kr/news/view/2651168",
-    "https://www.etoday.co.kr/news/view/2651172",
-    "https://www.fnnews.com/news/202611211347382908",
-    "https://www.g-enews.com/view.php?ud=2026111710220281888fbfc802b3_1",
-    "https://www.greened.kr/news/articleView.html?idxno=355212",
-    "https://www.gukjenews.com/news/articleView.html?idxno=3757629",
-    "https://www.gukjenews.com/news/articleView.html?idxno=3758523",
-    "https://www.hg-times.com/news/articleView.html?idxno=307232",
-    "https://www.joongangenews.com/news/articleView.html?idxno=565558",
-    "https://www.k-health.com/news/articleView.html?idxno=102360",
-    "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041594",
-    "https://www.kmaeil.com/news/articleView.html?idxno=659230",
-    "https://www.kmaeil.com/news/articleView.html?idxno=659237",
-    "https://www.kpanews.co.kr/news/articleView.html?idxno=549486",
-    "https://www.kukinews.com/article/view/kuk202611200150",
-    "https://www.kukinews.com/article/view/kuk202611200176",
-    "https://www.kukinews.com/article/view/kuk202611210004",
-    "https://www.kyeonggi.com/article/20261120580262",
-    "https://www.lawissue.co.kr/view.php?ud=202611201446056529d94aa4ada6_12",
-    "https://www.lawissue.co.kr/view.php?ud=202611201447239602d94aa4ada6_12",
-    "https://www.m-i.kr/news/articleView.html?idxno=2021633",
-    "https://www.natv.go.kr/natv/news/newsView.do?newsId=514627",
-    "https://www.news1.kr/local/gyeonggi/6361168",
-    "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083652",
-    "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083674",
-    "https://www.newsis.com/view/NISX20261120_0003877330",
-    "https://www.newspim.com/news/view/20261120001078",
-    "https://www.newstnt.com/news/articleView.html?idxno=729526",
-    "https://www.nspna.com/news/?mode=view&newsid=837177",
-    "https://www.nspna.com/news/?mode=view&newsid=837183",
-    "https://www.nspna.com/news/?mode=view&newsid=837226",
-    "https://www.nspna.com/news/?mode=view&newsid=837228",
-    "https://www.nspna.com/news/?mode=view&newsid=837242",
-    "https://www.obsnews.co.kr/news/articleView.html?idxno=1544509",
-    "https://www.obsnews.co.kr/news/articleView.html?idxno=1544534",
-    "https://www.obsnews.co.kr/news/articleView.html?idxno=1544535",
-    "https://www.obsnews.co.kr/news/articleView.html?idxno=1544536",
-    "https://www.obsnews.co.kr/news/articleView.html?idxno=1544537",
-    "https://www.obsnews.co.kr/news/articleView.html?idxno=1544538",
-    "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003286925&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-    "https://www.safetynews.co.kr/news/articleView.html?idxno=251714",
-    "https://www.sentv.co.kr/article/view/sentv202611200228",
-    "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/19/20261119500270?wlog_tag3=naver",
-    "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/20/20261120500254?wlog_tag3=naver",
-    "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/20/20261120500257?wlog_tag3=naver",
-    "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/20/20261120500287?wlog_tag3=naver",
-    "https://www.viva100.com/article/20261121500031",
-    "https://www.ytn.co.kr/_ln/0115_202611210032416137",
-    "https://www.ytn.co.kr/_ln/0134_202611210900228380"
+    "http://www.cctimes.kr/news/articleView.html?idxno=938370",
+    "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=922197",
+    "http://www.jeollailbo.com/news/articleView.html?idxno=817462",
+    "http://www.kgnews.co.kr/news/article.html?no=920524",
+    "http://www.mygoyang.com/news/articleView.html?idxno=91325",
+    "https://biz.chosun.com/topics/law_firm/2026/11/22/LNV7HT3R5FAG3JIH6JR22OGV6A/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+    "https://biz.heraldcorp.com/article/10945103?ref=naver",
+    "https://daily.hankooki.com/news/articleView.html?idxno=1427620",
+    "https://www.betanews.net/article/view/beta202611220010",
+    "https://www.betanews.net/article/view/beta202611220012",
+    "https://www.ekn.kr/web/view.php?key=20261121029192879",
+    "https://www.etnews.com/20261121000046",
+    "https://www.etnews.com/20261122000067",
+    "https://www.etnews.com/20261122000085",
+    "https://www.etoday.co.kr/news/view/2651300",
+    "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000561084",
+    "https://www.imaeil.com/page/view/2026112212140623527",
+    "https://www.insight.co.kr/news/583072",
+    "https://www.joongdo.co.kr/web/view.php?key=20261121010007372",
+    "https://www.joongdo.co.kr/web/view.php?key=20261121010007378",
+    "https://www.joongdo.co.kr/web/view.php?key=20261121010007379",
+    "https://www.joongdo.co.kr/web/view.php?key=20261122010007380",
+    "https://www.kbmaeil.com/article/20261122500053",
+    "https://www.kgnews.co.kr/news/article.html?no=920516",
+    "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041639",
+    "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041652",
+    "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041672",
+    "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4091564",
+    "https://www.m-i.kr/news/articleView.html?idxno=2021648",
+    "https://www.m-i.kr/news/articleView.html?idxno=2021650",
+    "https://www.m-i.kr/news/articleView.html?idxno=2021651",
+    "https://www.m-i.kr/news/articleView.html?idxno=2021652",
+    "https://www.m-i.kr/news/articleView.html?idxno=2021653",
+    "https://www.newsgn.com/news/articleView.html?idxno=587157",
+    "https://www.newsis.com/view/NISX20261122_0003878138",
+    "https://www.newspim.com/news/view/20261121000035",
+    "https://www.newsworker.co.kr/news/articleView.html?idxno=515390",
+    "https://www.nocutnews.co.kr/news/6609853?utm_source=naver&utm_medium=article&utm_campaign=20261120060509",
+    "https://www.segye.com/newsView/20261122504716?OutUrl=naver",
+    "https://www.segye.com/newsView/20261122504979?OutUrl=naver",
+    "https://www.segye.com/newsView/20261122505270?OutUrl=naver",
+    "https://www.seoul.co.kr/news/society/2026/11/22/20261122500021?wlog_tag3=naver",
+    "https://www.shinailbo.co.kr/news/articleView.html?idxno=5086078",
+    "https://www.shinailbo.co.kr/news/articleView.html?idxno=5086206",
+    "https://www.sidae.com/article/2026112213181074858"
   ],
   "seen": {
     "최상규|수원시 제1선거구": [
@@ -88,9 +67,8 @@
       "https://www.kmaeil.com/news/articleView.html?idxno=658578"
     ],
     "장한별|수원시 제4선거구": [
-      "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083674",
-      "https://www.obsnews.co.kr/news/articleView.html?idxno=1544509",
-      "https://www.newspim.com/news/view/20261120001078"
+      "https://www.m-i.kr/news/articleView.html?idxno=2021650",
+      "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083674"
     ],
     "황수영|수원시 제5선거구": [
       "https://www.newsis.com/view/NISX20261120_0003877330",
@@ -102,11 +80,7 @@
       "https://www.nspna.com/news/?mode=view&newsid=837228",
       "https://www.obsnews.co.kr/news/articleView.html?idxno=1544254"
     ],
-    "최종현|수원시 제7선거구": [
-      "https://biz.heraldcorp.com/article/10943252?ref=naver",
-      "https://www.sportsseoul.com/news/read/1650938?ref=naver",
-      "https://www.gukjenews.com/news/articleView.html?idxno=3757629"
-    ],
+    "최종현|수원시 제7선거구": [],
     "채명기|수원시 제8선거구": [
       "https://www.obsnews.co.kr/news/articleView.html?idxno=1544536",
       "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/19/20261119500270?wlog_tag3=naver",
@@ -125,15 +99,15 @@
     "장정희|수원시 제11선거구": [
       "https://www.joongboo.com/news/articleView.html?idxno=363742959",
       "https://www.hapt.co.kr/news/articleView.html?idxno=169995",
-      "https://www.hg-times.com/news/articleView.html?idxno=307232"
+      "https://www.shinailbo.co.kr/news/articleView.html?idxno=5086078"
     ],
     "이병숙|수원시 제12선거구": [
       "https://www.kmaeil.com/news/articleView.html?idxno=658527",
-      "https://www.kgnews.co.kr/news/article.html?no=919719",
-      "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083674"
+      "https://www.m-i.kr/news/articleView.html?idxno=2021650",
+      "https://www.joongdo.co.kr/web/view.php?key=20261121010007372"
     ],
     "임유진|고양시 제1선거구": [
-      "https://www.etoday.co.kr/news/view/2650011"
+      "http://www.mygoyang.com/news/articleView.html?idxno=91325"
     ],
     "변재석|고양시 제2선거구": [
       "https://www.kmaeil.com/news/articleView.html?idxno=658418",
@@ -143,12 +117,12 @@
     "류기준|고양시 제3선거구": [
       "https://www.kmaeil.com/news/articleView.html?idxno=658960",
       "https://www.kmaeil.com/news/articleView.html?idxno=658750",
-      "https://www.obsnews.co.kr/news/articleView.html?idxno=1544078"
+      "https://www.newsworker.co.kr/news/articleView.html?idxno=515390"
     ],
     "최규진|고양시 제4선거구": [
-      "https://www.sentv.co.kr/article/view/sentv202611170211",
-      "https://www.newspim.com/news/view/20261120001078",
-      "https://www.kyeonggi.com/article/20261120580262"
+      "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041639",
+      "https://www.m-i.kr/news/articleView.html?idxno=2021650",
+      "https://www.joongdo.co.kr/web/view.php?key=20261121010007372"
     ],
     "정연일|고양시 제5선거구": [
       "https://www.kmaeil.com/news/articleView.html?idxno=658845",
@@ -161,9 +135,9 @@
       "https://www.lawissue.co.kr/view.php?ud=202611131410181675d94aa4ada6_12"
     ],
     "김해련|고양시 제7선거구": [
-      "https://www.obsnews.co.kr/news/articleView.html?idxno=1544536",
-      "https://www.newspim.com/news/view/20261120001078",
-      "https://www.kyeonggi.com/article/20261120580262"
+      "https://www.m-i.kr/news/articleView.html?idxno=2021650",
+      "https://www.joongdo.co.kr/web/view.php?key=20261121010007372",
+      "https://www.obsnews.co.kr/news/articleView.html?idxno=1544536"
     ],
     "이성한|고양시 제8선거구": [
       "https://www.kmaeil.com/news/articleView.html?idxno=658907",
@@ -183,12 +157,12 @@
     "김운남|고양시 제11선거구": [
       "https://www.lawissue.co.kr/view.php?ud=202611171425196673d94aa4ada6_12",
       "https://www.globalepic.co.kr/view.php?ud=2026111615491896645f69d33b22_29",
-      "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003286925&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+      "https://www.betanews.net/article/view/beta202611220012"
     ],
     "이윤승|고양시 제12선거구": [
       "https://www.tournews21.com/news/articleView.html?idxno=148562",
       "http://www.mygoyang.com/news/articleView.html?idxno=91160",
-      "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/09/20261109500170?wlog_tag3=naver"
+      "https://www.m-i.kr/news/articleView.html?idxno=2021650"
     ],
     "한영수|용인시 제1선거구": [
       "https://www.kyeonggi.com/article/20261118580484",
@@ -198,12 +172,12 @@
     "김성태|용인시 제2선거구": [
       "https://www.lawissue.co.kr/view.php?ud=202611201446056529d94aa4ada6_12",
       "https://www.hg-times.com/news/articleView.html?idxno=307209",
-      "https://www.kmaeil.com/news/articleView.html?idxno=659073"
+      "https://www.kgnews.co.kr/news/article.html?no=920516"
     ],
     "남종섭|용인시 제3선거구": [
+      "https://www.betanews.net/article/view/beta202611220012",
       "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041594",
-      "https://www.safetynews.co.kr/news/articleView.html?idxno=251714",
-      "https://www.asiatime.co.kr/article/20261120500196"
+      "https://www.safetynews.co.kr/news/articleView.html?idxno=251714"
     ],
     "전자영|용인시 제4선거구": [
       "https://www.obsnews.co.kr/news/articleView.html?idxno=1544534",
@@ -237,9 +211,9 @@
       "https://www.dailymedi.com/news/news_view.php?wr_id=942623"
     ],
     "엄교섭|용인시 제11선거구": [
+      "http://www.kgnews.co.kr/news/article.html?no=920524",
       "https://www.nspna.com/news/?mode=view&newsid=835466",
-      "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/06/20261106500309?wlog_tag3=naver",
-      "https://www.kmaeil.com/news/articleView.html?idxno=657353"
+      "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/06/20261106500309?wlog_tag3=naver"
     ],
     "이홍근|화성시 제1선거구": [
       "https://news.tf.co.kr/read/national/2389976.htm",
@@ -251,13 +225,21 @@
       "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160305732703176",
       "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/09/20261109500069?wlog_tag3=naver"
     ],
-    "김영훈|화성시 제3선거구": [],
+    "김영훈|화성시 제3선거구": [
+      "https://biz.heraldcorp.com/article/10945103?ref=naver",
+      "https://www.insight.co.kr/news/583072",
+      "https://www.newsgn.com/news/articleView.html?idxno=587157"
+    ],
     "신미숙|화성시 제4선거구": [
       "https://www.kmaeil.com/news/articleView.html?idxno=659148",
       "https://www.nspna.com/news/?mode=view&newsid=837038",
       "https://www.lawissue.co.kr/view.php?ud=202611191450092119d94aa4ada6_12"
     ],
-    "김태형|화성시 제5선거구": [],
+    "김태형|화성시 제5선거구": [
+      "https://www.etnews.com/20261122000085",
+      "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041672",
+      "https://www.segye.com/newsView/20261122505270?OutUrl=naver"
+    ],
     "김회철|화성시 제6선거구": [
       "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/19/20261119500276?wlog_tag3=naver",
       "https://www.lawissue.co.kr/view.php?ud=202611181615397438d94aa4ada6_12",
@@ -267,9 +249,9 @@
       "https://www.sidae.com/article/2026111814263555234"
     ],
     "김영수|화성시 제8선거구": [
-      "https://www.viva100.com/article/20261121500031",
-      "https://www.kukinews.com/article/view/kuk202611210004",
-      "https://www.greened.kr/news/articleView.html?idxno=355212"
+      "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=922197",
+      "https://www.segye.com/newsView/20261122504979?OutUrl=naver",
+      "http://www.cctimes.kr/news/articleView.html?idxno=938370"
     ],
     "오진택|화성시 제9선거구": [
       "https://www.kmaeil.com/news/articleView.html?idxno=658575",
@@ -282,9 +264,9 @@
       "https://www.joongangenews.com/news/articleView.html?idxno=565283"
     ],
     "최만식|성남시 제2선거구": [
+      "https://www.joongdo.co.kr/web/view.php?key=20261122010007380",
       "https://www.kmaeil.com/news/articleView.html?idxno=659017",
-      "https://www.kyeonggi.com/article/20261118580103",
-      "https://www.joongangenews.com/news/articleView.html?idxno=563390"
+      "https://www.kyeonggi.com/article/20261118580103"
     ],
     "전석훈|성남시 제3선거구": [
       "https://www.joongangenews.com/news/articleView.html?idxno=565282",
@@ -292,9 +274,9 @@
       "https://www.kmaeil.com/news/articleView.html?idxno=658698"
     ],
     "국중범|성남시 제4선거구": [
+      "https://www.m-i.kr/news/articleView.html?idxno=2021652",
       "https://www.nspna.com/news/?mode=view&newsid=837226",
-      "https://www.kmaeil.com/news/articleView.html?idxno=659237",
-      "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/19/20261119500265?wlog_tag3=naver"
+      "https://www.kmaeil.com/news/articleView.html?idxno=659237"
     ],
     "방성환|성남시 제5선거구": [
       "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/19/20261119500290?wlog_tag3=naver",
@@ -302,9 +284,9 @@
       "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/19/20261119500090?wlog_tag3=naver"
     ],
     "김진명|성남시 제6선거구": [
+      "https://www.joongdo.co.kr/web/view.php?key=20261121010007378",
       "https://www.kyeongin.com/article/1774965",
-      "https://www.cfnews.kr/news/article.html?no=113572",
-      "https://www.g-enews.com/view.php?ud=2026111710220281888fbfc802b3_1"
+      "https://www.cfnews.kr/news/article.html?no=113572"
     ],
     "정종혁|성남시 제7선거구": [
       "https://www.kmaeil.com/news/articleView.html?idxno=659018",
@@ -322,14 +304,11 @@
       "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/10/29/20261029500272?wlog_tag3=naver"
     ],
     "박상현|부천시 제2선거구": [
+      "https://www.etnews.com/20261121000046",
       "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003286925&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-      "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083652",
-      "http://www.hansbiz.co.kr/news/articleView.html?idxno=885726"
+      "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083652"
     ],
-    "이재영|부천시 제3선거구": [
-      "https://view.asiae.co.kr/article/2026112016351288056",
-      "https://www.kpanews.co.kr/news/articleView.html?idxno=549486"
-    ],
+    "이재영|부천시 제3선거구": [],
     "명성숙|부천시 제4선거구": [
       "https://www.tournews21.com/news/articleView.html?idxno=148472",
       "https://www.kyeonggi.com/article/20261110580352",
@@ -354,21 +333,19 @@
       "https://www.kgnews.co.kr/news/article.html?no=919456"
     ],
     "김동규|안산시 제1선거구": [
-      "https://www.asiatime.co.kr/article/20261119500217",
-      "https://www.kmaeil.com/news/articleView.html?idxno=659023",
-      "https://hbnpress.com/news/view/1065613135538772"
+      "https://www.etoday.co.kr/news/view/2651300",
+      "https://www.seoul.co.kr/news/society/2026/11/22/20261122500021?wlog_tag3=naver",
+      "https://daily.hankooki.com/news/articleView.html?idxno=1427620"
     ],
     "김태희|안산시 제2선거구": [
-      "https://www.newsis.com/view/NISX20261120_0003876839",
-      "https://www.cnbnews.com/news/articleView.html?idxno=1024654"
+      "https://www.etnews.com/20261122000067",
+      "https://www.m-i.kr/news/articleView.html?idxno=2021648"
     ],
-    "장윤정|안산시 제3선거구": [
-      "http://www.weeklytoday.com/news/articleView.html?idxno=802877"
-    ],
+    "장윤정|안산시 제3선거구": [],
     "유재수|안산시 제4선거구": [
+      "https://www.ekn.kr/web/view.php?key=20261121029192879",
       "https://www.nspna.com/news/?mode=view&newsid=837177",
-      "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083557",
-      "http://www.breaknews.com/1252571"
+      "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083557"
     ],
     "이은미|안산시 제5선거구": [
       "https://www.edaily.co.kr/News/Read?newsId=01797446645648016&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
@@ -429,7 +406,8 @@
       "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/06/20261106500355?wlog_tag3=naver"
     ],
     "김성수|안양시 제1선거구": [
-      "https://www.m-i.kr/news/articleView.html?idxno=2021633"
+      "http://www.jeollailbo.com/news/articleView.html?idxno=817462",
+      "https://www.sidae.com/article/2026112213181074858"
     ],
     "최경순|안양시 제2선거구": [
       "https://www.obsnews.co.kr/news/articleView.html?idxno=1544059",
@@ -449,8 +427,8 @@
     ],
     "이채명|안양시 제6선거구": [
       "https://www.obsnews.co.kr/news/articleView.html?idxno=1544535",
-      "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160305860081033",
-      "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160305818922578"
+      "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160305818922578",
+      "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160305860081033"
     ],
     "양경석|평택시 제1선거구": [
       "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/19/20261119500266?wlog_tag3=naver",
@@ -464,6 +442,7 @@
     ],
     "김경옥|평택시 제3선거구": [
       "https://www.sentv.co.kr/article/view/sentv202611180194",
+      "https://www.segye.com/newsView/20261122504716?OutUrl=naver",
       "http://www.hansbiz.co.kr/news/articleView.html?idxno=884629"
     ],
     "한규찬|평택시 제4선거구": [
@@ -491,16 +470,20 @@
       "http://www.enewstoday.co.kr/news/articleView.html?idxno=2495331",
       "https://www.kyeonggi.com/article/20261117580395"
     ],
-    "김영훈|시흥시 제3선거구": [],
+    "김영훈|시흥시 제3선거구": [
+      "https://biz.heraldcorp.com/article/10945103?ref=naver",
+      "https://www.insight.co.kr/news/583072",
+      "https://www.newsgn.com/news/articleView.html?idxno=587157"
+    ],
     "김종배|시흥시 제4선거구": [
       "https://www.kmaeil.com/news/articleView.html?idxno=659199",
       "http://www.joseilbo.com/news/news_read.php?uid=580146&class=33&grp=",
       "https://www.ytn.co.kr/_ln/0134_202611210900228380"
     ],
     "이성원|시흥시 제5선거구": [
-      "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041594",
-      "https://www.asiatime.co.kr/article/20261120500196",
-      "http://www.weeklytoday.com/news/articleView.html?idxno=802844"
+      "https://www.m-i.kr/news/articleView.html?idxno=2021651",
+      "https://www.betanews.net/article/view/beta202611220012",
+      "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041594"
     ],
     "박은주|파주시 제1선거구": [
       "https://www.etoday.co.kr/news/view/2650712",
@@ -508,9 +491,9 @@
     ],
     "손희정|파주시 제2선거구": [],
     "손성익|파주시 제3선거구": [
+      "https://www.betanews.net/article/view/beta202611220010",
       "https://www.kmaeil.com/news/articleView.html?idxno=659198",
-      "https://www.sentv.co.kr/article/view/sentv202611190139",
-      "https://www.kmaeil.com/news/articleView.html?idxno=658970"
+      "https://www.sentv.co.kr/article/view/sentv202611190139"
     ],
     "김순현|파주시 제4선거구": [
       "https://www.kmaeil.com/news/articleView.html?idxno=657884",
@@ -533,14 +516,14 @@
       "https://www.shinailbo.co.kr/news/articleView.html?idxno=5084932"
     ],
     "김지호|의정부시 제3선거구": [
-      "http://www.yonhapnewstv.co.kr/news/MYH20261120225337TjL",
-      "https://www.newspim.com/news/view/20261120001078",
-      "https://www.kyeonggi.com/article/20261120580262"
+      "https://www.newsis.com/view/NISX20261122_0003878138",
+      "https://www.imaeil.com/page/view/2026112212140623527",
+      "https://biz.chosun.com/topics/law_firm/2026/11/22/LNV7HT3R5FAG3JIH6JR22OGV6A/?utm_source=naver&utm_medium=original&utm_campaign=biz"
     ],
     "조병진|의정부시 제4선거구": [
       "https://www.kyeonggi.com/article/20261116580636",
-      "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/09/20261109500171?wlog_tag3=naver",
-      "https://www.newspim.com/news/view/20261120001078"
+      "https://www.m-i.kr/news/articleView.html?idxno=2021650",
+      "https://www.joongdo.co.kr/web/view.php?key=20261121010007372"
     ],
     "심상록|광명시 제1선거구": [
       "https://www.globalepic.co.kr/view.php?ud=2026111816310146575f69d33b22_29",
@@ -560,12 +543,10 @@
     "김용성|광명시 제4선거구": [
       "https://www.m-economynews.com/news/article.html?no=73025",
       "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/13/20261113500056?wlog_tag3=naver",
-      "https://hbnpress.com/news/view/1065600498550234"
+      "https://www.newspim.com/news/view/20261121000035"
     ],
     "성복임|군포시 제1선거구": [
-      "https://www.joongboo.com/news/articleView.html?idxno=363742939",
-      "https://www.obsnews.co.kr/news/articleView.html?idxno=1544536",
-      "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/19/20261119500270?wlog_tag3=naver"
+      "https://www.obsnews.co.kr/news/articleView.html?idxno=1544536"
     ],
     "성기황|군포시 제2선거구": [
       "https://www.kmaeil.com/news/articleView.html?idxno=658759",
@@ -583,9 +564,9 @@
       "http://www.mediagunpo.co.kr/22116"
     ],
     "최명진|김포시 제1선거구": [
-      "https://www.newspim.com/news/view/20261120001078",
-      "https://www.kyeonggi.com/article/20261120580262",
-      "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/17/20261117500348?wlog_tag3=naver"
+      "https://www.m-i.kr/news/articleView.html?idxno=2021650",
+      "https://www.joongdo.co.kr/web/view.php?key=20261121010007372",
+      "https://www.newspim.com/news/view/20261120001078"
     ],
     "채신덕|김포시 제2선거구": [
       "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/17/20261117500034?wlog_tag3=naver",
@@ -618,6 +599,7 @@
       "https://www.kmaeil.com/news/articleView.html?idxno=659197"
     ],
     "김미경|광주시 제4선거구": [
+      "https://www.shinailbo.co.kr/news/articleView.html?idxno=5086206",
       "https://www.kukinews.com/article/view/kuk202611200150"
     ],
     "오민용|하남시 제1선거구": [
@@ -646,9 +628,9 @@
       "https://www.incheonilbo.com/news/articleView.html?idxno=1336577"
     ],
     "정석원|양주시 제2선거구": [
-      "https://www.newspim.com/news/view/20261120001078",
-      "https://www.kyeonggi.com/article/20261120580262",
-      "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/17/20261117500348?wlog_tag3=naver"
+      "https://www.m-i.kr/news/articleView.html?idxno=2021650",
+      "https://www.joongdo.co.kr/web/view.php?key=20261121010007372",
+      "https://www.newspim.com/news/view/20261120001078"
     ],
     "최수연|양주시 제3선거구": [
       "https://www.obsnews.co.kr/news/articleView.html?idxno=1544536",
@@ -657,7 +639,7 @@
     "안시현|동두천시 제1선거구": [
       "https://www.m-i.kr/news/articleView.html?idxno=2020307",
       "https://www.kmaeil.com/news/articleView.html?idxno=658484",
-      "https://www.discoverynews.kr/news/articleView.html?idxno=1106759"
+      "https://www.m-i.kr/news/articleView.html?idxno=2021650"
     ],
     "심동용|동두천시 제2선거구": [
       "http://www.hansbiz.co.kr/news/articleView.html?idxno=880179",
@@ -675,6 +657,8 @@
       "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/09/20261109500244?wlog_tag3=naver"
     ],
     "김영희|오산시 제1선거구": [
+      "https://www.kbmaeil.com/article/20261122500053",
+      "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4091564",
       "https://www.incheonilbo.com/news/articleView.html?idxno=1337387"
     ],
     "전예슬|오산시 제2선거구": [
@@ -708,7 +692,7 @@
     "백승기|안성시 제2선거구": [
       "https://www.news1.kr/local/gyeonggi/6361168",
       "https://www.cwn.kr/news/articleView.html?idxno=62264",
-      "https://www.joongboo.com/news/articleView.html?idxno=363743095"
+      "https://www.nocutnews.co.kr/news/6609853?utm_source=naver&utm_medium=article&utm_campaign=20261120060509"
     ],
     "윤충식|포천시 제1선거구": [
       "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041271",
@@ -716,9 +700,9 @@
       "https://www.seoul.co.kr/news/publicnews/local_govern/kyungki_do/2026/11/17/20261117500341?wlog_tag3=naver"
     ],
     "김성남|포천시 제2선거구": [
+      "https://www.joongdo.co.kr/web/view.php?key=20261121010007379",
       "https://news.tf.co.kr/read/national/2391619.htm",
-      "https://www.kmaeil.com/news/articleView.html?idxno=659196",
-      "https://www.agrinet.co.kr/news/articleView.html?idxno=408969"
+      "https://www.kmaeil.com/news/articleView.html?idxno=659196"
     ],
     "서광범|여주시 제1선거구": [
       "https://www.joongangenews.com/news/articleView.html?idxno=565558",
@@ -727,8 +711,8 @@
     ],
     "유필선|여주시 제2선거구": [
       "https://www.kmaeil.com/news/articleView.html?idxno=658374",
-      "https://www.discoverynews.kr/news/articleView.html?idxno=1106412",
-      "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041594"
+      "https://www.betanews.net/article/view/beta202611220012",
+      "https://www.joongdo.co.kr/web/view.php?key=20261121010007379"
     ],
     "윤순옥|양평군 제1선거구": [
       "http://www.newstown.co.kr/news/articleView.html?idxno=722476",
@@ -737,23 +721,19 @@
     ],
     "이혜원|양평군 제2선거구": [
       "http://www.newstown.co.kr/news/articleView.html?idxno=722678",
-      "https://www.etoday.co.kr/news/view/2651168",
-      "https://news.tf.co.kr/read/national/2391619.htm"
+      "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041652",
+      "https://www.joongdo.co.kr/web/view.php?key=20261121010007379"
     ],
-    "김현석|과천시 선거구": [
-      "https://www.kmaeil.com/news/articleView.html?idxno=659150",
-      "https://www.kyeonggi.com/article/20261119580617",
-      "https://www.gukjenews.com/news/articleView.html?idxno=3757381"
-    ],
+    "김현석|과천시 선거구": [],
     "윤종영|연천군 선거구": [
       "http://www.weeklytoday.com/news/articleView.html?idxno=802634",
       "https://www.lawissue.co.kr/view.php?ud=202611171424346998d94aa4ada6_12",
-      "https://www.kmaeil.com/news/articleView.html?idxno=658428"
+      "https://www.joongdo.co.kr/web/view.php?key=20261121010007379"
     ],
     "박영선|가평군 선거구": [
+      "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000561084",
       "https://www.yna.co.kr/view/AKR20261120078600001?input=1195m",
-      "https://news.tf.co.kr/read/national/2391619.htm",
-      "https://biz.heraldcorp.com/article/10944066?ref=naver"
+      "https://www.joongdo.co.kr/web/view.php?key=20261121010007379"
     ],
     "서인하|광역비례 1번": [
       "https://www.kyeongin.com/article/1775126",
@@ -782,7 +762,7 @@
     ],
     "박정균|광역비례 6번": [
       "https://www.incheonilbo.com/news/articleView.html?idxno=1336972",
-      "https://www.incheonilbo.com/news/articleView.html?idxno=1336461",
+      "https://www.betanews.net/article/view/beta202611220012",
       "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041594"
     ],
     "최순자|광역비례 7번": [
@@ -832,9 +812,9 @@
       "http://www.hansbiz.co.kr/news/articleView.html?idxno=883064"
     ],
     "김진후|광역비례 8번": [
+      "https://www.m-i.kr/news/articleView.html?idxno=2021653",
       "https://www.kmaeil.com/news/articleView.html?idxno=659230",
-      "https://www.betanews.net/article/view/beta202611170074",
-      "https://www.kmaeil.com/news/articleView.html?idxno=658558"
+      "https://www.betanews.net/article/view/beta202611170074"
     ],
     "국은주|광역비례 9번": [
       "https://www.kmaeil.com/news/articleView.html?idxno=658503",
